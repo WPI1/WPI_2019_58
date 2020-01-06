@@ -1,0 +1,1128 @@
+* Conditional Sampling: “A deep learning method for patent analysis”
+
+[ Batch 1 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis and decision making in patent applications comprising the steps of:
+	selecting a plurality of patent application data sets;
+	generating a plurality of patent application models, each patent application model including a set of one or more data records, each data record of the set of one or more data records being related to a subject matter of a patent application, the set of one or more data records comprising a plurality of feature values;
+	selecting a set of one or more patent application models having a desired number of features, the number of features necessary to satisfy a predetermined feature criterion; and
+	selecting a subset of the set of one or more patent application models as an optimal set of one or more patent application models based upon a desired score for the optimal set of one or more patent application models, the desired score being determined as a function of a number of features in the optimal set of one or more patent application models, a desired score for the optimal set of one or more patent application models being defined as a product of a score for a respective feature in the set of one or more data records in the optimal set of one or more patent application models and the set of one or more data records in the optimal set of one or more patent application models; and
+	using the optimal set of one or more patent application models in a subsequent patent application.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis , comprising steps of:
+	receiving, by a computer, a patent application of a patent applicant;
+	obtaining, by the computer, a classification of the patent application;
+	extracting, by the computer, a plurality of classification-associated words from the classification of the patent application;
+	identifying, by the computer, a group of words from the plurality of classification-associated words, wherein the group of words is associated with the group of classification-associated words; and
+	classifying, by the computer, the patent application according to a classification of the identified group of words,
+	wherein the classification of the patent application comprises a plurality of classification types, wherein a first classification type comprises at least one of the classification-associated words extracted from the classification of the patent application,
+	wherein the classification-associated words include one or more keywords,
+	wherein the classification of the patent application further comprises a plurality of keywords, and
+	wherein the first classification type comprises a specific keyword of the plurality of keywords,
+	wherein a second classification type comprises a keyword of the plurality of keywords, the second classification type being different from the first classification type, and
+	wherein the computer classifies the patent application according to the classification of the first classification type and the classification of the second classification type.
+
+(3) Generated Patent Claim (p, [2])
+
+A deep learning method for patent analysis , comprising the steps of:
+	(a) learning an optimal inference result to a highest complexity case that is smaller than a total number of patent cases;
+	(b) determining whether the optimal inference result is available in a computer system;
+	(c) learning an optimal case corresponding to the optimal inference result available in the computer system if the optimal inference result is available in the computer system;
+	(d) determining whether the optimal case corresponding to the optimal inference result is available in the computer system;
+	(e) making a decision to combine the optimized case and the optimal case if the optimal case is available in the computer system;
+	(f) iteratively repeating steps (a)-(e) until the optimal case corresponding to the optimal inference result is learned; and
+	(g) reducing a total number of information points necessary for a node representing a search target by one or both of (i) selecting an initial seed for the search target, and
+	(ii) learning a new seed for the search target to search.
+
+[ Batch 2 ]
+
+(1) Generated Patent Claim (kp, [2])
+
+A deep learning method for patent analysis comprising:
+	determining a patent score based on a number of patent cases in a patent library, wherein the patent cases include one or more patent cases associated with a patent that was assigned to the inventor of the invention;
+	determining a patent score range, wherein a patent score is determined within a patent score range if a difference between a patent score and a current patent score is within a threshold, and
+	the patent score is determined within a patent score range if the difference between the current patent score and the patent score is not within the threshold;
+	determining a patent score range index, wherein the patent score range index is a number of patents within the patent score range and a number of patents outside the patent score range;
+	determining a patent score range score, wherein the patent score range score is a number of patents within the patent score range score and a number of patents outside the patent score range score; and
+	determining a patent score range index value, wherein the patent score range index value is a quotient of a previous patent score and a previous patent score score and a current patent score and is a quotient of a current patent score and a current patent score score.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis , comprising:
+	(a) obtaining data from a first patent and a second patent, wherein the first patent corresponds to an original patent and wherein the second patent corresponds to a new patent;
+	(b) extracting original patent data and second patent data from the first patent and the second patent;
+	(c) calculating a similarity coefficient for the first patent and the second patent using the original patent data and the second patent data, wherein the similarity coefficient is determined by a number of the original patent data and the second patent data in the original patent and the second patent;
+	(d) calculating similarity between the first patent and the second patent using the similarity coefficient and the original patent data of the first patent and the second patent;
+	(e) determining if the first patent or the second patent is similar to a reference patent in a reference database, the reference patent corresponding to an original patent and the second patent corresponding to a new patent, wherein the reference database comprises at least one of patent registration data, patent application data, patent data for a prior patent, patent data for a successor patent, patent reference data for a predecessor patent, and
+	patent usage information for an original patent for a plurality of patent types;
+	(e) when the first patent or the second patent is not similar to the reference patent, comparing the similarity between the first patent and the second patent based on the similarity coefficient to a threshold value, wherein the similarity between the first patent and the second patent is more similar when the similarity coefficient is less than the threshold value when the first patent and the second patent are similar to the reference patent, and
+	wherein the similarity between the first patent and the second patent is more similar when the first patent and the second patent are similar to the reference patent; and
+	(f) when the comparison of the similarity between the first patent and the second patent is a positive result, generating an output corresponding to the second patent, wherein the output is generated based on the comparison of the similarity between the first patent and the second patent.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising:
+	receiving a plurality of patents, each patent associated with a defendant that is a defendant entity in a patent infringement case;
+	storing the plurality of patents in an information system;
+	selecting, via the information system, a research topic for each patent;
+	searching, via the information system, the stored plurality of patents using the selected research topic to obtain a set of patent answers, the set of patent answers associated with the selected research topic;
+	comparing, via the information system, the set of patent answers with a threshold to identify possible patent infringements of the set of patent answers, wherein the potential patent infringements of the set of patent answers are potentially infringement questions in the set of patent answers;
+	identifying, via the information system, a set of comparison patterns, the identifying including:
+	identifying patterns in the set of patent answers that appear in the set of potential infringement questions,
+	comparing the patterns in the set of patent answers that appear in the set of potential infringement questions to patterns of the set of patent answers that appear in the stored plurality of patents, and
+	identifying a set of potential patent infringements, the identifying patterns in the set of patent answers that appear in the set of potential infringement questions, comparing the patterns in the set of patent answers that appear in the set of potential infringement questions to patterns of the set of patent answers that appear in the stored plurality of patents, and
+	identifying a set of potential infringements of the set of potential patent answers, the patterns of the set of patent answers that appear in the set of potential infringement questions, and
+	the set of potential patent infringements of the set of patent answers;
+	clustering, via the information system, the set of potential patent infringements into a plurality of clusters based on the set of potential patent infringements, each cluster representing a possible infringement of a respective patent associated with the patent infringement case;
+	obtaining, via the information system, ranking information associated with the plurality of clusters; and
+	displaying, via the information system, the plurality of clusters to a user.
+
+[ Batch 3 ]
+
+(1) Generated Patent Claim (kp, [3])
+
+A deep learning method for patent analysis , comprising:
+	determining, via a processor, a first patent score for the patent application of the patent application, wherein the patent application is associated with the patent;
+	determining, via the processor, a second patent score for the patent application, wherein the patent application is not associated with a patent associated with a patent holder, and
+	wherein the patent is for a different invention than the invention the patent holder is associated with; and
+	determining, via the processor, an importance score for the patent application based on the first patent score, the second patent score, and
+	the patent application, wherein the importance score comprises a value that is dependent on the value of the patent application.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis , comprising the following steps:
+	obtaining a set of patent information for a predetermined subject area, wherein said subject area comprises one or more patent applications and patent claims;
+	extracting and categorizing one or more patent applications and/or one or more patent claims based at least in part on a set of classification rules; and
+	generating a set of patent analysis results by processing said one or more patent applications and/or said one or more patent claims based at least in part on said set of classification rules,
+	wherein said set of classification rules comprise rules for classifying said set of patent applications and/or said one or more patent claims into one of at least two pre-defined classification levels,
+	wherein at least one of the classification levels comprises a plurality of classification levels,
+	wherein at least two of the classification levels comprise at least two different classification levels,
+	wherein at least two of the classification levels are distinct classification levels,
+	wherein said set of classification rules comprises rules for classifying at least two of the classification levels as at least two different classification levels.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising the steps of:
+	receiving a plurality of search results for a patent application, each search result including a patent category, a patent reference number, and
+	a patent score, each search result further including a patent value;
+	identifying relevant search results in the plurality of search results that are responsive to the patent application;
+	determining a score for each of the identified relevant search results, wherein determining the score for a relevant search result comprises determining a score for a same patent category and a same patent reference number as the patent reference number and determining the score for a same patent reference number as the patent category score and determining a score for a same patent category as the patent reference number and determining a score for a same patent reference number as the patent category score, wherein the score for a same patent category and the same patent reference number is based at least in part on how related the patent value is to the patent category score;
+	selecting a plurality of score ranges, wherein a score range is based at least in part on a score of a relevant search result in the plurality of search results, wherein the score ranges include at least a low score range and a high score range, wherein the low score range is based on a score of a patent reference number that is similar to a score of a patent reference number in the high score range, wherein the high score range is based on a score of a patent reference number that is similar to a score of a patent reference number in the low score range, wherein the low score range and the high score range are grouped together by at least a geographic location, and
+	wherein a score range is included in the plurality of score ranges when the relevant search result is located within a score range;
+	creating a plurality of score scores for each of the selected score ranges; and
+	identifying the patent score that best corresponds to the patent reference number and the selected score range,
+	wherein the step of identifying the patent score includes identifying one of the scores that best corresponds to the patent reference number based on the score ranges; and
+	the step of creating a plurality of score scores includes clustering the selected score ranges based on the score ranges and the score scores to create scores.
+
+[ Batch 4 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising:
+	(a) performing an initial training of a deep learning system with a plurality of training examples;
+	(b) calculating a first score and a second score based on a result of the initial training;
+	(c) determining whether the first score is more than a predetermined value;
+	(d) in response to the first score being more than the predetermined value,
+	(i) training the deep learning system using the initial training to obtain a plurality of first scores of the training examples;
+	(ii) calculating a first similarity of a training example from the plurality of training examples based on the plurality of first scores;
+	(iii) comparing the first similarity of the training example to a second similarity of a second training example from the plurality of training examples, and
+	(iv) determining that the first training method is to be employed when the first similarity of the training example is greater than the second similarity of the second training example,
+	(v) generating a first classification model of the training example based on the first score and the second score;
+	(e) determining that the first classification model is correct based on the first classification model and the first classification model having a first confidence level;
+	(f) repeating steps (c)-(e) with respect to the plurality of training examples until the first classification model is determined to be correct; and
+	(g) using the first classification model to classify the plurality of training examples.
+
+(2) Generated Patent Claim (k, [2])
+
+A deep learning method for patent analysis and decision support, comprising:
+	a. using a computing system having memory and a processing unit, performing an instance of the following steps:
+	i. determining, using a patent decision support component, a current state of a particular patent; and
+	ii. determining, using said patent decision support component, a first state and a second state associated with said particular patent;
+	b. using said computing system, computing a first model prediction function based on a first set of prior probabilities and a second set of prior probabilities;
+	c. using said computing system, comparing said first model prediction function with said current state to determine if there is a difference between said first and second sets of prior probabilities;
+	d. using said computing system, determining if said difference exceeds a threshold based on the result of said comparing;
+	e. using said computing system, determining a second model prediction function based on said first set of prior probabilities and a third set of prior probabilities;
+	f. using said computing system, determining an evaluation function based on said first and second set of prior probabilities; and
+	g. using said computing system, calculating a score of said particular patent based on said evaluation function,
+	wherein said first, second and third sets of prior probabilities are based on at least one patent other than said particular patent.
+
+(3) Generated Patent Claim (p, [2])
+
+A deep learning method for patent analysis based on a patent system, the method comprising:
+	receiving, from a user, a patent search request;
+	in response to the user request, obtaining, using at least one of one or more computers, a plurality of related search requests from each of a plurality of related parties;
+	calculating a plurality of correlations between the plurality of related search requests and the plurality of associated search requests based on the plurality of correlations, wherein the plurality of correlations comprises a plurality of distances between the plurality of related search requests and the plurality of associated search requests;
+	calculating a plurality of directional distances between the plurality of search requests based on the plurality of correlations;
+	selecting one or more searches from the plurality of search requests that are the most likely to be relevant to the user based on the plurality of directional distances and one or more rankings associated with each search request, wherein the rankings are computed based on multiple financial measures related to the related search requests and the related party associated with each search request; and
+	generating a search result comprising the selected searches.
+
+[ Batch 5 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising:
+	receiving patent information from at least one patent application;
+	analyzing the patent information to identify at least one characteristic of a patent claim in the patent application;
+	automatically extracting a plurality of parameters from the patent information, wherein the plurality of parameters comprises at least one of a number of patents, a number of patent classes, a number of patents with a particular patent number, or a number of patents with a particular patent patent type;
+	automatically generating at least one classifier model based on the plurality of parameters, wherein the at least one classifier model identifies a patent classification of the patent claim in the patent application;
+	automatically generating at least one hypothesis based on the at least one classifier model and the at least one patent classification, wherein the at least one hypothesis is representative of a likelihood that the patent claim is associated with a first patent classification; and
+	automatically classifying the patent claim in the patent application according to the at least one hypothesis.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis , comprising using a computer processor to perform the following:
+	using at least one computer to receive patent applications from inventors;
+	using at least one computer to receive a list of search terms generated by searches of patent documents by inventors;
+	using at least one computer to identify one or more matching patent documents based on matching terms in the list, the patent documents containing patent information relating to a patent application or a product or service;
+	using at least one computer to generate, at least one model based on the list of search terms and the identified matching patents documents, the model characterizing a patent application or a product or service; and
+	using at least one computer to present results of using the model and the list of search terms to the inventors.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising:
+	using at least one processor, generating a plurality of general indicator class labels;
+	applying a formal training set consisting of instructions stored in a computer readable storage medium to said plurality of general indicator class labels, and
+	identifying a set of general indicator class labels with the same frequencies as or substantially similar to the frequencies of the general indicator class labels in the training set;
+	mapping the set of general indicator class labels to a data classification cluster wherein each general indicator class label is associated with at least one value and wherein said value is selected from at least one of an inventor, a patent year, a patent patent patent date, a patent patent filing date, and
+	a patent patent filing date range; and
+	using at least one processor, clustering the data classifications within the data classification cluster and assigning each of the data classification cluster to one general indicator class label from the plurality of general indicator class labels.
+
+[ Batch 6 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising the steps of:
+	generating a plurality of patent scores for each patent of a plurality of patents in a training set of patent scores, each patent of the plurality of patents having a patent score for each of the plurality of patents in the training set;
+	receiving a patent score for each of a plurality of patents in a training set of patents scores;
+	generating a plurality of patent score differences for each of the plurality of patents, wherein a first patent score difference is generated for a first patent of the plurality of patents based on the received patent score of the first patent and a second patent score difference is generated for a second patent of the plurality of patents based on the received patent score of the second patent;
+	comparing the first patent score difference and the second patent score difference; and
+	generating a patent score for each of the plurality of patents based on the comparison.
+
+(2) Generated Patent Claim (k, [2])
+
+A deep learning method for patent analysis in a patent database, the method comprising:
+	receiving, at a server, patent data associated with a plurality of patents, each patent being associated with at least one patent identifier;
+	generating, by the server, a plurality of first pattern sets and a plurality of second pattern sets using the plurality of patent data;
+	generating, by the server, a plurality of pattern scores for the plurality of first pattern sets and the plurality of second pattern sets by applying a plurality of first pattern scores generated for each set of first pattern sets and a plurality of second pattern scores generated for each set of second pattern sets;
+	generating, by the server, a plurality of trend patterns from a plurality of trend scores, the plurality of trend patterns being based on the plurality of first pattern sets and the plurality of second pattern sets generated for the plurality of first pattern sets and the plurality of second pattern sets; and
+	identifying, by the server, an upward trend from a trend score and the pattern scores.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising:
+	performing, by one or more computer systems:
+	representing a prior probability distribution representing patent uncertainty for each patent using a two-dimensional Gaussian random vector field;
+	predicting, by the one or more computer systems, a two-dimensional Gaussian random vector field by using a conditional probability distribution of patent liability to be paid to a patent applicant using a sequence regression method, wherein the two-dimensional Gaussian random vector field predicts a plurality of values of the two-dimensional Gaussian random vector field, the sequence regression method being implemented as a joint probability distribution (SPD);
+	analyzing, by the one or more computer systems, a patent score for each patent to be used as a function of the sequence regression method, the patent score representing a likelihood that a patent will be found successful and that will cause financial liability for a patent applicant;
+	scoring, by the one or more computer systems, a plurality of applications to be considered for patent litigation based on the predicted two-dimensional Gaussian random vector field; and
+	outputting, by the one or more computer systems, data representing the data representing the plurality of applications as a function of the predicted two-dimensional Gaussian random vector field.
+
+[ Batch 7 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising the following steps:
+	a) defining an analysis space for analysis, the analysis space having a plurality of elements;
+	b) defining a plurality of learning models, each of the learning models having a plurality of parameters that determine an association between an input pattern and a plurality of the elements in the analysis space;
+	c) training the learning models by selecting a subset of the learning models to include in the training, the subset of the learning models being selected based on the parameters associated therewith;
+	d) in an instance of the analysis of a patent application, computing a score for each of the elements of the analysis space, each score being indicative of the similarity of the elements to the patent application;
+	e) calculating, for each element in the analysis space, a score for each of the learning models that is indicative of the similarity of the elements to the patent application;
+	f) calculating, for each element in the analysis space, a score for each of the learning models that is indicative of the similarity of the learning models to the patent application;
+	g) selecting the subset of the learning models based on the scores computed for the elements in the analysis space, wherein the subset of the learning models comprises fewer than all of the learning models in the training;
+	h) generating, for each element in the analysis space, an output pattern by selecting a learning model from the subset of the learning models that includes the element in the analysis space based on the parameters associated therewith; and
+	i) outputting, for each element in the analysis space, the output pattern for the element.
+
+(2) Generated Patent Claim (k, [2])
+
+A deep learning method for patent analysis in a computer system, comprising:
+	receiving at least one patent data file in a computer system that includes multiple patent data files stored in computer storage;
+	analyzing the at least one patent data file in the computer system using at least one trained deep learning model trained using at least one data set; and
+	producing a result of the analysis in the computer system, wherein the result comprises one or more patterns of activity in the at least one patent data file that indicates whether the at least one patent data file indicates potential patent infringement; and
+	further comprising determining a likelihood of a pattern of activity in the at least one patent data file in which a plurality of results for the at least one patent data file is determined to indicate potential patent infringement;
+	wherein the results that are determined to indicate potential patent infringement indicate potential patent infringement;
+	wherein the results that are determined to indicate non-infringement are non-infringement results or results for the at least one patent data file for which more than a threshold amount of data in the at least one data set is determined to be potentially infringing based on the analyzed data set; and
+	wherein each data item in the at least one data set that has been determined to be potentially infringing is associated with a corresponding non-infringing data item in the at least one data set that has not been determined to be potentially infringing.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising the steps of:
+	receiving a latent data set;
+	receiving a patent data set;
+	analyzing the patent data set to predict a model, the predicted model defining a function of the patent data set;
+	predicting the model with an optimum function; and
+	using the predicted model for patent analysis.
+
+[ Batch 8 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising the steps of:
+	selecting a first set of patent cases, wherein the first set of patent cases comprises a first subset of patent cases and a second subset of patent cases;
+	selecting a second set of patent cases, wherein the second set of patent cases comprises a third subset of the first subset of the first set of patent cases and a fourth subset of the second subset of the second set of patent cases;
+	determining an overall score for each of the first subset of the first set of patent cases and the second subset of the second set of patent cases;
+	comparing the overall score for each of the first subset of the first set of patent cases and the second subset of the second set of patent cases, to select a first optimal score;
+	selecting the first optimal score from the first set of patent cases, the second set of patent cases, and
+	the third subset of the second set of patent cases;
+	determining a first cost as a function of the first optimal score, the second set of patent cases, and
+	the third subset of the second set of patent cases;
+	determining a second cost as a function of the second optimal score, the third subset of the second set of patent cases, and
+	the fourth subset of the second set of patent cases;
+	determining a third cost as a function of the first optimal score, the second set of patent cases, and
+	the third subset of the second set of patent cases; and
+	determining a fourth cost as a function of the second optimal score, the third subset of the second set of patent cases, and
+	the fourth subset of the second set of patent cases.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis , comprising:
+	a) using machine learning to perform a patent analysis for a patent, the machine learning including calculating a prediction value based on prior probabilities of occurrence and using the prior probabilities to predict future probabilities of occurrence for one or more patents;
+	b) using the prediction value for the patent to determine whether to approve or deny the patent; and
+	c) using the approved or denied patent to provide a prediction of whether or not to use the patent, the prediction of whether or not to use the patent based on whether or not the patent meets one or more criteria for use of the patent.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising:
+	storing in memory a plurality of training examples each comprising patent properties as a function of the patent properties of a patent claim, the patent properties comprising at least one of (i) a granted patent duration, (ii) a infringement period, (iii) a first related patent duration, or (iv) a patent jurisdictional category;
+	obtaining a patent query result in response to a query query that queries a computing device for patent answers;
+	obtaining a data set in response to the query query including one or more lists of empirical evidence for each of a plurality of possible patent cases to identify possible actual patent answers for each of the plurality of patent cases;
+	computing at least one relationship metric from the plurality of training examples, the at least one relationship metric being a function of the patent properties of the patent claims of the training examples, the at least one relationship metric being a statistical measure of whether or not possible patent answers are patent cases or non-patents and, for each patent case:
+	generating at least one first document with a content derived from a possible answer;
+	obtaining empirical evidence in response to the at least one first document for each of the plurality of patent cases;
+	obtaining empirical evidence in response to the at least one first document for each of the plurality of patent cases; and
+	generating at least one second document based on at least one of the empirical evidence from the plurality of patent cases or the empirical evidence from the at least one first document.
+
+[ Batch 9 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising the following steps of:
+	(a) receiving a patent application to be analyzed from a patent examiner, wherein the patent application comprises a plurality of patent application elements;
+	(b) searching the patent application by applying a deep learning technique to the plurality of patent application elements of the patent application to generate a plurality of training data sets;
+	(c) creating a training data set by applying the deep learning technique to the plurality of training data sets, wherein the training data set includes a plurality of training patent elements;
+	(d) identifying a first plurality of matching patent elements from the plurality of patent application elements of the patent application;
+	(e) identifying a second plurality of matching patent elements from the plurality of matching patent elements, wherein the first plurality of matching patent elements are adjacent to the second plurality of matching patent elements;
+	(f) calculating a plurality of distance values by applying a clustering technique to the first plurality of matching patent elements; and
+	(g) calculating a plurality of similarity scores by applying a clustering technique to the second plurality of matching patent elements, wherein the plurality of similarity scores are calculated using a function that accounts for the plurality of distance values.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis in an electronic medical records system that stores electronic medical records of a plurality of patients, wherein said electronic medical records comprise at least one of patient pathology data, treatment records, and
+	treatment history data of at least one patient of said plurality of patients, said method comprising:
+	storing, in a central electronic database, at least one patient profile that describes a patient's medical history using a plurality of characteristics of said patient's medical history, said plurality of characteristics of said patient's medical history comprises at least one of: a) a number of medical procedures performed on a patient; b) a length of time that passes between medical procedures performed on a patient; c) a number of medications that a patient takes; d) a type of medical procedure that a patient takes; and
+	a combination thereof;
+	wherein said central electronic database stores patient profiles of each of a plurality of patients as a profile in an electronic database;
+	receiving a search inquiry from a user of said search application;
+	identifying, in response to said search inquiry, from said electronic medical records, at least one electronic medical record from the plurality of electronic medical records that corresponds to said user of said search application, wherein said at least one electronic medical record comprises medical procedure data and treatment data of a patient associated with said search inquiry, and
+	wherein said at least one electronic medical record is selected from a plurality of electronic records stored in electronic medical record databases;
+	selecting, by a processor, from at least one of said at least one electronic medical record, at least one electronic medical record corresponding to a user that has been identified by said user as associated with at least one of said at least one electronic medical record; and
+	transmitting a search response comprising said at least one electronic medical record selected from said at least one electronic medical record and at least one search criteria, said at least one search criteria comprising at least a) a patient identifier; b) a patient identification number, and
+	c) a search criterion;
+	wherein said search response is transmitted by a network interface; and
+	wherein said search response comprises said at least one electronic medical record selected from said at least one electronic medical record and at least one search parameter.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising:
+	a) extracting document sentences from a plurality of documents in the corpus to identify document grammar expressions (G) from the documents, and
+	to identify grammar rules (R) from the document sentences;
+	b) analyzing the grammar rules (R) using high-dimensional data corresponding to the document sentences, and
+	producing an output describing one or more grammatical features of the document grammar expressions (G) that make the document grammar expressions (G) compatible with a principal-agent model, the principal-agent model for modeling a relationship between sentences and expressions of entities;
+	c) performing linguistic inference using the principal-agent model on the plurality of documents to identify a linguistic element in each of the plurality of documents that is compatible with the principal-agent model, the linguistic element comprising a group of words that are characterized by a common characteristic;
+	d) comparing at least some of the grammar rules (R) with the linguistic element by listing off words that are common to the grammar rules (R) and at least some of the linguistic elements by listing off any tokens of the at least some of the grammar rules (R), whereby the comparison results in similarity metrics that characterize the similarity between the grammar rules (R) and the linguistic element, wherein the similarity metrics comprise similarity between at least a neighborhood of the tokenized words in the lexicon;
+	e) matching the at least some of the grammar rules (R) with the linguistic element according to the similarity metrics by determining any match between the at least some of the grammar rules (R) and the linguistic element, and
+	outputting a report identifying the matching as a linguistic element that is compatible with the principal-agent model;
+	f) taking a group of similar linguistic elements as a target to be processed for each of the document sentences;
+	g) processing each of the target linguistic elements in each of the document sentences using a one-way distance metric that considers all tokenized words in the target linguistic element and discards redundant target linguistic elements, and
+	outputting a report identifying the target linguistic element as one or more grammatical features of the target linguistic element; and
+	h) filtering the target linguistic elements according to the one-way distance metric by creating a filtered target linguistic element, and
+	outputting the report identifying the target linguistic element as the one or more grammatical features of the target linguistic element.
+
+[ Batch 10 ]
+
+(1) Generated Patent Claim (kp, [2])
+
+A deep learning method for patent analysis , comprising:
+	(a) selecting, using a processor, a patent topic;
+	(b) selecting, using the processor, a subset of the selected patents as candidates for training;
+	(c) determining, using the processor, whether to classify the selected patents as patent trolls or non-troll patents, wherein determining whether to classify the selected patents as patent trolls or non-troll patents includes performing a Bayesian network classifier on the subset of the selected patents as patent trolls if it is determined that the subset of the selected patents as patent trolls is not sufficient to train the classifier, wherein the Bayesian network classifier is performed using a maximum-likelihood method, wherein the maximum-likelihood method uses the weighted distribution of likelihood values associated with each word of a plurality of words in a document to determine whether to classify a word as a troll or a non-troll patent, and
+	wherein the maximum-likelihood method is performed using the weighted distribution of likelihood values associated with each word of a plurality of words in a document; and
+	(d) classifying, using the processor, the subset of the selected patents as patent trolls if it is determined to classify the subset of the selected patents as patent trolls,
+	wherein the selected patents are selected from the group consisting of:
+	(i) a patent comprising the word patent and the word troll; and
+	(ii) a patent comprising the word troll and the word patent.
+
+(2) Generated Patent Claim (k, [2])
+
+A deep learning method for patent analysis comprising the steps of:
+	receiving a training dataset containing a plurality of patent applications associated with a plurality of patent applications patentability categories;
+	performing deep learning on the patent applications patentability categories associated with the training dataset;
+	receiving a set of data items corresponding to each of the patentability categories associated with the training dataset;
+	performing deep learning on at least some of the set of data items to determine a classification for a respective classification category of the set of data items; and
+	generating a data classification map, wherein said classification is based on the classification category of the set of data items; and
+	performing patent analysis on at least some of the data classification maps, wherein said patent analysis is based on the patentability categories and the classification of the data items associated with the patentability categories.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising the following steps:
+	providing a source distribution matrix corresponding to a given structure of a patent application, wherein the source distribution matrix includes a plurality of square matrices, wherein each square matrix in the plurality of square matrices represents a product of a plurality of other square matrices, and
+	wherein each square matrix in the plurality of square matrices includes a plurality of rows and a plurality of columns corresponding to a plurality of cells of the given structure;
+	selecting a set of linear selectivity functions to provide a given linear selectivity function, wherein each linear selectivity function has at least one derivative, and
+	wherein the given linear selectivity function forms a stepwise fit to the given structure to generate an extended patent application matrix;
+	determining a geometric correlation between the extended patent application matrix and a test matrix associated with the given structure;
+	evaluating a frequency of non-zero contributions to the extended patent application matrix by the test matrix, wherein the frequency of non-zero contributions to the extended patent application matrix includes a bias due to the geometric correlation between the extended patent application matrix and the test matrix; and
+	identifying a mathematical relationship between the test matrix and the extended patent application matrix based on the frequency of non-zero contributions, wherein said identifying comprises using the extended patent application matrix to identify a non-zero contribution to the extended patent application matrix, wherein said identifying comprises selecting the test matrix based on the geometric correlation, and
+	wherein said selecting the test matrix comprises selecting the test matrix based on the frequency of non-zero contributions to the extended patent application matrix.
+
+[ Batch 11 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising:
+	performing, by a computer system, an analysis of a patent using a deep learning method, wherein the deep learning method comprises one or more sub-steps of the steps of the step of generating a first image of a first portion of the patent, generating a second image of a second portion of the patent, and
+	comparing the first image to the second image;
+	identifying, by the computer system, a plurality of features in the first image that correspond to a plurality of patent features of the patent;
+	generating, by the computer system, a plurality of weights for the patent based on the one or more patent features;
+	determining, by the computer system, a plurality of features in the second image that correspond to a plurality of patent features of the patent;
+	generating, by the computer system, a plurality of weights for the patent based on the one or more patent features and the plurality of features in the second image;
+	determining, by the computer system, a plurality of weights for the patent based on the one or more patent features; and
+	determining, by the computer system, a plurality of weights for the patent based on the one or more patent features and the plurality of weights of the patent.
+
+(2) Generated Patent Claim (k, [2])
+
+A deep learning method for patent analysis , the method comprising:
+	performing, by one or more computers, of a plurality of training exercises to generate a plurality of final patent assessments, the final patent assessments being generated based on one or more final patent assessments from training exercises selected for the patent analysis;
+	providing, by the one or more computers, a plurality of final patent assessments to a user for review;
+	selecting, by the user, one final patent assessment from the plurality of final patent assessments, the selecting of the final patent assessment including:
+	comparing the final patents to the final patent assessments from the training exercises from which the final patent assessments are generated, and
+	selecting a final one of the training exercises from the final training exercises;
+	generating, by the one or more computers, an evaluation score based on the final selected final patent assessment; and
+	generating, by the one or more computers, an output report indicating the outcome of the user's review of the final selected final patent assessment for the purpose of generating a final patent analysis tool that is used by the user to evaluate a patent application.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising:
+	performing, by one or more computing devices, the following:
+	representing an existing patent as a structure of a plurality of interconnected cells that collectively define the existing patent;
+	generating a set of sublicences from the existing patent, wherein each sublicense of the set of sublicences partially or completely duplicates a corresponding license of the existing patent in order to distribute infringement of the license in the set of sublicences,
+	wherein the set of sublicences is generated by using an algorithm adapted based at least in part upon properties of different licenses of the existing patent, and
+	wherein generating the set of sublicences further comprises removing at least some of the cells that are a part of the existing patent;
+	creating a patent sequence from the set of sublicences, wherein creating the patent sequence comprises generating a first patent of the set of sublicences and a second patent of the set of sublicences, wherein the first patent is linked to the second patent;
+	generating a patent set based at least in part upon the set of sublicences;
+	generating a set of patent rules using the patent set; and
+	evaluating the patent set to determine infringement of the license in the set of sublicences, wherein generating the set of patent rules further comprises generating at least one rule from the set of patent rules and comparing the at least one rule with the set of patent rules.
+
+[ Batch 12 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , the method comprising:
+	using at least one computer to perform at least a first step of performing the following steps:
+	A) receiving patent application data comprising application data for a plurality of patent applications,
+	B) comparing said plurality of patent applications to a reference patent application database,
+	C) identifying a plurality of similarities between the applicant and the reference patent application database, wherein said similarities are indicative of an equivalence between the applicant and the reference patent application database,
+	D) identifying a plurality of patent application anomalies, wherein said patent application anomalies are indicative of a deviation between the applicant and the reference patent application database,
+	E) generating a first plurality of data points for at least one patent application anomaly, wherein said first plurality of data points represents a statistical measure of a deviation between the applicant and the reference patent application database,
+	F) generating a second plurality of data points for at least one patent application anomaly, wherein said second plurality of data points represents a statistical measure of a deviation between the applicant and the reference patent application database, and
+	G) generating a summary score for the applicant, wherein the summary score is indicative of an importance of the patent application anomaly.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis , comprising the steps of:
+	receiving a plurality of patent applications;
+	identifying at least one patent application as a candidate for deep learning model training;
+	training a plurality of training models, wherein each training model is associated with a distinct patent application of the plurality of patent applications;
+	applying each of the plurality of trained models to a plurality of data sets to produce output data sets, wherein each data set is associated with at least one patent application of the plurality of patents applications; and
+	comparing the produced data sets, and
+	the input data sets, to identify at least one similarity measure between each of the plurality of data sets and the input data sets; and
+	selecting a first one of the plurality of trained models from among the plurality of trained models based on a highest similarity measure among the produced data sets and the input data sets, wherein the first trained model predicts at least one characteristic of a first one of the plurality of data sets, and
+	wherein the first trained model is selected in response to determining that the output data set and the input data set include the first one of the plurality of data sets, the first one of the plurality of data set being associated with the first one of the plurality of patent applications; and
+	providing the first trained model to a computing device, wherein the first trained model is configured to apply the output data set to the input data set when the first trained model is applied to the input data set, the output data set including the first one of the plurality of data sets.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis comprising the steps of:
+	capturing a large portion of patent data through patent processing in a patent analytics system;
+	processing said captured large portion of patent data by a machine learning engine to generate a plurality of new predicate queries;
+	sending each new predicate query from said machine learning engine to a particular patent analytics system;
+	performing a multi-tiered analysis of a particular part of a patent through said patent analytics system by comparing said captured large portion of patent data, with a set of patent data generated by said patent processing;
+	wherein said performing said multi-tiered analysis comprises calculating a score value for each of said particular part of a patent, said score value being generated for a plurality of different patent analytics systems, and
+	wherein said score value indicates a probability that a new predicate query, for said particular part of said patent, will produce a correct result.
+
+[ Batch 13 ]
+
+(1) Generated Patent Claim (kp, [2])
+
+A deep learning method for patent analysis comprising:
+	receiving, at a computing device, a first patent application from a patent applicant;
+	receiving, at the computing device, a first patent search result, wherein the first patent search result includes a search result document and a patent search criteria;
+	generating, with the computing device, a second patent application, wherein the second patent application includes the search result document and a patent application search criteria;
+	searching, with the computing device, the patent application search criteria of the first patent application to identify a patent application associated with the search result document;
+	searching, with the computing device, the patent application search criteria of the second patent application to identify the patent application associated with the search result document; and
+	identifying, with the computing device, a second patent search result from the patent application associated with the search result document, the second patent search result comprising a patent application associated with the search result document and information from the second patent application,
+	wherein the first patent application is a first patent application of a first set of patent applications associated with the search result document, the patent application associated with the search result document including information from a first set of patent documents associated with the first set of patent applications, and
+	wherein the second patent application is a second patent application of a second set of patent applications associated with the search result document, the second patent application including information from a second set of patent documents associated with the second set of patent applications, and
+	wherein the second set of patent documents are different from the first set of patent documents.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis comprising:
+	using a computer to perform the steps of:
+	receiving, by way of a patent database, a plurality of patent data sets, each data set comprising patent data and a patent score, wherein the patent score is based on the similarity between the patent data and the corresponding patent score to other patent data of the plurality of data sets, the patent score representing an estimated probability that the patent data is patentable;
+	extracting, by way of the patent database via a computing processer, a set of patent score data based on the patent score;
+	calculating, by way of the computing processer, a score for each data set using the set of patent score data, wherein at least one score is calculated based on the similarity between the patent data and the corresponding patent score;
+	calculating a score for at least one data set based on the score of the at least one data set, including the score of the at least one dataset and the score of the at least one dataset; and
+	providing the score of the at least one data set and a score of the at least one dataset as input to a patent matching process, wherein the score of the at least one dataset includes a score for a first dataset and a score for a second dataset, and
+	wherein the score of the at least one dataset is calculated using a formula based on the scores of the first and second datasets.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis and patent data extraction, comprising:
+	reading a patent case data structure which is to be analyzed;
+	creating two model context arrays each containing data of patent case variables, wherein the patent case variables include one or more of a pattern class, a trait class, a case type, a case domain and a patent class;
+	creating an extractor module and a decision point module, wherein the extractor module is configured to extract the patent case data,
+	the decision point module is configured to check the patent case data of the patent case structure and create multiple set point rules according to a predetermined criterion, wherein the desired set point rules are similar to rule sets;
+	creating a chart module by accessing the patent case data structure and the set point rules; and
+	creating an abstraction module, wherein the abstraction module is configured to abstract the data of the patent case structure and create an abstracted class from the chart module;
+	displaying the patent case data structure and the chart module;
+	discovering an existing patent case by using the abstracted class; and
+	creating a new patent case by using the new patent case.
+
+[ Batch 14 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising:
+	providing a computer system;
+	using the computer system to:
+	generate a training matrix associated with an inventor;
+	receive, from a patent examiner, a patent application for the inventor;
+	determine, based on the patent application, a probability of the patent application being assigned to the inventor;
+	generate, based on the patent application, a probability of the patent application being assigned to at least one of the following:
+	a) a third party patent; and
+	b) a third party patent related to the inventor;
+	compare the patent application probability to the probability of the patent application being assigned to at least one of the following:
+	a) the patent application being assigned to the inventor; and
+	b) the patent application being assigned to the third party patent; and
+	based on the comparison, determine a score associated with the patent application, the score being indicative of a likelihood of the patent application being assigned to a patent.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis , comprising:
+	(a) defining, by a processor, a plurality of classes, wherein each class is associated with a patent and includes one or more training examples associated with the patent;
+	(b) determining, by the processor, a score of each patent associated with the plurality of classes, wherein the score indicates the validity of the patent as a whole;
+	(c) selecting, by the processor, a training sample of patent examples associated with the plurality of classes;
+	(d) for each patent in the training sample, calculating, by the processor, a score for the patent using the corresponding score of the associated class as a baseline; and
+	(e) based on the scores calculated for the training sample, selecting, by the processor, the patent as a class.
+
+(3) Generated Patent Claim (p, [2])
+
+A deep learning method for patent analysis and right of way analysis, the method comprising:
+	providing at least one work item of an intellectual property to an initial network of researchers;
+	receiving, at a plurality of independent repositories and from the initial network of researchers, a plurality of intellectual property analysis and right of way analyses for the at least one work item, wherein the plurality of intellectual property analysis and right of way analyses includes a first intellectual property analysis and right of way analysis comprising a first intellectual property similarity analysis, a first intellectual property similarity ratio and a first intellectual property right of way;
+	extracting a plurality of quality attributes from the plurality of intellectual property analysis and right of way analyses, wherein the plurality of quality attributes includes a first quality attribute, a second quality attribute and a third quality attribute;
+	ranking the plurality of intellectual property analysis and right of way analyses based on the first intellectual property similarity analysis, the first intellectual property similarity ratio and the first intellectual property right of way;
+	extracting a plurality of intellectual property similarity scores from the plurality of intellectual property analysis and right of way analyses, wherein the plurality of intellectual property similarity scores includes a first intellectual property similarity score and a second intellectual property similarity score, wherein the first intellectual property similarity score is indicative of a similarity between the plurality of intellectual property analysis and right of way analyses, and
+	wherein the second intellectual property similarity score is indicative of a similarity between the plurality of intellectual property analysis and right of way analyses;
+	comparing, by a computer processor, the plurality of intellectual property similarity scores and the plurality of intellectual property similarity scores of the initial network of researchers with a plurality of reference intellectual property analysis and right of way analyses, wherein the plurality of reference intellectual property analysis and right of way analyses includes a plurality of references' analysis and right of way analyses and a plurality of references' comparison scores;
+	calculating, by the computer processor, a comparator score based on a comparison of the plurality of intellectual property similarity scores and the plurality of reference intellectual property analysis and right of way analyses; and
+	displaying the comparator score to the initial network of researchers.
+
+[ Batch 15 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising:
+	generating, by a processor, a plurality of data sets using a first patent database, wherein each data set includes a plurality of patent identifiers corresponding to a plurality of patents in a first patent database;
+	generating, by the processor, a plurality of data sets using a second patent database, wherein each data set includes a plurality of patent identifiers corresponding to a plurality of patents in a second patent database, wherein the first patent database and the second patent database are different, and
+	wherein each patent identifier from a data set of the first patent database and the second patent database is different;
+	generating, by the processor, a first score for a first patent identifier from a first data set from the first patent database based upon a first weighted combination of the first patent identifiers from the first data set and the plurality of patent identifiers from the second data set;
+	generating, by the processor, a second score for a second patent identifier from a second data set from the second patent database based upon a second weighted combination of the second patent identifiers from the second data set and the plurality of patent identifiers from the first data set; and
+	generating, by the processor, a patent identifier score based upon the first score and the second score.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis and/or patent patent search, the method comprising the steps of:
+	providing a plurality of patent data sets, each containing a plurality of patent records related to at least one subject area of invention;
+	providing a plurality of patent search tools, each tool having an associated user interface and being adapted to generate user selections;
+	providing a first database comprising a plurality of patents, each associated with its associated tool, wherein the plurality of patents includes a first plurality of patent records, the plurality of inventories including a first inventory of patents for which no patent data exists in any tool and a second inventory of patents for which patent data is available for a selected patent of the first plurality of patents;
+	providing a plurality of user interfaces, each associated with a respective tool, each respective interface being adapted such that, when provided to a respective user, a user is configured to input a selection of a first patent record from the first inventory of patents for which patent data exists in at least one tool and to input a selection of a plurality of additional first and second inventories for which patent data is available for selected first and second inventories, the first database being associated with and containing data representing the first plurality of patent records;
+	providing a second database comprising a plurality of patents, each associated with its associated tool, each of the plurality of patents having a corresponding plurality of inventories;
+	using the plurality of tools, and
+	by use of the first database as a basis for a first selection of the first patent record, searching the first database for the associated first patent record and the associated second inventories;
+	using the plurality of tools, and
+	by use of the second database as a basis for a second selection of the second patent record, searching the second database for the associated second inventories;
+	using the first database to generate a first result and outputting the first result;
+	using the second database to generate a second result and outputting the second result; and,
+	outputting the first result and the second result together.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising:
+	performing, using a computer processor, the following steps, wherein each of the steps is performed by at least one computer process executed by at least one computer server:
+	determining a plurality of corresponding searches for one or more categories of information,
+	selecting at least one of the plurality of corresponding searches for use in a patent analysis,
+	determining if the selected at least one of the plurality of corresponding searches requires an investment of time and/or money,
+	determining at least one of the plurality of corresponding searches is for a patent that has a high probability of being a high payback to a patent investor, wherein the threshold investment includes the cost of filing and what percentage of net cash flows from investors are claims,
+	acquiring a patent assignment in accordance with the plurality of corresponding searches, the patent assignment identifying a patent to which the corresponding search requires the investment, and
+	analyzing the patent, wherein the patent assignment is transformed into at least one rule to find a high return on the investment.
+
+[ Batch 16 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis in a patent search, comprising:
+	identifying a plurality of patents;
+	for each patent of the plurality of patents, identifying an associated search term;
+	for each patent of the plurality of patents, calculating a first score that reflects a relevance of the associated search term to the patent search;
+	for each patent of the plurality of patents, calculating a second score that reflects a relevance of the associated search term to the patent search of a patent of the patent search;
+	for each patent of the plurality of patents, calculating a similarity score that reflects a frequency by which the patent search is performed;
+	determining a score for each patent of the plurality of patents by summing the first scores and the second scores for each patent of the plurality of patents;
+	determining a plurality of weights that are based on the scores for each patent of the plurality of patents, the scores for each patent of the plurality of patents being weighted based on a frequency of the patent search by a patent of the plurality of patents;
+	identifying a patent that is most similar to any other patent of the plurality of patents based on the plurality of weights; and
+	providing the patent that is most similar to any other patent of the plurality of patents to a user.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis by a processor of an electronic device, comprising:
+	a preprocessing step of inputting a plurality of patent data items, wherein the plurality of patent data items includes a plurality of related patent data items, which are correlated with each other by a relationship, and
+	a plurality of unconnected patent data items, which are not correlated with each other, for which a number of related patent data items is equal or less than a number of unconnected patent data items;
+	a first classification step of determining a plurality of classification vectors each of which includes a related patent data item and a disconnected patent data item in common with each other, wherein each classification vector includes a plurality of related patent data items and a plurality of unconnected patent data items, wherein the classification vectors include a plurality of related classification vectors, which are correlated with each other, and
+	at least two disconnected classification vectors, which are not correlated with each other, wherein the plurality of related classification vectors includes a plurality of related classification vectors each of which includes a plurality of related patent data items and a plurality of unconnected classification vectors, and
+	the plurality of unconnected classification vectors includes a plurality of unconnected classification vectors each of which includes a plurality of unconnected patent data items and a plurality of connected classification vectors, wherein at least two of the plurality of classification vectors are respectively correlated with the plurality of related classification vectors and the plurality of unconnected classification vectors; and
+	a second classification step of performing classification processing for each of the plurality of classification vectors based on at least some of the plurality of related patent data items, the plurality of disconnected patent data items and the plurality of unconnected classification vectors;
+	wherein a connected classification vector of a second classification step is defined as a vector that is correlated with a classification vector of the first classification step when the plurality of related classification vectors include a plurality of correlations, and
+	is correlated with classification vectors of the first classification step when the plurality of related classification vectors do not include a plurality of correlations.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising:
+	using a first document, a second document, and
+	a third document, compiling a list of training artifacts, wherein the training artifacts consist of a plurality of training keywords, a plurality of training descriptors, and
+	a plurality of training transformations;
+	receiving a selection of a first training artifact from the training artifacts;
+	adjusting the first training artifact to establish a second training artifact for training a concept representation model, wherein adjusting the first training artifact comprises removing one or more training keywords and one or more training descriptors from the first training artifact and replacing the one or more training keywords and one or more training descriptors in the first training artifact with the training keywords, the training descriptors, and
+	the training transformations;
+	generating a first concept representation model based on the first training artifact and the second training artifact;
+	storing the first concept representation model as a new first document and a second concept representation model as a new second document, wherein each document represents a training artifact, a concept representation model, or both;
+	adjusting a search index stored in association with the first document to search for the second document; and
+	displaying one of the first concept representation model and the second concept representation model in response to a search query.
+
+[ Batch 17 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising:
+	receiving a patent application;
+	extracting a plurality of data records from the patent application;
+	comparing the data records in each data record to data records in a plurality of predefined patterns;
+	generating a plurality of patterns for each data record, the patterns being related to the plurality of data records;
+	identifying a plurality of data records that match a pattern of the plurality of patterns, the matching pattern being the data records in the plurality of data records that match the pattern; and
+	calculating an amount of compensation for the patent application based on the matching patterns.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis , comprising the stages of:
+	extracting a data set comprising a plurality of patent documents, wherein each document comprises a plurality of words;
+	identifying the words in each document;
+	identifying a first set of patent documents that match each word;
+	identifying a second set of patent documents that match each word, wherein each document of the second set is not in the first set;
+	determining if there exists a word in each document of the second set that matches the word in each document of the first set that has not yet been identified;
+	generating a set of candidate matches for each word between each word in an entire data set and the word in each document of the second set, wherein each set of candidate matches comprises a set of possible matching words;
+	determining whether the set of candidate matches includes the word in each document of the second set that has not yet been identified;
+	identifying an optimal set of candidate matches between the word in the entire data set and the word in each document of the second set, wherein the optimal set of candidate matches includes all of the set of candidate matches that have been identified; and
+	identifying the patent document in the data set that most closely matches the patent document in the optimal set.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising:
+	a) receiving a pre-processed image file of a suspect patent application for evaluating the intellectual property rights to be protected in the patent application;
+	b) applying the transcribe learning method to the pre-processed image file by having a first training session in a manner of generating a first intellectual property rights set, the first training session including the following tasks:
+	(i) obtaining spectral data of the first intellectual property rights set including at least one of pixels, lines, or multirespectrams;
+	(ii) eliminating noise in the first intellectual property rights set by a training-influencing task including at least one of imposing a plurality of potential motions on the first intellectual property rights set and classifying the resulting set of intellectual property rights according to the motions;
+	(iii) eliminating noise in the first intellectual property rights set by a noise elimination task;
+	(iv) obtaining spectral data of the first intellectual property rights set after removing noise;
+	(v) eliminating noise from the first intellectual property rights set by an intellectual property rights set elimination task including at least one of identifying deformed, jagged, or distorted points in the spectral data of the first intellectual property rights set;
+	(vi) eliminating noise from the first intellectual property rights set by an intellectual property rights set removal task;
+	(vii) repeating (i)-(vi) until the training-influencing task and the noise elimination task have been completed, or until the training-influencing task and the noise elimination task have been exhausted;
+	c) analyzing the intellectual property rights to be protected by the first intellectual property rights set;
+	d) determining whether there are intellectual property rights that exceed the intellectual property rights to be protected;
+	e) adding intellectual property rights to the intellectual property rights to be protected; and
+	f) generating a patent analysis result after a longer time interval, if there are intellectual property rights that exceed the intellectual property rights to be protected;
+	wherein the training-influencing task comprises a noise evaluation task having spectral features, wherein the spectral data of the first intellectual property rights set is different from the spectral data of the intellectual property rights, and
+	wherein the training-influencing task is effective to measure the intellectual property rights that are to be protected and to evaluate intellectual property rights thereto.
+
+[ Batch 18 ]
+
+(1) Generated Patent Claim (kp, [2])
+
+A deep learning method for patent analysis comprising the steps of:
+	providing a plurality of patent applications each with an associated patent application identifier;
+	assigning a score to each of the plurality of patent applications;
+	calculating, for each of the plurality of patent applications, an identity score and a logic score for each of the plurality of patent applications based on the score assigned to the respective patent application;
+	calculating a similarity score between the plurality of patent applications based on the logic scores of the plurality of patent applications and a logic score of a prior patent application of the plurality of prior patent applications; and
+	determining whether the plurality of patent applications is patentable based on the similarity scores.
+
+(2) Generated Patent Claim (k, [3])
+
+A deep learning method for patent analysis , comprising:
+	using a first network to train the first network of a second network, wherein the first network receives patent data from a patent database, the patent data including patents, patents patent groups, and
+	patent dates, the patent groups including patents within a particular patent class, and
+	the patent dates being for patents within patent group;
+	performing, with an application server system and via a second network, a patent analysis query based on the patent data, wherein performing the patent analysis query includes,
+	selecting, by the application server system, a first patent of the patent data,
+	determining, via the application server system, whether patent data associated with the first patent is stored in the database, wherein the application server system includes the first network and a second network,
+	identifying, by the application server system, first data in the database corresponding to the first patent when it is determined that the first patent is not stored in the database, and
+	determining, by the application server system, whether the first data of the first patent is associated with the first patent, the first data being associated with the first patent for a particular patent group, the particular patent group including the first patent or any further patents belonging to the first patent; and
+	using the application server system to perform the patent analysis query for the first patent based on the first data.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising:
+	using machine learning to classify occurrences of words in at least one term field of a patent electronic file into candidate class assignments using a training dataset in a corpus of patent electronic files;
+	outputting a set of candidate class assignments;
+	determining for each class assignment in the set of candidate class assignments at least one relationship between two or more of the words in at least one term field of the patent electronic file, the at least one relationship being represented as a measure of a statistical similarity between the two or more words, a statistical significance being indicated by a classification within the corpus of the plurality of electronic files, the corpus being a data structure in which each file is stored in a corresponding corpus database, the corpus being distinguished at the corpus level, each file being stored in a corresponding corpus database in accordance with a hierarchical classification scheme that is reflected at the corpus level, the at least one relationship being represented as an average measure of a frequency of occurrence of the two or more words at the corpus level and a frequency of occurrence of the two or more words at the state level; and
+	storing a collection of the at least one relationship for at least one state of the at least one term field.
+
+[ Batch 19 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , the method comprising the steps of:
+	inputting a plurality of patents into a computing device;
+	performing a deep learning algorithm on the input patent data to obtain a plurality of patent output values, wherein the patent output values are determined from a plurality of patent patent output characteristics associated with the plurality of patents, wherein the plurality of patent output characteristics comprises a plurality of patent output categories, and
+	wherein a patent output category comprises at least one of: an industry, patent type, patent volume, patent volume per patent, patent patent patent age, patent age distribution, patent patent patent volume per patent, patent patent patent age distribution, or patent patent patent volume per patent; and
+	providing the patent output values to a computer.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis , comprising:
+	receiving a patent application of a patent-holder, a set of patent claims associated with the patent application, an indication of a first language and a second language;
+	converting the received language indication into a second set of indications of language states of at least each language, the second set of indications of language states indicating a state of each language associated with a corresponding indication in the set of patent claims; and
+	outputting the set of patent claims and the set of patent claims' associated language state information.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis in a subject purpose database of a patent portfolio, comprising:
+	a. inputting data of a plurality of patents and a plurality of formulas and/or algorithms for use in the patent portfolio, each patent being associated with one or more formulas and/or algorithms;
+	b. finding a relationship for each formula and/or algorithm to the data of a plurality of patents;
+	c. calculating significance thresholds for each of the formulas and/or algorithms using the relationship of each formula and/or algorithm;
+	d. displaying a plurality of first screens which graphically display formula and/or algorithm scores for each formula and/or algorithm of the plurality of formulas and/or algorithms, the graphically displaying scores by formula and/or algorithm comprises displaying an ellipse being connected to the first screen, each ellipse represents a scoring function, and
+	the scores by formula and/or algorithms having a similar shape to the ellipse;
+	e. displaying an inner circle having a radius that is equal to the significant threshold as a second screen; and
+	f. displaying a plurality of icons at the second screen, each icon representing a formula and/or algorithm score for a formula and/or algorithm, the icon includes a source identifier, wherein the formula and/or algorithm score represents a numeric value that is greater than zero, and
+	each icon is associated with a formula and/or algorithm score of the plurality of formulas and/or algorithms.
+
+[ Batch 20 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising the following steps:
+	a) obtaining patent application information comprising patent data of a plurality of patent applications;
+	b) performing deep learning on the patent data;
+	c) performing a patent search using the results of the deep learning;
+	d) calculating a plurality of weights for the patent search based on the results of the deep learning; and
+	e) outputting a search result of the patent search to a user,
+	wherein the plurality of weights is determined based on a number of applications, a number of patent types, and
+	a number of patents of the number of applications and the number of patent types, and
+	wherein steps a) through e) are performed by a processor.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis and decision making to predict future patent decisions, the method comprising:
+	receiving, by one or more computer systems, an original patent claim from a patent examiner, the patent claim comprising a set of patent attributes, wherein the patent claims comprise original patent claims that specify at least how the patent will be used in a litigation between at least two litigants;
+	extracting, by the one or more computer systems, a plurality of patent attribute values from the original patent claims;
+	generating, by the one or more computer systems, a model of a legal scenario for litigation by matching the plurality of patent attribute values from the original patent claims against a legal rule of the legal scenario, wherein the legal rule of the legal scenario is specified by at least one patent attribute of the plurality of patent attribute values from the original patent claims, and
+	wherein the at least one patent attribute of the plurality of patent attribute values from the original patent claims is used as one or more basis for the patent scenario;
+	generating, by the one or more computer systems, a patent analysis model by combining the model of the legal scenario with a model of the litigation model, wherein the patent analysis model models at least one outcome of the litigation using the original patent claims; and
+	presenting, by the one or more computer systems, the patent analysis model.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis and classification by performing adversarial Bayesian networks on segmented subject matter object images, wherein said segmented subject matter object images are analyzed for object similarity based on prior information about object objects included in the segmented subject matter object images, the method comprising:
+	(a) collecting and analyzing segmented subject matter object images collected over time, the segmented subject matter object images being representative of aspects of a patent and illustrating patent aspects as an image analysis or shape recognition;
+	(b) organizing and classifying the segmented subject matter object images based on their similarity, and
+	classifying each segmented subject matter object image as relevant or irrelevant to the patent;
+	(c) determining a probability that the segmented subject matter object images are relevant to the patent based on their classification, wherein the probabilities are analyzed to determine a confidence value; and
+	(d) defining the probability that a segmented subject matter object image is relevant to the patent as a principal vector of correlation between the segmented subject matter object image and the patent, wherein principal vectors of correlation are a mathematically unique Euclidean distance matrix formed from cardinal numbers of a Euclidean plane, the cardinal numbers representing a distance from a symmetrical point on a Euclidean plane to a symmetrical point on a symmetric Euclidean plane;
+	wherein principal vectors of correlation are determined through a statistical pattern matching algorithm comprising a plurality of steps:
+	determining whether a point is parallel to a diagonal of the Euclidean plane through the cardinal numbers;
+	if the point is parallel, determining that the point is an extremum of a diagonal of the Euclidean plane; and
+	if the point is not parallel, determining that the point is a principal vertex of the Euclidean plane;
+	and wherein the steps are repeated through cardinal numbers of a range of the Euclidean plane, the cardinal numbers representing a range of a symmetrical point on the Euclidean plane, and
+	whether each range is parallel or not.
+
+[ Batch 21 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising:
+	receiving, by a computer, patent information from a patent database;
+	generating, by the computer, a plurality of first learning functions, wherein a first learning function comprises a function of the patent information and a number of patent classifications, wherein a first number of patent classifications corresponds to the number of patent information points, and
+	wherein each first learning function comprises a function of the patent information and a number of patents;
+	generating, by the computer, a plurality of second learning functions, wherein a second learning function comprises a function of the patent information, a number of classification of the patent information, and
+	a number of patent classes, wherein a second number of patent classifications corresponds to the number of patent information points, and
+	wherein each second learning function comprises a function of the patent information and a number of patents;
+	generating, by the computer, a plurality of third learning functions, wherein a third learning function comprises a function of the patent information, a number of classification of the patent information, and
+	a number of patent classes, wherein a third number of patent classifications corresponds to the number of patent information points, and
+	wherein each third learning function comprises a function of the patent information and a number of patents; and
+	generating, by the computer, a plurality of output values by the computer based on the plurality of first learning functions, the plurality of second learning functions, and
+	the plurality of third learning functions, wherein the plurality of output values represent the quality of a patent examiner.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis , comprising the steps of:
+	obtaining a set of patent documents in a corpus of patents;
+	performing a Bayesian statistical method to identify a number of documents that are related to a first patent in the corpus of patents using a first Bayesian classifier;
+	performing a Bayesian statistical method to identify a number of documents that are related to a second patent in the corpus of patents using a second Bayesian classifier; and
+	performing a Bayesian statistical method to identify a number of documents that are related to a related patent in the corpus of patents using a third Bayesian classifier;
+	wherein the steps are performed by a hardware-based processor.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising:
+	recognizing a pattern of musical musical performance;
+	generating a plurality of patent modeling training blocks for performing musical performance analysis, each block comprising a structural pattern used in music training and a performance methodology to model a patent;
+	generating the plurality of patent modeling training blocks of each musical performance block using musical performance models that were used in music training;
+	generating, using a computer processor, a plurality of interactive style guidelines that contain musical technique rules to perform musical performance analysis, wherein the interactive style guidelines contain musical technique rules that relate to the structural patterns;
+	receiving, using the computer processor, a music study question to be presented;
+	performing, using the computer processor, a musical performance analysis on musical performance and style reference material using the plurality of interactive style guidelines and scores generated for the music study question, the musical performance analysis based on the musical performance material and style reference material;
+	presenting, using the computer processor, the plurality of patent modeling training blocks in response to the music study question, the presenting being in association with the music study question; and
+	providing for review, using the computer processor, a plurality of style guidelines that are pertinent to the music study question and music study material for presentation to a user.
+
+[ Batch 22 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis in patent portfolios, comprising:
+	receiving, using at least one computer processor, a patent portfolio of patent portfolios;
+	determining, using at least one computer processor, a set of weights for the patent portfolio using at least one weight matrix;
+	determining, using at least one computer processor, a set of weight vectors for the patent portfolio using at least one weight vector matrix;
+	determining, using at least one computer processor, a set of weights for a plurality of elements in the patent portfolio using at least one weight matrix and at least one weight vector matrix;
+	determining, using at least one computer processor, a set of weights for the plurality of elements in the patent portfolio using at least one weight matrix and at least one weight vector matrix;
+	determining, using at least one computer processor, a plurality of weights for each element of the patent portfolio using at least one weight vector matrix and at least one weight vector;
+	determining, using at least one computer processor, a plurality of weights for each element of the patent portfolio using at least one weight vector matrix and at least one weight vector;
+	determining, using at least one computer processor, a set of weights for each element in the patent portfolio using at least one weight vector matrix and at least one weight vector;
+	determining, using at least one computer processor, a plurality of weights for each element in the patent portfolio using at least one weight vector matrix and at least one weight vector; and
+	determining, using at least one computer processor, a set of weights for each element in the patent portfolio using at least one weight vector matrix and at least one weight vector.
+
+(2) Generated Patent Claim (k, [2])
+
+A deep learning method for patent analysis of a patent application, comprising:
+	identifying by a computer system a first patent claim of a plurality of first patent claims of a patent application; and
+	determining by the computer system whether the first patent claim is a first valid patent claim based on a set of first valid patents claims of the first patent application, wherein the set of the first valid patents claims comprises a set of valid patent claims having been granted to the invention of the invention subject matter of the first patent application;
+	responsive to determining whether the first patent claim is a first valid patent claim, identifying by the computer system a first set of patent entities associated with the first patent claim, wherein each patent entity of the first set of patent entities is associated with a respective patent that includes the first patent claim;
+	responsive to identifying the first set of patent entities, determining by the computer system whether the first set of patent entities includes a first subset of patent entities that is a subset of patent entities of the first set of patent entities, wherein the first subset of patent entities include a first percentage of the first patent claim entity of the first set of patent entities;
+	responsive to determining that the first set of patent entities includes the first subset of patent entities, determining by the computer system whether the first subset of patent entities includes the first portion of the patent entities of the first set;
+	responsive to determining that the first set of patent entities includes the first portion of the patent entities of the first set, identifying by the computer system a first second patent claim based on a set of second patent claims of the patent application; and
+	responsive to identifying the first second patent claim, identifying by the computer system a second set of patent entities that is a subset of the first subset of the plurality of patent entities including the first portion of the patent entities of the first set based at least on the first second patent claim.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis and decision making, comprising:
+	retrieving patent data from a plurality of patent data sources, the patent data including inventories of patents identified in first search results returned by a client;
+	determining a number of search results that were returned in a search of the patent data sources;
+	determining a likelihood metric and threshold metric using the search of the patent data sources;
+	identifying at least one search result within the search of the patent data sources that is likely relevant to the question and that corresponds to a search result returned by the client;
+	determining, using a processor, a first score to be assigned to the identified search result based on a distribution of the likelihood metric and threshold metric, a corresponding distribution of the corresponding distribution of the likelihood metric and threshold metric when the question is identified in the first search results returned by the client, and
+	an identification of a particular patent identified in the first search results returned by the client;
+	determining, using a processor, a second score to be assigned to the question based on a distribution of the first score and a distribution of the threshold metric; and
+	selecting a first version of the question to be displayed based on the score to be assigned to the question,
+	wherein the first score is determined in the same manner in determining the second score.
+
+[ Batch 23 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , the method comprising:
+	receiving, at one or more computer systems,
+	an original image,
+	a reference image,
+	an annotated image, and
+	a document, wherein the annotated image includes annotations, each annotation identifying a feature of the annotated image, and
+	wherein the annotated image is annotated with at least one of the features of the annotated image;
+	identifying, using the one or more computer systems, a feature in the annotated image, wherein the feature comprises a visual characteristic of the annotated image;
+	determining, using the one or more computer systems, a location of the feature in the annotated image, wherein the determining comprises:
+	determining a location of the feature in the annotated image,
+	identifying a point of intersection between a line extending through two points of the feature and a point of intersection between the line extending through the two points of the feature, the two points of the feature being within a line of sight of a camera used to take the original image, and
+	identifying the feature as a point of intersection;
+	determining a distance of the feature from the location;
+	comparing, using the one or more computer systems, the distance to a threshold value;
+	determining, using the one or more computer systems, whether the feature is visible in the annotated image, wherein the threshold value is based on a size of the feature and a size of the feature in the annotated image; and
+	determining, using the one or more computer systems, a likelihood of the feature being visible in the annotated image based on whether the feature is visible in the annotated image and based on the comparison to the threshold value;
+	determining a likelihood of the feature being visible in the reference image based on whether the feature is visible in the annotated image and based on the comparison to the threshold value;
+	comparing, using the one or more computer systems, the likelihood of the feature in the annotated image and in the reference image; and
+	determining, using the one or more computer systems, whether the feature is visible in the reference image based on whether the feature is visible in the annotated image and based on the comparison of the likelihood of the feature in the annotated image and the likelihood of the feature in the reference image.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis using an online patent database, comprising;
+	generating, by a processor, an initial list of patents, the initial list of patents comprising a list of one or more patents;
+	identifying, by the processor, a first subset of the one or more patents and corresponding to a first subset of potential competitors that have been offered by one of a number of the one or more inventors, wherein the first subset has a higher likelihood than the other potential competitors to be an offeror of at least one patent, and
+	further wherein the first subset of competitors comprises the one or more patents of the first subset that are associated with the one or more potential competitors;
+	generating, by the processor, a second subset of the one or more patents and corresponding to the first subset of potential competitors that have been declined by at least one of the number of the one or more inventors;
+	generating, by the processor, a third subset of the one or more patents, the third subset having a second level of competition with respect to a level of competitors within the first and second subsets;
+	comparing, by the processor, the second level of competition to a second threshold;
+	identifying, by the processor, a set of one or more of the first subset of potential competitors from the third subset that are associated with the number of the first or second subsets, wherein the first subset, the second subset and the third subset are determined based on the comparing;
+	identifying, by the processor, a first potential competitor that is the lowest-level in the set of first potential competitors; and
+	determining, by the processor, for at least one of the number of the first or second subsets and the set of one or more of the first potential competitors, a first probability that the potential competitor is offered a patent that matches the first patent, wherein the first probability is based on the third subset having a second level of competitive competitors above the first threshold and on the set having a level of competitive competitors above the second threshold,
+	wherein the first probability is based on the third subset having a level of competitors above the first threshold that is higher than a level of competitors in the second subset and the set has a level of competitors above the second threshold.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis comprising:
+	(a) creating a plurality of models by using different domains for categorizing patent objects based on ontology, wherein a first domain is considered the domain with a minimum number of possible objects and a second domain is considered the domain with a maximum number of possible objects;
+	(b) performing regularization on models;
+	(c) classifying a plurality of categories of patent objects based on (1) each patent object is categorized into a category in the first domain of the models, and
+	(2) the models and regularization results are used to categorize the categories and categories of patent objects, respectively;
+	(d) adding each category of patent objects to a second ensemble of models; and
+	(e) repeating the process of steps (c), (d) and (e) until the sum of the categories of patent objects is zero.
+
+[ Batch 24 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , the method comprising:
+	receiving, by a processor, a first patent application that describes a product that is a subject of a patent application;
+	generating, by the processor, a patent application structure that includes the product description and at least one patent description, wherein the patent application structure includes at least one of a patent number, a patent symbol, and
+	an associated patent indication;
+	selecting, by the processor, a set of related patent applications based on the patent application structure, the set of related patent applications describing at least one patent that is related to the product;
+	generating, by the processor, a set of related indicators that includes at least one of an indicator that at least one of the product or the set of related products is a subject of a patent application of the set of related patent applications and an indicator that at least one of the set of related patent applications is related to the product;
+	selecting, by the processor, a subset of related indicators based on the set of related indicators and the first patent application;
+	generating, by the processor, a set of patent indicators that includes at least one of an indicator that at least one of the set of related patent applications is related to the product and an indicator that at least one of the set of related patent applications is applicable to the product;
+	determining, by the processor, at least one metric that is associated with the set of related indicators; and
+	selecting, by the processor, a second patent application based on the at least one metric, wherein the second patent application is associated with the product and describes at least one patent that is applicable to the product.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis using an adversarial adversarial learning method, comprising:
+	a) training a deep neural network (DNN) utilizing both a fixed-sized training window and a large-sized training window, wherein said fixed-sized training window has a size of N times a maximum dimension of said training DNN;
+	b) performing a trial training session for a trial;
+	c) evaluating a residual error of said DNN prior to said trial; and
+	d) displaying said residual error in a form of a residual error vector, wherein said deep neural network is used to correct said residual error;
+	wherein said residual error vector comprises a set of residual errors associated with a set of N trials; said residual errors include a number of trial errors.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis comprising the steps of:
+	receiving a dataset comprising patent applications filed by inventors;
+	determining a plurality of scores for the datasets using a method comprising determining scores for the inventors based on a computational complexity of the patent process, using computer models adapted to determine scores for the inventors, and
+	selecting a set of scores from the scores for the inventors, the scores for the inventors comprising a high score, a medium score, and
+	a low score;
+	searching the dataset for datasets that contain scores for the inventors satisfying the high score;
+	ranking the dataset by order of accessibility to the inventors, wherein a dataset with a high score is assigned a higher ranking than a dataset with a low score; and
+	finding scores for the inventors at the dataset which contain the highest score,
+	wherein scoring a patent application comprises:
+	identifying a patent application comprising a claim;
+	determining a score of the claim; and
+	determining a score of the patent application as a mathematical function of the score of the patent application and the score of the claim,
+	wherein the score of the patent application is a mathematical product of the score for the inventors and a mathematical product of a sum of squares of the score for the inventors and the score for the patent application, and
+	wherein the patent application is determined by a computer to be an aggressive invention if at least one of:
+	1) the score of the claim is equal to or greater than the high score and less than the medium score,
+	2) the score of the patent application is equal to or greater than the medium score and less than the low score, and
+	3) the score of the claim is equal to or greater than the low score and less than the high score.
+
+[ Batch 25 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising:
+	generating, by a processor, a set of search keys for a patent analysis, wherein each key of the set of search keys is associated with a different patent;
+	receiving, by the processor, a first patent analysis result generated in response to a first query query;
+	determining, by the processor, that a first key of the set of search keys is associated with the first patent analysis result, wherein the first key identifies a first patent that was previously identified in response to a first query;
+	generating, by the processor, a first set of search results, wherein each search result of the first set of search results corresponds to a search key in the set of search keys and identifies a first patent associated with the search key;
+	receiving, by the processor, a second patent analysis result generated in response to a second query;
+	determining that a second key of the set of search keys is associated with the second patent analysis result, wherein the second key identifies a second patent that was previously identified in response to the second query;
+	generating, by the processor, a second set of search results, wherein each search result of the second set of search results corresponds to a search key in the set of search keys and identifies a second patent associated with the search key; and
+	determining that the first patent analysis result and the second patent analysis result are the same, wherein determining that the first patent analysis result and the second patent analysis result are the same comprises:
+	determining, by the processor, that a common key of the first patent analysis result and the second patent analysis result is not identified by the first patent and the second patent analysis results; and
+	generating a third set of search results, wherein each search result of the third set of search results corresponds to a search key in the set of search keys and identifies a common patent that is identified by both the first patent and the second patent analysis result.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis by using the result of a trained deep learning network, wherein the trained network comprises a plurality of trained deep learning network models, and
+	wherein a plurality of patents are selected for each of the models in the trained network, wherein each of the plurality of patented features is assigned to at least one model in a plurality of models, wherein the training of each model includes:
+	determining a feature value for each feature in a particular model of a plurality of models;
+	for each feature in the particular model, performing, by each trained deep learning network model, a feature selection process to determine an optimum feature value; and
+	assigning the optimum feature value that best meets the feature value at the particular model, wherein a first subset of the plurality of patented features are evaluated for the particular model by performing a second subset of the plurality of deep learning network models on the plurality of patented features using the optimum feature values assigned to the first subset.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising the steps of:
+	registering a patent, the patent comprising a plurality of claims;
+	receiving a user entered order to be matched to a patent;
+	receiving and storing said plurality of claims;
+	using a computer processor to process said plurality of claims, such that said plurality of claims include a second claim;
+	determining whether said second claim matches said first claim; and
+	if said second claim does match said first claim, then issuing a patent matching token to a user.
+
+[ Batch 26 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising the following steps:
+	defining a plurality of categories for each of a plurality of patents, the categories being related to a plurality of subject matter areas;
+	receiving, via an interface, a plurality of data elements corresponding to the plurality of categories;
+	using the plurality of data elements to classify a plurality of data elements into a plurality of classes;
+	for each class of the plurality of classes, computing a plurality of similarity scores between the class and the plurality of data elements corresponding to the plurality of categories and between the class and the plurality of data elements corresponding to the plurality of subject matter areas;
+	generating a score for each data element corresponding to each category by calculating a score for each class of the plurality of classes by summing the scores of all other classes of the plurality of classes, and
+	summing the scores of the class and the plurality of data elements corresponding to the plurality of subject matter areas;
+	generating a score for each class of the plurality of classes by summing the scores of all other classes of the plurality of classes, and
+	summing the scores of the class and the plurality of data elements corresponding to the plurality of subject matter areas; and
+	determining a class of the plurality of classes by evaluating the score for each class of the plurality of classes by calculating a sum of the score for each class of the plurality of classes, wherein the score for each class of the plurality of classes is a measure of similarity between the class and the plurality of data elements corresponding to the plurality of categories.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis , comprising:
+	generating an agent model using training data including agent class labels and data regarding patent information;
+	training an artificial agent using the agent model;
+	performing a patent regression using a set of agent class labels and patent information for the artificial agent; and
+	performing a patent regression using the agent model using a set of agent and patent information for the artificial agent,
+	wherein a number of agent class labels to be generated and a number of data types for the agent are determined according to a predetermined rule and a number M of the data types to be generated is determined according to (M+1)/2, and
+	wherein M>
+	1.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis for a three dimensional network model including a plurality of nodes and a plurality of edges, wherein the method is applied on a semi-automated control system, the method comprising the steps of:
+	providing a three dimensional local graph model having a plurality of intersecting nodes connected by a plurality of edge nodes to represent the distribution of a patent portfolio, wherein the plurality of nodes represents a plurality of patented claims and the plurality of edge nodes represent a plurality of non-practicing-judgmental opinions assigned to the patented claims;
+	generating a two-dimensional bi-plane transformation matrix and a transformation matrix for each of the plurality of intersecting nodes;
+	defining a first transformation as a two-dimensional assignment of the patent portfolio to a non-practicing-judgmental opinion matrix that represents neutral views among a plurality of non-practicing-judgmental opinions represented by the transformation matrix and a second transformation as a two-dimensional assignment of the patent portfolio to a practice matrix that represents practicing opinions among the plurality of non-practicing-judgmental opinions; and
+	determining the plurality of non-practicing-judgmental opinions based on the transformation matrix for each of the plurality of intersecting nodes, wherein the plurality of non-practicing-judgmental opinions is determined in response to the first transformation matrix for each of the plurality of intersecting nodes being close to the second transformation matrix for each of the plurality of intersecting nodes.
+
+[ Batch 27 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis , comprising:
+	identifying, using a processor, a set of data points from a first set of patent data points and a second set of patent data points, wherein the first and second sets of patent data points include a first set of patent data points and a second set of patent data points from the first set of patent data points and a third set of patent data points from the second set of patent data points, wherein the first set of patent data points are associated with a first set of patent applicants and the second set of patent data points are associated with a second set of patent applicants;
+	generating, using the processor, a first set of candidate patent patterns using the set of data points, wherein each candidate patent pattern of the first set of candidate patent patterns is a patent pattern of the first set of patent patterns that has been previously identified by at least one previously identified patent pattern of the first set of patent patterns as satisfying a first predetermined criteria;
+	generating, using the processor, a second set of candidate patent patterns using the set of data points, wherein each candidate patent pattern of the second set of candidate patent patterns is a patent pattern of the second set of patent patterns that has been previously identified by at least one previously identified patent pattern of the second set of patent patterns as satisfying a second predetermined criteria;
+	calculating, using the processor, an initial score for each of the first and second sets of candidate patent patterns, wherein calculating the initial score comprises calculating an initial score for each of the candidate patent patterns based on the data points;
+	generating, using the processor, a score for each of the first and second sets of candidate patent patterns based on the initial scores; and
+	comparing, using the processor, the scores of the first set of candidate patent patterns and the second set of candidate patent patterns to determine a similarity score between each of the candidate patterns.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis comprising:
+	a processing system for implementing a deep learning method for patent analysis in which at least three components are connected for combining the results of two or more layers of layers of deep learning to determine whether a patent case should be filed, each component including one or more computers, one or more memory devices, one or more input devices configured to interface with the systems of the components, or one or more processors and software instructions configured to execute on at least one of the one or more processors; and
+	a storage device for maintaining at least the following:
+	a database of patent case information for the patent case, orone or more models of a pattern-based model including the three components that each include a processor configured to implement the deep learning method, each model representing patterns in patent cases or patterns from the patent case information; and
+	wherein the processing system is configured to implement the deep learning method, using the models, to determine whether to file a patent case against any patent holder, of one or more patent holders, based on patterns of the patent case information or patterns from the patent file information.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis comprising the steps of:
+	selecting a training dataset (T(s));
+	obtaining a plurality of training images (Zs);
+	for each of a plurality of drugs, receiving a plurality of reference images (Z(s)) selected from a reference dataset (Q(s)), wherein the reference images are generated by detecting one or more features of a reference dataset (Q(s)) in at least one of the training images (Zs);
+	computing, using one or more processors, an error metric between at least two of the training images (Zs) that were generated in detecting the features,
+	selecting at least two of the training images (Zs) as corresponding to drug,
+	determining a relative benefit metric of at least two of the at least two of the selected training images (Zs), wherein determining the relative benefit metric includes:
+	obtaining a relative benefit of the at least two of the training images (Zs) that were generated in detecting the features, and
+	generating an index (s) of the at least two of the training images (Zs) that were detected by the features;
+	generating the corresponding images, and
+	classifying the at least two training images (Zs) that were generated in detecting the features as drug images, and
+	displaying a corresponding image (z) profile corresponding to the corresponding image (z) classifying the at least two training images (Zs).
+
+[ Batch 28 ]
+
+(1) Generated Patent Claim (kp, [2])
+
+A deep learning method for patent analysis comprising the steps of:
+	obtaining a plurality of patent applications wherein the applications are submitted to a patent database, wherein each patent application comprises a plurality of claims;
+	identifying a plurality of patterns of claims in the plurality of patent applications;
+	determining a first similarity measure between the plurality of claims of the plurality of patent applications and the plurality of patterns of claims, wherein the first similarity measure indicates a degree of similarity of the plurality of claims to the plurality of patterns of claims;
+	identifying a plurality of pattern of claims in the plurality of patent applications that are similar to the plurality of patterns of claims from the patent database, wherein the plurality of pattern of claims are determined to be related to the plurality of claims in the plurality of patent applications, and
+	wherein the plurality of pattern of claims are related to the plurality of claims by a first predetermined number of common ancestors; and
+	generating a set of patterns of claims that are related to the plurality of patterns of claims, wherein the set of patterns of claims is a set of related patterns of claims.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis of a plurality of patent applications to identify a plurality of patent applications having a plurality of patent questions that are frequently submitted by applicants, comprising:
+	receiving a plurality of input patterns associated with the applicants' patent questions from at least one computerized electronic device, the input patterns comprising patterns of inputs by respective applicants that are representative of patent questions that are frequently submitted by applicants;
+	using at least one data processing device to automatically identify the input patterns associated with each patent question that are frequently submitted by applicants, and
+	to generate an output based on the outputs of previous patent questions and the identified inputs patterns; and
+	using at least one data processing device to provide the output that is based on the outputs of previous patent questions to enable users to determine a relevance of a patent application to a product or service in the context of a product or service product category.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising:
+	applying a training method for time series data, including:
+	in a first range of a calendar year, presenting samples of patent data, or portions thereof, to a user using an interface;
+	in a second range of a calendar year, rating the patent data or portions thereof, using an interface;
+	in a third range of a calendar year, rating the patent data or portions thereof, without being presented using the interface;
+	receiving a selection of at least one of the second range and the third range of the calendar year; and
+	using a processor to perform the training method in the third range of the calendar year for the at least one selection, and
+	a corresponding one of the second range and the third range of the calendar year for the at least one nonselection.
+
+[ Batch 29 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for patent analysis comprising:
+	performing a training process using a first training data set, wherein the first training data set comprises a plurality of patent data sets, wherein each patent data set comprises a plurality of patents that are associated with a patent owner, wherein the plurality of patents comprises a first plurality of patents and a second plurality of patents, wherein the first plurality of patents and the second plurality of patents are associated with a first category, wherein the first category is associated with a first set of patent owners and the second plurality of patents is associated with a second set of patent owners, and
+	wherein each of the first plurality of patents and the second plurality of patents is associated with a plurality of patent classes;
+	determining, by a computer, a plurality of first likelihood ratios, wherein each first likelihood ratio is a likelihood ratio that a first patent in the first set of patent owners is relevant to the patent analysis;
+	determining, by the computer, a plurality of second likelihood ratios, wherein each second likelihood ratio is a likelihood ratio that a second patent in the second set of patent owners is relevant to the patent analysis;
+	calculating, by the computer, a first likelihood ratio average and a second likelihood ratio average, wherein the first likelihood ratio average is a first average of the plurality of first likelihood ratios and the second likelihood ratio average is a second average of the plurality of second likelihood ratios;
+	calculating a first weight and a second weight for each patent in the first set of patent owners and the second set of patent owners based on the first likelihood ratio average and the second likelihood ratio average; and
+	calculating a first score and a second score for each patent in the second set of patent owners and the first set of patent owners based on the first weight and the second weight, wherein the first score is a first score associated with the first category, and
+	the second score is a second score associated with the second category.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis using a trained Deep Belief Network, comprising:
+	performing the following steps by using a trained Bayesian Belief Network:
+	selecting one of the nodes in a network to represent an entity as the target of patent analysis, the selected node corresponding to a probability of the entity being selected, and
+	the entity being a patent subject, wherein at least a portion of the steps are performed on a computing device;
+	applying a function to the selected node to calculate a first score for the selected node;
+	computing a second score for the network based on information from a first patent subject and the selected node, the first patent subject being a second entity to be identified based on the trained Bayesian Belief Network; and
+	comparing the first score for the selected node to the second score for the network to identify a similarity between the selected node and the second entity.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising the steps of:
+	a. calculating the weight of each patent being a function of the rate of investment into said patented domain for each data point from a model knowledge base stored in a computer memory;
+	b. predicting whether each data point in a data set will overlap a previously identified overlap data point, based on a hypothesis of the power spectrum, the predicted overlap data point being found in the data set;
+	c. detecting an overlapping data point when at least two data points in the data set include at least one common feature;
+	d. identifying if the overlapping data point is an analyte;
+	e. identifying a different predictor based on analyte affinity data, wherein the analyte affinity data identifies a pro-α binding site for the analyte, wherein the analyte affinity data is based on one or more pre-identified patterns of the analyte in a population; and
+	f. using the identified different predictor to reduce the power spectrum of the hypothesis, wherein the reducing comprises matching or identifying the different predictor based on the hypothesis.
+
+[ Batch 30 ]
+
+(1) Generated Patent Claim (kp, [2])
+
+A deep learning method for patent analysis , comprising:
+	a) training an artificial neural network using a plurality of training examples, wherein the artificial neural network comprises a plurality of neurons that receive a plurality of training examples and that generate a plurality of output signals corresponding to the plurality of training examples, wherein the plurality of training examples comprises at least one of a patent, a patent term, a patent term value, a patent value, or a patent term value and a patent term value;
+	b) receiving the plurality of training examples for training the artificial neural network, wherein the plurality of training examples comprise a patent, a patent term, a patent term value, a patent value, or a patent term value and a patent term value;
+	c) generating a plurality of output signals for the plurality of training examples based on the plurality of training examples, wherein each of the plurality of output signals corresponds to one of the plurality of training examples;
+	d) selecting a subset of the plurality of training examples from the plurality of training examples to classify the plurality of output signals;
+	e) classifying the plurality of output signals classified in the subset into a plurality of classes, wherein each of the plurality of classes corresponds to one of the plurality of classes; and
+	f) classifying a first set of output signals of the subset classified in the plurality of classes as being patent term related and a second set of output signals of the subset classified in the plurality of classes as being patent term unrelated.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for patent analysis for the purpose of generating an analysis result for the patent and determining whether the patent is patentable or unpatentable, comprising:
+	performing a decision task in order to determine whether the patent is patentable or unpatentable;
+	generating a score of the patent by using the score of the patent in a first step and a second step;
+	performing a prediction task to determine whether the score of the patent generated in the first step is to be used in a decision step, and
+	generating the score of the patent by using the score of the patent in the first step and the score of the patent in the second step when the score of the patent is determined to be to be used in the decision step;
+	performing the prediction task using the score of the patent in the second step, generating the score of the patent by using the score of the patent in the second step, and
+	using the score of the patent in the first step and the score of the patent in the second step in the decision task; and
+	performing the prediction task using the score of the patent in the first step, generating the score of the patent by using the score of the patent in the first step, and
+	using the score of the patent in the second, and
+	the score of the patent in the second step in a decision task.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for patent analysis , comprising:
+	providing a set of patent claims associated with a patent or a trait of the patent;
+	generating a plurality of minimization learning (ML) sub-matches, each ML sub-match corresponding to a different memory state of the patent, the memory state based on at least one other memory state of the patent;
+	applying an ML loss function to each of the plurality of ML sub-matches to obtain a corresponding loss function, wherein the ML loss function comprises an empirical parameter and a statistical parameter, the empirical parameter being determined according to an empirical prediction model of an average behavior of the patent, and
+	the statistical parameter being determined according to one or more patterns of the patent; and
+	obtaining ML results for each patent claim from the set of patent claims based on the corresponding loss function.

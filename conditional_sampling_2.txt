@@ -1,0 +1,1096 @@
+* Conditional Sampling: “A deep learning method for drones”
+
+[ Batch 1 ]
+
+(1) Generated Patent Claim (kp, [2])
+
+A deep learning method for drones and for other flying machines, comprising the following steps:
+	obtaining a first data set containing a first aerial image of a first area and a second aerial image of a second area,
+	determining at least one landmark on the first aerial image and/or on the second aerial image,
+	selecting a second aerial image of a second area,
+	generating a third aerial image from the first aerial image with a 3D camera,
+	determining a position of a drone with respect to the landmark on the first aerial image,
+	determining a position of the second aerial image on the third aerial image, and
+	generating a fourth aerial image from the third aerial image,
+	wherein the first aerial image is obtained from a first aerial imaging device and/or the second aerial image is obtained from a second aerial imaging device, the first aerial imaging device and/or the second aerial imaging device are provided on a fixed location, and
+	the fourth aerial image is generated from at least one of the first aerial image and the second aerial image based on the position of the first aerial image and the position of the second aerial image.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising the following steps :
+	(a) obtaining a plurality of drone image samples of a scene;
+	(b) processing at least one of the drone images samples to detect one or more features in each pixel, wherein said steps are repeated for a number of times to form a digitized image sample;
+	(c1) obtaining a plurality of image samples of the scene, each of said image samples being taken at substantially the same time or substantially later than the drone image samples;
+	(c2) for each pixel in each pixel of the digitized drone image sample, defining a pixel volume from said pixel,
+	wherein said image volume represents a plurality of points distributed in space and time, wherein said points are distributed in space and time along one or more axes, wherein said one or more of the axes are each defined from a respective point and a respective axis of said one or more axes intersects one direction of the one or more axes, wherein at least one axis of said one or more axes intersects the one or more drone images at a plurality of positions, the plurality of positions being distributed along said axis, and
+	wherein said plurality of positions is defined by a plurality of the drone images;
+	(d) determining the number of intersecting points, wherein said determining step is repeated with a predetermined number of the drone images to form the digitized drone image, wherein the predetermined number of the drone images are associated with the plurality of intersecting points;
+	(e) for each intersection of said plurality of intersecting points, obtaining a number of the points, wherein the number is determined based on the respective number of the intersection, the direction of intersection, the spatial orientation of the intersection, and
+	a spatial relationship between the plurality of intersecting points;
+	(f) using at least one of the plurality of points to compute a plurality of respective weighted average distances along said at least one axis, wherein said plurality of respective weighted average distances along said axis are associated with the plurality of intersecting points;
+	wherein said step of computing a plurality of respective weighted average distances along said axis is repeated with the predetermined number of the drone images to form the digitized drone image; and
+	(g) storing said digitized drone image with the associated digitized drone image sample.
+
+(3) Generated Patent Claim (p, [2])
+
+A deep learning method for drones , comprising:
+	a pre-processing step including receiving a database, wherein the database includes first images of a pre-determined number of objects that can be used as drones, and
+	wherein the first images of the pre-determined number of objects are transmitted before a drone aircraft approaches to an object being evaluated, wherein the first images are received from the pre-processor, and
+	wherein a location of the object is known;
+	a first calculation step including:
+	dividing the pre-processor image database into two regions according to a pre-processor pattern, wherein the region to which the first images from the pre-processor are divided is the same as a location of the object;
+	calculating a distance between the first image of the object being evaluated and each region;
+	adding the distance to the first image;
+	a distance calculation step including:
+	calculating the distance between a first region including the first images of the pre-determined number of objects of the first image database and a second region including the first images of objects and the objects in the second region, using a formula of 1.5+b*x, wherein 1.5 is a predetermined range of a center of the object, and
+	b is a range between two intersections, wherein the second region is located at the second cross-section of the first image; and
+	returning the calculated distance to the pre-processor; and
+	a processing step including:
+	re-calculating the distance between the first region and the second region according to the added distance.
+
+[ Batch 2 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	a step of collecting, by a drone, information of a target object on the basis of a target object ID;
+	a step of generating, by the drone, a target object object classifier for classifying the target object ID on the basis of a target object classifier ID;
+	a step of collecting, by the drone, information of a target object with respect to a first target object ID among the target object IDs on the basis of the information of the target object ID;
+	a step of generating, by the drone, a first target object object classifier for classifying the target object ID on the basis of the information of the first target object ID;
+	a step of collecting, by the drone, information of a target object with respect to a second target object ID among the target object IDs on the basis of the information of the target object ID;
+	a step of generating, by the drone, a second target object object classifier for classifying the target object ID on the basis of the information of the second target object ID; and
+	a step of generating a target object object with respect to a target object ID by combining the first target object object classifier and the second target object object classifier.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones in a fleet comprising:
+	providing a network of one or more drones; and,
+	providing a set of one or more drones, each drone having at least one sensor, the set of one or more drones being configured to perform a task, where the task includes one or more parameters associated with the task, and
+	each parameter associated with the task includes at least one of a drone type, a type of sensor, a number of sensors, a type of signal, and
+	a type of signal classifier associated with the parameter, each drone having a memory containing a subset of parameters;
+	using a processor to determine a parameter of the tasks performed by the one or more drones based on a plurality of parameters included in the memory of the one or more drones, where the determined parameter is associated with the task performed; and
+	using the processor to identify a drone associated with the determined parameter and instruct the identified drone to perform a task, including providing a set of instructions to change a position of at least one of the drones, where the set of instructions includes instructions to change the position of at least one of the drones to move towards a destination point.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising the steps of:
+	executing on a processor instructions adapted to perform the following steps:
+	a) receiving a sensor signal, of a measure from a first type of sensor, from a second type of sensor to be measured, wherein the sensor signal is represented by a M×
+	Q system;
+	b) processing the sensor signal to obtain a reference value;
+	c) processing the sensor signal to obtain a target value, wherein the target value corresponds to a deviation of the sensor signal from the reference value, the deviation being determined from the reference value, and
+	wherein the second type of sensor comprises at least one type of frequency modulator;
+	d) processing the target value to obtain a calibration value;
+	e) calibration a current value of the sensor signal by adjusting a value of M×
+	Q according to the calibration value; and
+	f) comparing the current value with the reference value and the calibration value to determine the deviation.
+
+[ Batch 3 ]
+
+(1) Generated Patent Claim (kp, [2])
+
+A deep learning method for drones , comprising the following steps:
+	a. creating an initial base grid and a final base grid by calculating a first total number of points and a first distance between the final base grid and the initial base grid;
+	b. setting up a first grid with a plurality of cells;
+	c. setting up a second grid with a plurality of cells;
+	d. setting up a third grid with a plurality of cells, wherein each cell of the second grid is connected to each cell of the third grid;
+	e. calculating a plurality of total distance durations for each cell in the second grid and the third grid;
+	f. calculating a plurality of total distance durations for each cell in the first grid and the second grid; and
+	g. calculating a plurality of total distance durations for each cell in the final grid and the first grid.
+
+(2) Generated Patent Claim (k, [2])
+
+A deep learning method for drones , comprising:
+	defining a first and a second parameters for each drone in a drone group, respectively;
+	determining the drones to be used according to the parameters;
+	determining a time to perform a task and a drone to use, wherein the task is a mission, the drone is one of the drones and the task is a task of the drone;
+	determining a task difficulty of the task using the time to perform the task and the drone to use;
+	determining a drone to use probability of the task;
+	selecting a drone with a high task difficulty and a high drone to use probability of the task, wherein the difficulty of the task is lower than the task difficulty of a task which is not selected; and
+	performing the task on the selected drone.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones by Alain Badié using artificial neural networks (ANNs), the method comprising:
+	training a negative Bayes factorization (NBFIR) neural network with the following steps: (a1) obtaining, for each element, a value of negative NBFIR terms such that the total sum of the positive and negative NBFIR terms equals a constant and for each element of a set of n elements of the negative NBFIR, setting the negative NBFIR terms of the element equal to a positive value of the element; (b1) determining a complement of the element; (c1) transforming the values of negative NBFIR terms of the element and the complement into a codebook according to the coding standard; (d1) obtaining a candidate code from the codebook by normalizing the code to the coding standard and employing a deep convolutional neural network with the function, the codebook comprising only codes equal to zero.
+
+[ Batch 4 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	receiving a first drone configuration and a second drone configuration from a user, wherein the first drone configuration is different than the second drone configuration;
+	generating a first set of data for the first drone configuration, wherein the first set of data comprises a first plurality of data elements that are generated in a first data processing system;
+	generating a second set of data for the second drone configuration, wherein the second set of data comprises a second plurality of data elements that are generated in a second data processing system;
+	generating a third set of data for the first drone configuration, wherein the third set of data comprises a third plurality of data elements that are generated in the first data processing system; and
+	generating a fourth set of data for the second drone configuration, wherein the fourth set of data comprises a fourth plurality of data elements that are generated in the second data processing system.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , said method comprising a step of training, by using a plurality of drones having different aerial characteristics, an aerial performance of an operator of said drone to obtain an aerial performance data;
+	a step of obtaining, in the aerial performance data obtained in said training step, an aerial performance value for each aerial characteristic, by using a maximum aerodynamic lift calculation model which is trained with a predetermined aerial characteristic to the maximum aerodynamic lift of each aerial characteristic;
+	a step of calculating, using an algorithm, a weight of each aerial characteristic, by using an algorithm which learns to calculate weights of each aerial characteristic based on said aerial performance values obtained in said training step, using a maximum aerodynamic lift calculation model trained with the aerial performance value obtained in said step of calculating the weight of the aerial characteristic and the aerodynamic parameters of the aerial performance;
+	a step of calculating a weight for a parameter of a drone by using the weight of the each aerial characteristic calculated in said step of calculating the weight of the each aerial characteristic and the aerodynamic parameters calculated in the step of calculating the weight for the parameter of the drone; and
+	a step of generating a parameter control signal for controlling a parameter of the drone according to the weight of the parameter calculated in said step of calculating the weight for the parameter of the drone, wherein the parameter for which the weight was calculated in said step of generating a parameter control signal is an aerial performance value, and
+	a parameter of a drone having a parameter equal to or less than the weight was calculated in said step of generating a parameter control signal.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones with image similarity scores using sampled images as similarity metrics and an image filtering method for given image patches where the image filtering method takes the sum of square the sum of weights of the image similarity score generated using the nearest neighbor of the given image patch, the method comprising:
+	identifying for each location in an image a first set of adjacent image patches around the location that have similar image similarity scores;
+	identifying, for each location, a second set of adjacent image patches that intersect the location in a pattern of overlapping image patches;
+	calculating a first similarity score using the first set of adjacent image patches for the location in the image and the first set of adjacent image patches for the first adjacent image patch; and
+	calculating a second similarity score using the second set of adjacent image patches for the location in the image and the second set of adjacent image patches for the second adjacent image patch.
+
+[ Batch 5 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , the method comprising:
+	using a computer for:
+	defining a first set of cells, wherein each cell of the first set of cells has one or more cells and is a unit of the one or more cells;
+	defining a second set of cells, wherein each cell of the second set of cells has one or more cells and is a unit of the one or more cells; and
+	using the computer to compute a first set of one or more weights, wherein a weight of a cell is determined by one or more weights of one or more cells in the cell's parent cell;
+	using the computer for:
+	determining a first set of one or more cells that are non-drones in a current cell;
+	determining a second set of one or more cells that are non-drones in the current cell;
+	wherein the first set of cells and the second set of cells are mutually exclusive;
+	wherein the first set of cells and the second set of cells are mutually exclusive based on the one or more weights of the cell;
+	wherein the second set of cells is determined by the computer to have a larger size than the first set of cells;
+	wherein a weight of cells in the first set of cells and the second set of cells are mutually exclusive; and
+	storing the first set of one or more cells and the second set of one or more cells in a memory;
+	wherein the first set of cells and the second set of cells are mutually exclusive based on the one or more weights of the cell.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , in which the method comprises:
+	a step of setting an objective function, which is expressed as a function of an objective function of a DFT algorithm and an objective function of a DFT algorithm with local optima,
+	a step of selecting a subset of an optimal solution set that contains the solution set to be used,
+	a step of selecting a set of the DFT algorithms of the local optima that satisfies the objective function with local optima, and
+	a step of generating an optimum DFT algorithm of the local optima, and
+	wherein the local optima is a subset of a maximum one of DFT algorithms.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , said method comprising the steps of:
+	a. determining whether there are at least two drones present;
+	b. checking if said at least two drones detected in the vicinity of said aircraft are identical to the type of drone with which they were previously associated;
+	c. combining said at least two detected drones as a single DONE user, if one of said detected drones is identical to said single DONE user;
+	d. determining whether any contact needs to be made with said DONE user;
+	e. taking account of any such need at a previous time when taking said at least two detected drones together as a whole.
+
+[ Batch 6 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising the following steps:
+	(a) learning to recognize and recognize a scene pattern by a trained Deep Belief Network,
+	(b) obtaining a plurality of images of scene patterns and their associated image data;
+	(c) storing the plurality of images of scene patterns and their associated image data;
+	(d) learning a set of local pattern representations of the scene patterns in each of the plurality of images of scene patterns, wherein each local pattern representation of a scene pattern represents a representation of the scene pattern and is associated with image data of the scene pattern;
+	(e) computing a weighting function for the set of local pattern representations based on a weighting factor that is determined based on a ratio of the number of images of scene patterns in each local pattern representation to the number of images in each local pattern representation;
+	(f) applying the weighting function to each local pattern representation to produce a weighted local pattern representation;
+	(g) comparing the weighted local pattern representations to determine if there is a match between the local pattern representation and one of the stored images of scene patterns; and
+	(h) outputting the match as a result of the comparing step, wherein step (g) includes:
+	(i) determining a sum of absolute value of the number of images of scene patterns in each local pattern representation, and
+	(ii) determining a sum of absolute value of the number of images of scene patterns in each of the plurality of images of scene patterns by dividing the sum of absolute values by the number of images of scene patterns in each image of the plurality of images.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones in aircraft systems, comprising:
+	providing an object representing an object to be detected within the aircraft;
+	providing a plurality of sensors mounted on the aircraft configured to detect the object,
+	defining a detection space in which the object can occupy;
+	defining a plurality of sensor combinations comprising a first sensor combination and a second sensor combination, each sensor combination comprising two or more sensors;
+	defining a detection sequence in which the first sensor combination and a second sensor combination are detected simultaneously;
+	detecting a first object of the objects using the first sensor combination, and
+	detecting a second object of the objects using the second sensor combination, wherein the second object is detected at least partially simultaneously with the detection of the first object;
+	determining the location of the detection sequence with respect to an aircraft sensor; and
+	storing, transmitting, or displaying the location of the detection sequence, sensor combination, and
+	the object.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising the steps of:
+	modeling, using a neural network, the dynamics of the internal pressure of a dorsal fin of a bottlenose dolphin;
+	monitoring the internal pressure of the dorsal fin of the bottlenose dolphin in real time using the modeled dynamics to determine if a motion of the dolphin is normal; and
+	by an output from the neural network, providing an alerting signal.
+
+[ Batch 7 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	a) determining, by a processor, a number of times a given drone is passed through a given obstacle in the obstacle detection field;
+	b) assigning, by the processor, a weight to each drone in the given drone group based on the number of times the given drone is passed through the obstacle detection field;
+	c) assigning, by the processor, a weight to each drone in the given drone group that does not pass through the obstacle detection field;
+	d) assigning, by the processor, a weight to each drone in the given drone group that passes through the obstacle detection field;
+	e) calculating, by the processor, a weight for each drone in the given drone group that passes through the obstacle detection field;
+	f) calculating, by the processor, a weight for each drone in the given drone group that passes through the obstacle detection field;
+	g) determining, by the processor, an obstacle classification result for each obstacle detection field;
+	h) determining, by the processor, an obstacle classification result for each obstacle detection field;
+	i) assigning, by the processor, a weight to each drone in the given drone group that passes through the obstacle detection field based on the obstacle classification result of the obstacle detection field for the drone group;
+	j) assigning, by the processor, a weight to each drone in the given drone group that passes through the obstacle detection field based on the obstacle classification result of the obstacle detection field for the drone group;
+	k) calculating, by the processor, a weight for each obstacle detection field;
+	l) calculating, by the processor, a weight for each obstacle detection field;
+	m) determining, by the processor, an obstacle classification result for each obstacle detection field;
+	n) assigning, by the processor, a weight to each drone in the given drone group that passes through the obstacle detection field based on the obstacle classification result for the obstacle detection field for the drone group;
+	o) assigning, by the processor, a weight to each drone in the given drone group that passes through the obstacle detection field based on the obstacle classification result for the obstacle detection field for the drone group; and
+	p) repeating, by the processor, b) through j) for all drones in the given drone group.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising:
+	providing a plurality of first and second drone models, each first and second drone model corresponding to a different one of a plurality of different drone types;
+	determining a first and a second performance value from each first and second drone model, wherein the first performance value is a different result from the second performance value,
+	selecting a first drone model and a second drone model from the first drone model and the second drone model, respectively, as a first and a second drone model, and
+	applying the first performance value for the first drone model and the second performance value for the second drone model to the first drone model and the second drone model.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones which generate optimized control advice using selected data with sensor information with an electronic equipment-side control system, comprising:
+	obtaining an interest status of the target drone using at least one sensor on board the target drone;
+	obtaining a plurality of cooperative missions which can be performed by the target drone, based on the interest status, for increasing a range per the at least one sensor to a range where the drone can fly above and take-off from a base;
+	analyzing the target drone to select the optimal routes for the target drone to fly for decreasing a power consumption to the target drone to maintain the target drone at optimum safety for generating the optimized control advice; and
+	communicating with the target drone using the electronic equipment-side control system to generate the optimized control advice for the target drone based on the selected optimized routes to decrease the power consumption of the target drone for generating the optimized control advice.
+
+[ Batch 8 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	a pre-processing step, which is performed by a processor to obtain a classification result of each of a plurality of types of drones in terms of the number of times each drone is encountered on a network during a pre-defined period of time, and
+	a comparison step, which is performed by the processor to compare the classification result of each of the plurality of types of drones with the classification result of each of types of drones in a previous training period; and
+	a determination step, which is performed by the processor to determine the drone type according to the comparison result.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising the following steps:
+	1. obtaining a first image of a first drone and a second image of a second drone, and
+	comparing them;
+	2. calculating at least one first feature point in the first drone and at least one second feature point in the second drone, wherein the first drone and the second drone have been captured by two respective cameras, and
+	wherein the first feature points and the second feature points are used for the classification and determination of the drones; and
+	3. performing a feature point classification on a third image, wherein the third image is of a third drone captured by a third camera.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones comprising the steps of:
+	a. computing a flight plan for drone movements over land and at sea using a computer;
+	b. defining a drone path using the flight plan;
+	c. predicting a future drift of the drone from the drone path using the flight plan;
+	d. transforming the future drift of the drone into a drone path prediction using the computer;
+	e. applying a truth-conditional test on the response of the drone path prediction with the computer over a range of stability expectations; and
+	f. outputting the response.
+
+[ Batch 9 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	a first step of defining, by a processor, a plurality of nodes of a classifier, the plurality of nodes comprising a first node and a second node, the first node being connected to a first edge of the classifier;
+	a second step of defining, by the processor, a plurality of edges of the first node, the edges of the first node comprising a first edge and a second edge, the second edge being connected to the first edge; and
+	a third step of defining, by the processor, an edge of the first node as a weighted sum of the first edge and the second edge, the weighted sum being smaller than or equal to 1,
+	wherein the first node is connected to the first edge by a first branch, the first branch is connected to the second node via a second branch, and
+	the second branch is connected to the first branch via a third branch.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones with an initial set of operations implemented in the context of a drone-computer architecture having a processor and a memory, the method comprising the steps of:
+	providing a computer hardware and software development kit;
+	compiling and linking a set of computer software components from said development kit;
+	installing a first computer software component of said set of computer software components, which is an application programming interface component of a programmable hardware component, on the processor;
+	using said application programming interface component to implement said initial set of operations, said initial set of operations including at least one of a drone-searching operation, a drone-following operation, a drone-destination search operation, a drone-acquisition operation, a drone-tracking and marking operation, and
+	a drone-tracking and marking operation;
+	using a computer to monitor user interaction with said application programming interface component; and
+	generating a drone-searching operation for performing a search in accordance with said initial set of operations, and
+	generating said drone-following operation for performing a tracking/destruction operation of a drone in accordance with said initial set of operations.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising:
+	determining a measure of propagation loss associated with a drone while flying in a desired air corridor;
+	creating an optimized model of wing weight components for the drone, using a machine learning method, to generate a modified model;
+	storing the modified model in a database of all wing weights and wing loads for the drone,
+	wherein the wing weight components comprise at least one of a moment of the wing and a pitch of the wing;
+	determining a measure of a speed associated with the drone, using an engine speed sensor;
+	determining a measure of an inclination of the drone with respect to an orientation of the drone with respect to a ground surface, using an attitude sensor;
+	calculating an estimated wing weight component, using the moment of the wing and the attitude sensor; and
+	creating a novel wing weight component model from the wing weight component and the estimated wing weight component, using a machine learning method, to generate a novel wing weight component model.
+
+[ Batch 10 ]
+
+(1) Generated Patent Claim (kp, [2])
+
+A deep learning method for drones , comprising:
+	receiving a target object from a drone;
+	determining a plurality of locations of the target object;
+	determining a plurality of flight paths between the locations of the target object;
+	determining a plurality of distance measurements between the drone and the target object;
+	determining a plurality of target features from the plurality of distance measurements;
+	determining a plurality of flight characteristics of the drone;
+	determining a plurality of target feature shapes from the plurality of target feature shapes;
+	generating a target feature shape vector for the target object;
+	determining a plurality of target feature positions based on the plurality of target feature shape vectors;
+	determining a plurality of distance measurements between the target object and the plurality of target feature positions;
+	determining a plurality of target feature sizes from the plurality of distance measurements; and
+	determining a plurality of target feature size vectors for the target object.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones with a plurality of sensor systems, comprising a processing module:
+	a) receiving an observation result at the sensor systems;
+	b) identifying one or more sensor systems of one or more of the other sensor systems that have a known sensor system parameter associated therewith;
+	c) receiving an operational parameter at each sensor system of the one or more sensor systems;
+	d) receiving a first operational parameter at each sensor system of each sensor system of the one or more sensor systems, wherein the operational parameter is a parameter selected from the group consisting of speed of an aircraft, altitude of aircraft, and
+	time of flight of the aircraft;
+	e) receiving a second operational parameter at the one or more sensor systems;
+	f) evaluating a correlation between the first operational parameter and the second operational parameter at the one or more sensor systems;
+	g) generating, from the evaluation, an operational parameter value at the one or more sensor systems;
+	h) comparing a value of the operational parameter value at the one or more sensor systems with the first operational parameter value for each of a first subset of the sensor systems, wherein each sensor system in the first subset of the sensor systems is one of the one or more sensor systems;
+	i) generating a correlation for each of the first subset of the sensor systems; and
+	j) selecting one of the sensor systems having a correlation having a predetermined level of less than a predetermined threshold, thereby identifying one or more drones having the drone platform.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising the steps of:
+	Determining a velocity vector V0;
+	Determining a reference plane such that the center of the reference plane coincides with the velocities of position x and y in the reference plane;
+	Initializing a threshold range X for positive binocular error in the drone's coordination;
+	Determining a global standard deviation of negative binocular error Y;
+	Acquiring a velocity vector vmax by calculating the maximum velocity of the drone from the maximum velocity of the reference plane using the position x and the position y and the standard deviation of negative binocular error;
+	Estimating a negative binocular error y=X+Y and using this negative binocular error to update the threshold range X+Y by reducing the threshold range X to negative v max ;
+	Setting a first detector on a drone and enabling the first detector to detect the control signals resulting from the motions of the aircraft;
+	Evaluating the signals resulting from the motion of the first detector and removing the error that resulted from motion sickness and remaining error as the error of the autonomous or semi-autonomous robotic vehicle;
+	Based on the result of the evaluating, updating the radar on the basis of the updated threshold range X+Y by using the second detector;
+	Evaluating the updated radar and removing the remaining errors resulting from motion sickness and remaining errors, as the remaining errors of the autonomous or semi-autonomous robotic vehicle.
+
+[ Batch 11 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	a pre-processing step of performing a first step of pre-processing a first image to obtain a plurality of first image blocks;
+	an image-block-based deep learning step of performing a second step of performing a deep learning process using a second image block that is different from the first image block on the basis of the first image blocks obtained in the pre-processing step to obtain a plurality of second image blocks;
+	an image-block matching step of selecting a best image block from the second image blocks obtained in the deep learning process by matching a feature of the image block with a feature of the second image block, wherein the image-block matching step performs a first step of selecting the best image block by selecting a block of the second image block that has a greatest distance to a feature of the second image block, performs a second step of selecting the best image block by selecting a block of the second image block having a greatest distance to the feature of the second image block, and
+	performs a third step of selecting the best image block by selecting a block of the first image block that has the greatest distance to the feature of the second image block; and
+	an output step of outputting an image block that is selected in the image-block-based deep learning step,
+	wherein the image-block-based deep learning step comprises a step of selecting the best image block by using a distance between a feature of a corresponding pixel of the image block and a feature of a neighboring pixel.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , the method comprising:
+	a) generating by a computer a model comprising a plurality of nodes;
+	b) receiving by the computer a first input signal from a first drone and a second input signal from a second drone;
+	c) generating by the computer a plurality of first outputs; and
+	d) generating by the computer a second output in response to a plurality of second outputs, where the first input signal and the second input signal comprise a common input signal of the first output and the second output.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising:
+	receiving information that the respective aerial vehicle is in a heading out or heading toward a target;
+	generating an auxiliary orbit vector according to the heading, the target and a software module wherein the software module computes an adjustment vector according to: x + W ö ( x - μ 2 - 1 ) &#xf605rules [ 1 ] ö y + W  = ∑ i = 0 N - 1  σ  = ∑ i = 0 N - 1  and
+	⁢ x = sin - 1   x  ;
+	calculating an auxiliary tracking vector according to: V  = V ⁢ ⁢ N - ( 1 + V ⁢ ⁢ S N - 2 )  V  S V ⁢ ⁢ S ⁢ ⁢ N - 2 ; and
+	estimating an actual wing root velocity based on the auxiliary orbit vector.
+
+[ Batch 12 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	a) defining a set of parameters for the drone;
+	b) generating a model of the drone;
+	c) generating a set of parameters for a drone-based platform;
+	d) generating a set of parameters for a drone-based platform-based sensor system;
+	e) comparing the set of parameters for the drone-based platform and the set of parameters for the drone-based platform-based sensor system;
+	f) determining a set of parameters for the drone based platform based on the comparison;
+	g) determining a set of parameters for the drone-based platform based on the comparison;
+	h) comparing the set of parameters for the drone-based platform and the set of parameters for the drone-based platform-based sensor system;
+	i) determining a set of parameters for the drone-based platform based on the comparison; and
+	j) comparing the set of parameters for the drone-based platform and the set of parameters for the drone-based platform-based sensor system.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising the following steps in the following order:
+	A. to generate a plurality of images, wherein the image of a drone is selected from the above image and the image of a vehicle is selected from the above image,
+	B. to select the drone from the image of vehicle and to compare this image from step A with a target image of the drone to obtain a comparison error,
+	C. to select a target region within the reference image from step B and to generate a target map image,
+	D. to select the drone from the target map image and to compare this target map image to a reference map image,
+	E. to generate a reference region image,
+	wherein said reference region image is the image in which a part of the target region is positioned,
+	and wherein the step D further comprises the steps of:
+	D1. to generate a reference region image with a part of the drone, positioned in a part of the target region,
+	D2. to select a reference region template image of the reference region and to select a reference region template image of the target region,
+	D3. to select a reference region template image with the drone from step D2, and
+	D4. to determine the position of the target region based on the reference region image, and
+	E1. to generate a reference region map with the drone based on step E and step F.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , the method comprising:
+	generating a time-unique numeric query parameter value based on a portion of a multi-dimensional data structure representing a task, the task comprising a plurality of data elements representing a plurality of services and the time-unique numeric query parameter value representing a time value at which the task was generated;
+	receiving a time value at which the current time is;
+	querying a data structure representing a solution using the time value; and
+	communicating with a remote drone that, in response to the time value, follows a preconfigured sequence;
+	wherein the step of querying comprises:
+	obtaining the time value for the current time from the data structure;
+	querying the data structure to identify the required service based on the required data element of the required service, and
+	outputting a result of said querying;
+	wherein the step of outputting a result of said querying comprises:
+	creating a new result object having a data type corresponding to the time value; and
+	outputting the result of the query;
+	wherein the step of creating a new result object comprises:
+	receiving a new data structure comprising the required service;
+	associating the required data element with the new data structure; and
+	saving the new result object.
+
+[ Batch 13 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones comprising:
+	a) training of a classifier system, said training including a training set of training objects, each training object including a plurality of properties and a set of weights for each property;
+	b) using a computer processor, training the classifier system, said training including a training set of new objects, each new object being a new object including a plurality of properties and a set of weights for each property;
+	c) using a computer processor, determining the weight of each property in each new object in the training set, wherein determining the weight of each property includes using a set of weights of a previous object to calculate a set of weight values for each property in the previous object, wherein a set of weight values comprises a sum of weights of each object in the set, and
+	wherein the previous object was created prior to the set of weights for the object being trained in the training set;
+	d) calculating a first set of weights for each property in the new objects, wherein calculating the first set of weights includes calculating a new set of weights of a previous object based on the set of weights of the new object and a set of weight values of the previous object; and
+	e) calculating a second set of weights for each property in the new objects, wherein calculating the second set of weights includes calculating a new set of weights of the previous object based on the set of weights of the new object and a set of weight values of the new object; and
+	f) generating a first model that models a relationship between properties and weight values of the training set of objects and a second model that models a relationship between weight values and properties of the new objects.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising a) obtaining a first set of N images, b) selecting the N images to be used as the first set of N images and c) generating a second set of N images that are representative of a drone, the drone being represented by the first set of N images, where N is a positive integer;
+	d) determining a set of N weights that represent the drone using the N images of the second set; and
+	e) determining a weight for the drone based on the N images in the first set, using the weights in the determined set, wherein each of the second set of N images is representative of the drone.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising:
+	a forward data network (FNN) decision making process executing the step of:
+	applying a mask_gradient training function to a matrix mask obtained by mapping pairs of output vectors of a designated frequency partition to individual components of a respective set of output vectors, and
+	to a potential distribution of complex numbers defined by the vectors, wherein a mask_gradient gradient is computed by summation over the individual components of the matrix mask of a particular pair of output vectors of the frequency partition for which a corresponding potential distribution of complex numbers exceeds a threshold;
+	the forward data network (FNN) making a forward decision for a particular object, the process further comprising the step of:
+	repeating the forward data network (FNN) decision making process for each successive time interval, obtaining the distribution of complex numbers that corresponds to the matrix mask; and
+	the forward data network (FNN) making a reward-based decision for the particular object based upon the distribution of complex numbers computed from the matrix mask for each time interval.
+
+[ Batch 14 ]
+
+(1) Generated Patent Claim (kp, [2])
+
+A deep learning method for drones , comprising:
+	receiving a first plurality of images from a first camera, wherein the first plurality of images includes a first target;
+	receiving a second plurality of images from a second camera, wherein the second plurality of images includes a second target;
+	performing deep learning on the first and second pluralities of images to form a plurality of target pairs; and
+	comparing each of the plurality of target pairs to identify at least one common target.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising the steps of:
+	receiving a first signal from a first drone;
+	receiving a second signal from a second drone;
+	generating at least one first model of the first drone, the second drone, or a part thereof;
+	generating a third signal using the at least one first model,
+	wherein:
+	the at least one first model includes at least one of a noise, a signal intensity and a signal error;
+	the first and the second drones are equipped with a sensor; and
+	the third signal is generated based on at least one of the noise, the signal intensity and the signal error.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , the method comprising:
+	dividing the drone, in a full band mode, into a number of component drones, wherein each component drone is equipped with a laser engine, a towed module and a seeker arrangement,
+	converting data samples into code words indicative of a target location,
+	testing said code words by said laser engine of each component drone,
+	locating said target using said seeker arrangement of each component drone,
+	determining the location of said target using said seeker arrangement of each component drone,
+	identifying said target within said flight path using said code words and said response data from each component drone,
+	processing said response data of each component drone to identify said target, and
+	providing guidance to said target using said code words.
+
+[ Batch 15 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	generating a plurality of output signals from a first input signal, each of the plurality of output signals having a plurality of respective sub-bands,
+	generating a second input signal from the first input signal, the second input signal having a plurality of first sub-bands, each of the plurality of sub-bands having a plurality of respective values;
+	generating a plurality of output values by averaging the plurality of respective values for each of the plurality of output signals;
+	generating a plurality of output control signals by averaging the plurality of output values; and
+	generating a plurality of output output signals from the plurality of output control signals,
+	wherein the first sub-bands are within a first range of frequency bands, the second sub-bands are within a second range of frequency bands, and
+	the plurality of output output signals are generated from sub-bands within the second range of frequency bands,
+	wherein a frequency bandwidth of the first range of frequency bands is greater than a frequency bandwidth of the second range of frequency bands, and
+	wherein each of the plurality of output control signals is generated by averaging a portion of the plurality of output values for each of the plurality of output signals, and
+	wherein each of the plurality of output control signals comprises a plurality of values of the plurality of values for each of the plurality of output signals.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones by way of calculating at least one parameter for determining their relative motion between adjacent pairs of the drones, the method comprising:
+	a. generating a first image and a plurality of second images, wherein the first image corresponds to a first pair of drones and the second images correspond to a second pair of drones, wherein the first pair of drones and the first pair of drones are in motion, and
+	wherein a current position of the first pair of drones and the current position of the first pair of drones are on different planes;
+	b. calculating a plurality of first vector data for the first pair of drones and the plurality of second vector data for the second pair of drones, wherein the first vector data and the second vector data are for pairs of adjacent first and second drones in motion;
+	c. generating at least one first vector value from a first combination of the first vector data and a plurality of parameters for the first drone, wherein the first combination has a minimum value if the second pair of drones in motion are on opposite sides of the first pair of drones;
+	d. calculating a plurality of second vector data for the second drone, wherein the second vector data is calculated according to a second combination of the plurality of parameters, and
+	wherein the first and second values of the first vector data and the plurality of parameters for the first drone are adjusted based on the second vector data of the second drone;
+	e. calculating a plurality of second vector values from a second combination of the plurality of parameters for the second drone, wherein the second combination corresponds to the first combination if the first drone is in motion; and
+	f. determining a motion of the first pair of drones and the second pair of drones by summing the first vector values and the plurality of second vector values.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , with a utilization of the attribute of demand and the relationship of more than one source type and more than one destination type, the method being applied to a request to obtain from a source a plurality of delivery objects based on the demand for the corresponding destination type and the relationship, where the attribute of demand comprises a destination location and the attribute of destination type comprises demand of the destination location, the method comprising:
+	(A) receiving a destination-based demand,
+	(B) receiving a plurality of traveler types for each source type, and
+	(C) the attribute of demand determining a demand of the destination locations, whereinthe demand of each destination is related to a traveler;
+	(C) calculating for each traveler and destination location a corresponding demand of the demand by comparing the traveler's demand and the destination's demand;
+	(D) determining for each traveler the demand as a single demand, the demand as a single travel transaction, the demand as an individual trip, or the demand as a combination of multiple trips;
+	(E) generating a single list of delivered objects by summing the individual trips and aggregating the corresponding individual travel trips to generate a single list; and
+	(F) generating, by taking advantage of the single list, by ordering the delivery objects based on demand for the destinations.
+
+[ Batch 16 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones and their applications, comprising:
+	a) a first step of calculating a first feature vector and a second feature vector of a first image, each of the feature vectors is formed by a plurality of pixel values of the first image, and
+	the first feature vector and the second feature vector of the first image are different;
+	b) a second step of calculating a first feature vector and a second feature vector of a second image, each of the feature vectors is formed by a plurality of pixel values of the second image, and
+	the first feature vector and the second feature vector of the second image are different; and
+	c) a third step of calculating a first feature vector and a second feature vector of a third image, each of the feature vectors is formed by a plurality of pixel values of the third image, and
+	the first feature vector and the second feature vector of the third image are different.
+
+(2) Generated Patent Claim (k, [2])
+
+A deep learning method for drones , comprising:
+	obtaining a first video signal of the drone;
+	calculating a first weighting value for the first video signal in a first training set, wherein the first training set comprises a plurality of training videos and the first weighting value is determined by the first weighting value of each of the plurality of training videos in the first training set;
+	obtaining a second video signal of the drone, wherein the second video signal is captured after the first video signal is captured;
+	combining the second video signal with the obtained first video signal to obtain a combined video signal, wherein a second weighting value is determined according to a difference value according to frame differences between the combined video signal and the first video signal;
+	calculating a plurality of new weighting values according to the difference value between the combined video signal and the first video signal;
+	updating the second weighting value according to the plurality of new weighting values, and
+	the first weighting value, wherein the plurality of new weighting values is selected according to a result of comparing the first video signal and the second video signal.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , said method comprising:
+	providing an image representing a scene to a quadrature mapper;
+	receiving a drone target detection frame from the quadrature mapper, the drone target detection frame having a plurality of target regions;
+	translating the quadrature mapper and target detection frame into a plurality of superframes;
+	storing a local graph gradient frequency impulse response for the plurality of superframes;
+	generating a mask from the mask, the mask comprising mask pixels;
+	performing a mask plane transfer to the local graph gradient frequency impulse response to represent the pixels within the target regions, wherein performing the mask plane transfer comprises:
+	computing a general gradient frequency impulse response; and
+	computing the mask pixels using the general gradient frequency impulse response;
+	summing the mask pixels to form a current pixel value; and
+	comparing the current pixel value to the mask value to identify a minimum value to be zero to acquire a region including all pixels.
+
+[ Batch 17 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	a) receiving a first signal comprising a first image and a second image, the first image being a first image in a first image frame;
+	b) receiving a second signal comprising a second image and a third image, the second image being a second image in a second image frame, the third image being a third image in a third image frame, wherein the first image and the second image are different;
+	c) processing the first signal and the second signal to provide a first processor output signal and a second processor output signal, the first processor output signal comprising a first image quality indication and the second processor output signal comprising a second image quality indication;
+	d) comparing the first image quality indication and the second image quality indication, wherein comparing the first image quality indication and the second image quality indication comprises determining whether the first image quality indication and the second image quality indication are comparable;
+	e) processing the first processor output signal and the second processor output signal to provide a third processor output signal, the third processor output signal comprising a first drone performance indication and a second drone performance indication;
+	f) comparing the first drone performance indication and the second drone performance indication, wherein comparing the first drone performance indication and the second drone performance indication comprises determining whether the first drone performance indication and the second drone performance indication are comparable;
+	g) processing the third processor output signal to provide a fourth processor output signal, the fourth processor output signal comprising a first drone performance percentage indication and a second drone performance percentage indication;
+	h) processing the fourth processor output signal to provide a fifth processor output signal, the fifth processor output signal comprising a first drone weight indication and a second drone weight indication;
+	i) combining the first drone performance indication and the second drone performance indication and the third drone performance indication to provide a sixth processor output signal, the sixth processor output signal comprising a first drone weight percentage indication and a second drone weight percentage indication;
+	j) combining the first drone weight indication and the second drone weight indication and the third drone performance indication to provide a seventh processor output signal, the seventh processor output signal comprising a second drone weight indication and a third drone weight indication; and
+	k) combining the first drone weight percentage indication and the second drone weight percentage indication and the third drone weight indication and the fourth drone performance indication to provide a eighth processor output signal, the eighth processor output signal comprising a second drone weight percentage indication and a fourth drone weight percentage indication.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising:
+	generating a first set of parameters by an initial state machine learning technique on a state transition network of a state space, the network including a plurality of nodes, wherein a plurality of states are each defined by a set of the plurality of nodes;
+	generating a second set of parameters by a deep learning technique on the same network;
+	determining an optimal state for one or more drones by a deep learning method, the drone being determined to be the optimal state when the one or more drones are all in the optimal state;
+	calculating an optimal distance for the one or more drones from the optimal state to other drones;
+	generating a third set of parameters by a deep learning method on the same network, wherein the same initial state and a different set of nodes of the same network are used to calculate the same third set of parameters; and
+	calculating an optimal drone velocity for one or more drones from a combination of the first set of parameters and the third set of parameters to determine an optimal drone velocity for the drone.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising:
+	collecting technical data from each part of a base drone vehicle comprising a generator, an activator, a battery, a switch, and
+	an inlet rotor;
+	applying one or more neural networks to the technical data collected by each part of the base drone vehicle;
+	storing the technical data from each part of the base drone vehicle;
+	monitoring one or more requirements of each of the base drone vehicles based on the technical data stored in a memory;
+	generating a statement for each of the base drone vehicles comprising at least one prerequisite performed by one of the base drone vehicles required for becoming a ready-to-fly drone vehicle;
+	collecting an operating history of each of the base drone vehicles into a history file;
+	merging the technical data collected by each of the base drone vehicles based on the operating history of each of the base drone vehicles to form a combined technical data set;
+	comparing the combined technical data set to requirements of each of the base drone vehicles to form a combined comparison data set;
+	filtering the combined technical data set to generate a filtered technical data set based on the requirements of each of the base drone vehicles and classifying the technical data set as either ready-to-fly or error-free based on the results of the comparing the combined technical data set to requirements of each of the base drone vehicles;
+	creating a virtual flight simulator comprising one or more virtual flight simulator controls associated with each of the base drone vehicles; and
+	organizing the one or more virtual flight simulator controls into a single graphical display for each of the base drone vehicles to show a capability and capacity of each of the base drone vehicles.
+
+[ Batch 18 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	a) a first step of a drone to perform a first motion calculation for calculating a motion of the drone to a target;
+	b) a second step of the drone to perform a second motion calculation for calculating the motion of the drone to the target, the second motion calculation being performed after the first step;
+	c) a third step of the drone to perform a third motion calculation for calculating the motion of the drone to the target, the third motion calculation being performed after the second step;
+	d) a fourth step of the drone to perform an evaluation of the motion of the drone to the target, the fourth step being performed after the third step; and
+	e) a fifth step of the drone to perform a second evaluation of the motion of the drone to the target, the fifth step being performed after the fourth step,
+	wherein the first step, the second step, the third step, and
+	the fourth step are performed independently from each other.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising the steps of:
+	A. receiving a plurality of image samples of a scene;
+	B. dividing said scene into sub-scales;
+	C. training a deep neural network using said sub-scales of said scene to obtain a plurality of image features and image edge points; where said method further comprises the steps of:
+	D. training a deep neural network using a first subset of said sub-scales; and
+	E. applying said deep learning method to a second subset of said sub-scales, such that the deep learning method is applied to each of said sub-scales.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising the steps of:
+	defining a classifier for a drone, the classifier defining a new metaclass, and
+	an appropriate level of weighting to be assigned to the metaclass;
+	defining a reference field for the drone in a training sequence of events, the reference field having a training field size and a training threshold;
+	defining an implicit proxy object in the drone, and
+	recognizing the proxy object; and
+	performing a learned algorithm on the proxy object and the metaclass using the proxy object and the metaclass to derive a reference score for the proxy object and the metaclass.
+
+[ Batch 19 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising the steps of:
+	a) using a first deep learning model to create a first neural network comprising a plurality of neurons connected in a plurality of currents each having a current value;
+	b) using a second deep learning model to create a second neural network comprising a plurality of neurons connected in a plurality of currents each having a current value, wherein the plurality of neurons of the second deep learning model are connected in parallel with the plurality of neurons of the first deep learning model, wherein the current values of the plurality of currents are different and wherein the first and second neural networks are functionally equivalent; and
+	c) using the first and second deep learning models to estimate the value of each current of the plurality of currents to form a current estimate of the value of each current of the plurality of currents.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones to identify and track objects and other objects in a region of interest, comprising the following steps:
+	A) defining, by a processor, a plurality of parameters that define a parameter space that is a space having plurality of parameters that relate to objects and other objects in the region of interest, wherein each of the plurality of parameters is defined by one or more of:
+	i) shape,
+	ii) size, and
+	iii) location;
+	B) defining, by the processor, a quadratic function that relates to the parameter space;
+	C) determining, by the processor, a value of the quadratic function for a specific object; and
+	D) determining, by the processor, a value of the quadratic function for a plurality of objects,
+	wherein a plurality of values of the quadratic function are compared against each other to determine a value of said quadratic function that is indicative of a degree of match between the specific object and the parameters of the parameters that define the parameter space,
+	wherein a plurality of values of the quadratic function are determined to be identical to the values of the quadratic function associated with the quadratic function values for all objects and other objects in the parameter space, and
+	wherein the value of the quadratic function that is indicative of the degree of match between the specific object and the parameters of the parameters of the parameters space are calculated and stored at the processor, wherein the value of the quadratic function is a value of the quadratic function that is determined to be identical to the values for all objects and other objects in the parameter space.
+
+(3) Generated Patent Claim (p, [2])
+
+A deep learning method for drones by means of a beamformed Tensor Flow (BTF) application, wherein the following steps are carried out:
+	a) selecting a learning parameter for each window and a train of desired frames from the frames that are encoded in a plurality of chips, said learning parameter and the train of desired frames being selected on the basis of at least one non-related hardware component;
+	b) generating a matrix consisting of a block of the desired frames from the cells of the respective chips;
+	c) selecting a training frame of the respective chips that has the largest matrix element and modifying the matrix by replacing a matrix element of the training frame with the training parameter to obtain a modified matrix; and
+	d) displaying the matrix.
+
+[ Batch 20 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	generating a plurality of parameters in an array for a plurality of elements, wherein each element of the plurality of elements is a pair of transceiver elements in a multi-directional transceiver array, and
+	wherein each element has a respective signal to noise ratio (SNR) and a respective signal to interference ratio (SINR);
+	performing a first classifier on the plurality of elements to determine a first plurality of classifications of the plurality of elements based on the respective SNR and SINR of each element of the plurality of elements;
+	performing a second classifier on the plurality of elements to determine a second plurality of classifications of the plurality of elements based on the respective SNR and SINR of each element of the plurality of elements; and
+	determining a best classification of the plurality of elements based on a sum of the first and second plurality of classifications.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising:
+	receiving data related to a target;
+	determining a target position, target velocity, and
+	a target acceleration;
+	determining a velocity vector and a velocity vector;
+	determining a velocity acceleration vector;
+	determining a plurality of target vectors, each of said plurality of targeted vectors being associated with a different one of the plurality of determined acceleration vectors, each of said plurality of targeted vectors is calculated to calculate an average velocity;
+	determining a target location;
+	determining a plurality of target points on the target;
+	determining a target vector from the plurality of targeted points, the target vector calculated based on a location of the plurality of target points;
+	calculating the plurality of target velocity vectors for the plurality of determined target points, wherein the plurality of calculated target velocity vectors are associated with the plurality of targeted points;
+	determining a target point vector for each of a plurality of calculated target points; and
+	determining the location of the target.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones and extra-vehicle installations, the method comprising:
+	storing unit calibration and modification data with reference to at least one parameter value of each of the plurality of sensors and a parameter-setting setting for each sensor;
+	determining parameters of the plurality of sensors in turn, each parameter being an identification code of a corresponding sensor and each sensor being associated with an on-vehicle sensor, to thereby obtain a list of the plurality of sensors and the parameter-setting setting of each of the sensors;
+	selecting at least one sensor of the list of the plurality of sensors and the parameter-setting setting of each sensor for each given period of time;
+	for each given sensor of the list of the plurality of sensors and each given parameter setting of the sensor and the parameter setting setting thereof, performing the following:
+	selecting an activity of the given sensor;
+	associating the activity with the parameter setting and the sensor by the identification code, so that each parameter-setting and sensor activity is coded in a respective plurality of means, which are accessible through a respective parameter-setting setting, a respective sensor-activity identifier code and a respective sensor-activity type identification code;
+	comparing the activity associated with the parameter setting and the sensor-activity identifier code with the corresponding sensor-activity type identification code and the corresponding sensor-activity type identifier code, respectively; and
+	notifying the mode-switch means of a mode switch associated with the detected sensor-activity associated with the parameter-setting and sensor-activity identifier code.
+
+[ Batch 21 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising the steps of:
+	receiving data from a drone sensor, said data including a plurality of data points;
+	receiving data from a global positioning system (GPS) device;
+	generating a plurality of images of the ground based on the data from said drone sensor and the GPS device, wherein generating said plurality of images of the ground based on the data from said GPS device and the plurality of data points includes generating a plurality of aerial images of the ground based on the plurality of data points and generating a plurality of aerial images of the ground based on the plurality of aerial images of the ground based on the plurality of data points;
+	receiving data from a global positioning system receiver;
+	receiving data from a global positioning system transmitter; and
+	generating a plurality of aerial images of the ground based on the plurality of data points, said generating said plurality of aerial images of the ground based on the plurality of data points including generating a plurality of aerial images of the ground based on the plurality of data points and generating a plurality of aerial images of the ground based on the plurality of aerial images of the ground based on the plurality of data points.
+
+(2) Generated Patent Claim (k, [2])
+
+A deep learning method for drones using a plurality of sensors, comprising:
+	receiving sensor data from the plurality of sensors;
+	processing said sensor data;
+	selecting a plurality of parameters from the processed sensor data;
+	generating a plurality of parameter vector outputs, wherein each parameter vector output of the plurality of parameter vector outputs is an ensemble of the parameter vector outputs; and
+	performing a plurality of computations on the generated parameter vector outputs to produce a plurality of drone control signals.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , which comprises steps of:
+	defining a precoding matrix H and a local matrix B according to a transmitter output, the transmitter output being a channel matrix;
+	minimizing noise calculated in a channel analysis using a standard L2 mode and an error matrix (VR);
+	defining a constraint matrix C by eliminating a dimension of the low-pass filtered transmitter output;
+	integrating the model output of the precoding matrix H or the local matrix B according to a maximum expected output of the minimized noise to obtain a new precoding matrix H or a new local matrix B;
+	anda multidimensional decimation operation on the new precoding matrix H or the new local matrix B according to a vector from the maximum expected output to obtain a multidimensional decimated product;
+	wherein the dividing is performed in the presence of a filter adapted to perform the filter operation for a predetermined type of noise.
+
+[ Batch 22 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	receiving a first plurality of signals in a first receiver, each of the first plurality of signals corresponding to a respective first signal of a first plurality of signals generated by a respective first transmitter, the first plurality of signals corresponding to a first transmitter location, the first plurality of signals having been generated in a first plurality of different transmitter locations, wherein the first transmitter locations correspond to a first drone location;
+	receiving a second plurality of signals in a second receiver, each of the second plurality of signals corresponding to a respective second signal of a second plurality of signals generated by the respective second transmitter, the second plurality of signals corresponding to a second transmitter location, the second plurality of signals having been generated in a second plurality of different transmitter locations;
+	determining a first drone position based on the first plurality of signals and a second drone position based on the second plurality of signals, the first drone position being based on the first plurality of signals and the second drone position being based on the second plurality of signals;
+	generating a first drone signal based on a first signal of the first plurality of signals and a second signal of the second plurality of signals, the first signal having a first signal-of-the-first-plurality signal-generator and the second signal having a second signal-of-the-second-plurality signal-generator;
+	transmitting the first drone signal to the first transmitter location; and
+	transmitting the second drone signal to the second transmitter location, the second drone signal having a signal-of-the-second-plurality generated based on the second signal.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising:
+	a) obtaining an image, wherein the image comprises a ground surface;
+	b) generating a plurality of reference images, wherein respective ground surface images comprises a reference image corresponding to a reference ground surface;
+	c) computing a local ground-based surface-vector for each ground-based image;
+	d) computing local ground-based feature quantities, wherein the local ground-based feature quantities comprise a local ground-based noise quantity;
+	e) computing a cloud-based surface-vector for each cloud-based image, wherein a cloud-based image comprises a cloud-based image corresponding to a cloud-based ground surface;
+	f) calculating a cloud-based noise quantity for each cloud-based image, wherein a cloud-based noise quantity comprises a cloud-based noise quantity corresponding to a cloud-based ground surface;
+	g) combining the cloud-based ground-based noise quantity and cloud-based noise quantity according to the global ground-based noise quantity to obtain a cloud-based cloud-based noise quantity corresponding to the cloud-based ground surface;
+	h) comparing the cloud-based cloud-based noise quantity with a predetermined threshold for determining the cloud-based image is a cloud-based ground surface image; and
+	i) determining a ground-ground drone image corresponds with the ground-ground surface image.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising:
+	a center power calculation for obtaining a center power of a target drone;
+	an intersection power calculation for obtaining an intersection power for a neighboring quadcopter image;
+	a search compass calculation for obtaining a search compass power;
+	a search compass control unit for controlling the center power, the intersection power, the search compass power and the search compass power so as to find the center power closest to the target drone and for controlling the search compass control unit so as to increase the search compass power as the search compass power decreases;
+	an intersection power determination unit for determining whether or not the neighboring quadcopter image exists at the center of the intersection and for determining whether or not the intersection power closest to the target drone is smaller than a threshold value; and
+	an update power calculation unit for obtaining an updated search compass power in response to a determination that the neighboring quadcopter image does not exist at the center of the intersection and for controlling the update power so as to decrease the updated search compass power.
+
+[ Batch 23 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	a pre-processing step, to which an image of a target object is assigned, in which a pre-processing image of the target object is pre-processed;
+	a deep learning step, in which a deep learning function using a kernel is applied to the pre-processed image of the target object to perform a deep learning operation;
+	a first distance measurement step, in which a first distance is measured from the center of the target object to a point on a boundary of the target object;
+	a second distance measurement step, in which a second distance is measured from the center of the target object to a point on a boundary of the object; and
+	a result determination step, in which a distance measurement result between the center of the target object and the point on the boundary of the target object is determined,
+	wherein the method is performed using a processor.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising the steps of:
+	storing in an input buffer an image of a target, said target comprising an object to be detected or guided via GPS positioning,
+	performing a deep learning on the image and generating, by means of a trained deep learning network, an object image that represents the object or the object's infrastructure, and
+	displaying the image and the object image at an identical time, such that the target and the object image are identical in time.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising the following steps:
+	utilizing a classifier to classify a target drone into one of a plurality of possible target drones based on a value of a target parameter corresponding to a type of the target drone;
+	applying a reclassification operation to the target drone classifier to reclassify the target drone into one of the plurality of possible target drones based on the target drone parameter value; and
+	determining a type of the target drone based on the reclassified target drone parameter value.
+
+[ Batch 24 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones comprising the following steps:
+	1) acquiring a set of sensor data points from a plurality of sensor locations around an aircraft, the sensor data points each having a respective location with respect to the aircraft and a time stamp for the location;
+	2) using a computer to train a neural network based on the set of sensor data points from the aircraft, the neural network comprising a plurality of layers each comprising a plurality of recurrent neural network layers with a plurality of activations and a plurality of hidden classes, wherein the plurality of hidden classes comprises a default hidden class and a first hidden class that is associated with a first location in the sensor data set and is hidden from the rest of the plurality of layers;
+	3) using a computer to obtain a plurality of drone flight trajectories for a plurality of flights, wherein each of the plurality of drone flight trajectories is associated with the respective location in the sensor data set with a respective speed of the aircraft, wherein each of the plurality of drone flight trajectories is associated with a respective flight path on the aircraft;
+	4) using the computer to determine a value of a metric from the plurality of drone flight trajectories that is associated with the first hidden class by determining a similarity between the plurality of drone flight trajectories and the plurality of drone flight trajectories with respect to the respective flight paths and the respective speeds of the plurality of drone flights, wherein the value of the metric is associated with the first hidden class of the neural network; and
+	5) using the computer to identify a drone flight trajectory that has a value of the metric that is statistically significant based at least in part on the value of the metric for the default hidden class of the neural network, wherein the value of the metric is associated with the first hidden class of the neural network.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising the steps of:
+	receiving data representing a scene, the scene comprising one or more objects;
+	applying a deep model to the data;
+	receiving one or more images;
+	applying the deep model to the images to generate a deep image; and
+	storing the deep image;
+	wherein a weight is applied to the deep image, the weight being based on a probability of a desired drone location and/or a desired target object location, the weight comprising a set of weights for each possible drone location and target object location to be detected within a field, and
+	an order of the field;
+	wherein the applying a near image, a far image, a high intensity image, and
+	a lower intensity image, and
+	a near image, a far image, a high intensity image, and
+	a lower intensity image correspond to a plurality of objects;
+	wherein a first near image, a first far image, a second near image, and
+	a second far image are each received as a high intensity image and a low intensity image;
+	wherein a first set of weights is applied to the first near image, a second set of weights is applied to the second near image, a second set of weights is applied to the first far image, a third set of weights is applied to the second far image, a third set of weights is applied to the first low intensity image, a fourth set of weights is applied to the second low intensity image, and
+	a fifth set of weights is applied to the first high intensity image, respectively;
+	wherein the high intensity image and the low intensity image have a resolution, wherein the resolution is the same as the low intensity image or the high intensity image; and
+	wherein a plurality of object locations are generated, the plurality of object locations being associated with a plurality of drone locations, each object location having at least one object in the low intensity image and at least one object in the high intensity image;
+	the step further comprising the steps of:
+	for each object location, applying the first low intensity image to the object location and applying the second low intensity image to the object location, and
+	applying the first high intensity image to the object location and applying the second high intensity image to the object location so that all objects are covered by the first set of weights and all objects are covered by the second set of weights, respectively.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising the steps of:
+	receiving a data segment associated with a target type, wherein the data segment comprises a plurality of target points, wherein the target point comprises a location of the drone in a mission of the drone;
+	computing a frame rate corresponding to the data segment;
+	assigning the target point to one of the drones;
+	assigning a frame rate to one of the drones, wherein the frame rate assigned to the one of the drones meets or exceeds the frame rate computed for the data segment;
+	determining a gap for one of the drones, wherein the gap is an amount of a change in the frame rate of the one of the drones compared to the frame rate computed for the data segment;
+	comparing the gap to a predetermined value;
+	combining one of the one or more drones based at least in part on the comparison;
+	performing one or more deep learning processes associated with the target type of the one of the one or more drones, wherein performing the deep learning processes comprises:
+	performing an identification process;
+	performing a sparse loss registration process, if the identification process failed to identify any weak points in the one of the one or more drones; and
+	performing a classification process.
+
+[ Batch 25 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	a preprocessing step for pre-processing an image, said preprocessing step comprising:
+	providing a plurality of image frames each having a plurality of frames;
+	determining an average frame length of each image frame;
+	determining an average pixel value of each frame;
+	determining a plurality of average pixel values for each frame, said average pixel value being the pixel value of a pixel at a corresponding one of the plurality of average frame lengths;
+	determining a plurality of average pixel values by summing the plurality of average pixel values;
+	determining a plurality of frames, each of which comprises a plurality of average pixel values;
+	determining a plurality of average pixel values by summing the plurality of average pixel values, each average pixel value being for a corresponding one of the plurality of average frame lengths; and
+	determining a plurality of average pixel values by determining the average pixel value of a frame according to a corresponding one of the plurality of average pixel values, and
+	summing the average pixel values for the frame, wherein the step of determining the plurality of average pixel values by summing the plurality of average pixel values is performed using a computer processor.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising:
+	defining a plurality of parameters, each parameter having associated therewith a set of parameters;
+	defining a plurality of functions, each associated function having associated therewith a set of functions;
+	generating a plurality of first data structures, each first data structure associated with one of the set of parameters;
+	generating a plurality of second data structures, each associated with one of the set of functions;
+	comparing the first data structures and the second data structures to determine a similarity score associated with the plurality of first and second data structures; and
+	identifying at least one of the first data structures and at least one of the second data structures as being similar based upon the similarity score,
+	wherein generating a plurality of first data structures associated with one of the set of parameters comprises generating the first data objects by performing a data de-duplication search using the parameters associated with the parameters, and
+	wherein generating the plurality of first data structures associated with one of the set of functions comprises generating the first data objects by performing a data de-duplication search using the functions associated with the functions, and
+	wherein identifying at least one of the first data structures and at least one of the second data objects as being similar based upon the similarity score includes identifying at least one of the first data structures associated with an input parameter by analyzing the parameters associated therewith and at least one of the second data structures associated with a corresponding one of the functions by analyzing the functions associated therewith.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising:
+	determining a control performance parameter for each of a plurality of control parameters;
+	determining a value of a target global objective;
+	estimating a time window;
+	determining a maximal necessary total time value for achieving the control performance parameter; and
+	if there are no time window solutions, collecting results of following a novel level, wherein,
+	if there is a number of time window solutions, the time window is determined from a minimum distance between the corresponding drone and the smallest member of the given objects, wherein the smallest member is the member closest to the drone in the time window, and
+	the maximum value of the time window is determined by a least distant member; orif there is not a number of time window solutions, a number of solutions which is determined according to the following formula is 2:
+	ID0>
+	1×
+	ID0≦
+	B,
+	wherein ID0 represents the drone; ID1 represents the object; ID2 represents the smallest member of the given objects; and
+	B represents the maximal necessary total time.
+
+[ Batch 26 ]
+
+(1) Generated Patent Claim (kp, [2])
+
+A deep learning method for drones , comprising:
+	a. defining a plurality of sub-tasks, the plurality of sub-tasks comprising:
+	i. a sub-task specification;
+	ii. a desired time period for the sub-task;
+	b. defining a plurality of data sets, each data set corresponding to one of the plurality of sub-tasks;
+	c. defining a plurality of data structures corresponding to the plurality of data sets, wherein each data structure corresponds to a data structure of the plurality of data structures;
+	d. defining a plurality of sub-tasks, wherein a sub-task of the plurality of sub-tasks comprises a plurality of data elements;
+	e. defining a plurality of data constraints;
+	f. defining a plurality of data connection rules, wherein each data connection rule corresponds to a data connection rule of the plurality of data connection rules;
+	g. defining a plurality of tasks, wherein each task of the plurality of tasks comprises a plurality of data elements; and
+	h. defining a plurality of rules for processing the plurality of data elements of the sub-task.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising:
+	providing an application framework for the drones, wherein the application framework comprises one or more applications, which may be executed simultaneously;
+	providing a training environment to allow a user to learn about the applications, wherein the training environment comprises a user's own home;
+	providing a user interface to facilitate the user to learn the one or more applications;
+	wherein the training environment comprises a home for a user to learn the one or more applications; and
+	wherein a number of training modules are provided for the user, each comprising:
+	a plurality of training objectives to be completed at a particular time;
+	a plurality of training tasks for the user to complete;
+	a plurality of feedback messages, wherein each feedback message of the plurality of feedback messages is directed to a specific application of the one or more applications and includes a feedback value for the specific application; and
+	a user interface to allow the user to view the completed objectives and tasks and to review and update the ones selected from the group consisting of training data, tasks, and
+	feedback messages, wherein the user interface is displayed in a real-time display mode and in a timeline mode.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones in a navigation system comprising the steps of:
+	(1) acquiring a first vector that represents a position of the drone;
+	(2) acquiring a second vector that represents a direction of gravity or magnetic field;
+	(3) downloading the first and second vectors into a first computer having a processor and memory;
+	(4) using the first computer to estimate a rotational value and a vector value in a plurality of two-dimensional x, y, and
+	z coordinate planes, by, for each direction of gravity or magnetic field of said first vector, multiplying the first vector by said direction of gravity or magnetic field, and
+	dividing by the vector value in said two-dimensional plane;
+	(5) using the processor to estimate a magnitude of said vector value and a vector direction for each direction of gravity or magnetic field in said plane, by adding the estimated magnitude to the vector direction value;
+	(6) using the processor to calculate estimated rotational values for both x, y, and
+	z directions for a set of directions of gravity or magnetic field that includes said first vector, by applying a dimensionality reduction to each of the estimated rotational values for each direction of gravity or magnetic field; and
+	(7) using the processor to calculate estimated rotational values for both x, y, and
+	z directions for a set of directions of gravity or magnetic field that include both said first vector and another vector with the same direction as said first vector, by calculating a weighted vector by applying a dimensionality reduction to each of the estimated rotational values for each direction of gravity or magnetic field, the weight value being proportional to the difference between each calculated rotational value and its corresponding estimated rotational value, multiplied by the vector direction for each direction.
+
+[ Batch 27 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	a) receiving an input image of a scene with a plurality of objects;
+	b) training a deep learning system to recognize the input image as a training image, by performing deep learning on the input image, the deep learning system comprising a plurality of neural networks each comprising a plurality of layers, each layer of the plurality of layers comprising a plurality of layers of the plurality of layers of the deep learning system and each layer of the plurality of layers of the deep learning system comprising a plurality of layers of the plurality of layers of the deep learning system, each layer of the plurality of layers of the deep learning system comprising a training image layer and a reference image layer, and
+	a plurality of layer-wise training images and a plurality of reference images are inputted to each of the plurality of layer-wise training images; and
+	c) after the training of the deep learning system to recognize the input image as the training image, the deep learning system computes a motion vector of the input image, and
+	performs the motion vector computation on a plurality of reference images, thereby obtaining the motion vector for each reference image of the plurality of reference images;
+	wherein the motion vector is the motion vector between the plurality of objects in the scene.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising:
+	receiving, via at least one processing unit, a first value, a second value, and
+	a third value,
+	wherein the first value is a value representing a weight of importance of each of the first, second, and
+	third values in a value space;
+	extracting, via the at least one processing unit, an object from the value space, wherein the object represents at least one object in a plurality of objects;
+	extracting, via the at least one processing unit, a plurality of subobjects from the value space based on an association between the object and one of the first, second, and
+	third values, each of the plurality of subobjects corresponding to at least one object in the plurality of objects; and
+	generating a plurality of objects, wherein each of the plurality of objects is associated with one of the plurality of subobjects.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising the steps of:
+	training a plurality of deep learning networks for aerial vehicle tracking by performing a Batch Neural Network (BNN) process using a digital signal processor, wherein the BNN process uses a feedback network;
+	receiving at the digital signal processor image information corresponding to a stationary target;
+	creating a corrected target image with high resolution by correcting the image information;
+	using a visual detector to detect a known drone and a known stationary target;
+	generating a track image with high resolution by the digital signal processor;
+	calculating a velocity correction value for the drone by applying an iterative stochastic process to the corrected target image;
+	performing the velocity correction value on the swarm data by applying a fixed random number multiplier to a velocity correction value; and
+	searching for and collecting the drone according to the calculated velocity correction value.
+
+[ Batch 28 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	receiving a first data set of data points corresponding to a first data point of the first data set and a second data point of the first data set;
+	computing a first local representation of a first data point score vector, wherein the first data point score vector is determined by applying a sparse inverse discrete cosine transformation to the first data point score vector, and
+	wherein the score vector is a set of one or more scores between a threshold value and the first data point score vector;
+	computing a second local representation of a second data point score vector, wherein the second data point score vector is determined by applying a sparse inverse discrete cosine transformation to the second data point score vector;
+	determining a local similarity measure between the first local representation and the second local representation; and
+	adjusting the threshold value based upon the local similarity measure.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising;
+	obtaining a plurality of images of a region with a drone;
+	generating an image based on the plurality of images with a first classifier;
+	obtaining a region with a drone with a sensor with a second classifier;
+	generating an adjusted image based on the plurality of adjusted images and the plurality of images with the second classifier;
+	obtaining a region with a drone with a sensor with a third classifier, wherein a first sensor is used to obtain the adjusted image;
+	generating one or more new images based on the plurality of images with the third classifier; and
+	generating one or more new images using the modified adjusted image.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising the steps of:
+	training a classifier for drones using learning virtual combinatorial objective functions and user output by means of the following data stream:
+	[Student(s), d], [Direction[y]] = α D y ⁢ D 0 ⁢ D _ ⁢ D _ ⁢ D _ ,
+	where y is a vector {x:
+	1, x:
+	2, x:
+	3, . . . , x:
+	Dn(y, y⊘
+	1)}, where n is an integer and Dn is a user-defined operation;
+	creating a database with the user output of the classifier;
+	performing artificial neural networks for the classifier using the user output of the classifier, wherein the artificial neural networks are configured to use a matrix product of the matrix product of a dimer matrix and a vector of output values of the classifier; and
+	training a new classifier using the artificial neural networks.
+
+[ Batch 29 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones comprising the following steps of:
+	(A1) training a deep learning system by a set of training examples and an initial training matrix;
+	(A2) training a neural network based on the set of training examples and the initial training matrix, thereby obtaining a plurality of training features for each training example;
+	(B) extracting a plurality of flight characteristics from each training example; and
+	(C) selecting the training feature from each training example, thereby obtaining a plurality of flight characteristics of the selected training feature.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones , comprising:
+	determining a plurality of drone model parameters based on a plurality of image data sets to form a plurality of drone model outputs;
+	applying a first set of deep learning techniques to the drone model outputs in a series of iterations to generate a plurality of deep learned parameter (DBL) output outputs; at least one of the deep learning techniques is applied to a plurality of the drone model parameters using a different one of the drone model parameters than the others; and
+	at one time combining the DBL output outputs to create a plurality of deep learning parameter output outputs.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones by generalization to robots, comprising the following steps:
+	a. Distributing n n-stage deep learning units into the robots, and
+	sampling the n n n-stage deep learning units until convergence or convergence is reached, wherein n is an integer larger than 1;
+	b. Algebraically combining the n n-stage deep learning units, by multiplying them to get a new n-stage deep learning unit, and
+	applying vector transformation to the new n-stage deep learning unit, to get a new n-stage robot;
+	c. Defining the new n-stage robot in terms of n n-stage deep learning units of this n-stage robot, which are constant in size during computation.
+
+[ Batch 30 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A deep learning method for drones , comprising:
+	providing a set of reference frames, wherein each frame is comprised of a number of reference points, wherein the reference points are labeled with a set of reference points' weights, and
+	wherein the set of reference points' weights are based on a set of reference frames;
+	receiving an image of the area of interest, wherein the image includes a plurality of frames;
+	calculating a set of edge intensity values for the set of reference frames;
+	calculating a set of edge weights for each of the plurality of frames based on the set of edge intensity values;
+	calculating a set of edge derivatives for each of the plurality of frames based on the set of edge weights;
+	calculating an edge mask based on the set of edge derivatives;
+	performing a deep learning on the set of reference frames, the set of edge weights and the edge mask to determine a set of edge masks for the set of reference frames; and
+	performing a deep learning on the set of reference frames, the set of edge weights and the edge mask to determine an edge mask for the set of reference frames.
+
+(2) Generated Patent Claim (k, [1])
+
+A deep learning method for drones by using a drone having a processor to process data of the drone to generate image data of an image of the vicinity of the location;
+	a drone image acquisition module for executing acquisition of the image data using the processor; and
+	a drone location module for generating image data of the vicinity of the location, and
+	wherein the drone image generation method is implemented by using the drone image acquisition module and the drone image data.
+
+(3) Generated Patent Claim (p, [1])
+
+A deep learning method for drones , comprising:
+	a feature point pattern module processing a recurrent space type feature point pattern using a matrix factorization process in order to output a plurality of feature points, and
+	using an optimal combination of the feature point pattern and a plurality of parameters, and
+	a scanning vector number module, performing scanning vectors for selecting a scanning vector number in an order from low to high;
+	a batch module processing a plurality of items for performing a batch process in the order from high to low;
+	a convergence module processing a plurality of convergence criteria for performing convergence criteria; and
+	a result output module processing a plurality of results;
+	wherein the scan vector number module additionally selects the scanning vector number, and
+	when the scanning vector number is equal to zero, a scanning vector number is selected as the scanning vector number.

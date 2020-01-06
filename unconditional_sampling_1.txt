@@ -1,0 +1,1121 @@
+* Unconditional Sampling
+
+[ Batch 1 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method for a mobile station to communicate with a base station in a wireless communication system, the method comprising:
+	transmitting, to the base station, a first request to enter a high power state, wherein the first request is received according to an operating state;
+	receiving, from the base station, a second request to enter the high power state, wherein the second request is received according to a standby state;
+	determining whether the mobile station is in the standby state; and
+	entering the high power state upon determining that the mobile station is in the standby state.
+
+(2) Generated Patent Claim (k, [1])
+
+A power source for a motor, comprising:
+	a primary power source, which generates a direct current output;
+	an inverter circuit including a high frequency power switch which receives the direct current output from the primary power source and which switches the direct current output from the primary power source to generate a high frequency output;
+	a rectifying circuit for rectifying the high frequency output of the inverter circuit; and
+	a load circuit electrically connected with the inverter circuit and a battery, the load circuit receiving a voltage output of the battery in parallel with the rectifying circuit, and
+	the primary power source and the load circuit being connected in parallel with each other.
+
+(3) Generated Patent Claim (p, [1])
+
+A system for measuring a maximum lateral displacement of a ball in a tennis set, the system comprising:
+	a device comprising:
+	a frame configured to position the ball;
+	a substrate mounted on the frame, the substrate including a first surface arranged to contact an individual's ball and to enable responsive measurement of a physical parameter by the individual of a position on the first surface;
+	a sensor positioned relative to the first surface to generate a signal indicative of the physical parameter of the individual; and
+	a mount configured to support the substrate;
+	wherein the mount is configured to receive the ball therebetween and to support the substrate;
+	wherein the sensor is a surface position sensor to measure a vertical distance between the individual's ball and the surface on which the individual is standing;
+	wherein the surface on which the individual is standing includes a designated surface angle relative to a reference plane perpendicular to the surface on which the individual is standing;
+	wherein the sensor is disposed in proximity to the designated surface angle;
+	wherein the physical parameter of the individual is based on the surface position of the sensor, and
+	the measured surface position of the sensor;
+	wherein the system is configured to allow the measurement of the physical parameter based on a specification of a motion of the ball; and
+	wherein the specification of the motion of the ball is based on the reference plane.
+
+[ Batch 2 ]
+
+(1) Generated Patent Claim (kp, [2])
+
+A method of monitoring a health of a motor vehicle comprising the steps of:
+	operating a vehicle in a state of charge of the motor vehicle, the vehicle being in a charging station, the vehicle being driven by a battery;
+	determining an estimated remaining driving range;
+	determining a current driving range;
+	comparing the estimated remaining driving range with the current driving range to determine an error; and
+	changing the state of charge of the vehicle from the charging station if the error exceeds a threshold value;
+	wherein the vehicle is operated in a charge state when the battery is charging the vehicle, and
+	the vehicle is operated in a de-charge state when the battery is not charging the vehicle.
+
+(2) Generated Patent Claim (k, [1])
+
+An apparatus for the treatment of wounds in human foot-operated dental devices, the apparatus comprising a base member with at least one opening, at least one support member connected to the base member at a proximal part thereof and to a plurality of longitudinal members extending outwardly therefrom, a plurality of longitudinal grooves formed in each of the longitudinal members and each of the longitudinal grooves being adapted to engage a wound dressing, at least one connecting member extending through the plurality of longitudinal grooves in each of the longitudinal members and being connected in a positionally fixed manner to the base member to form a single unit with each other, a cover plate with at least one opening being formed in an interior of said cover plate and being connected with a top surface thereof to form a closed-loop space for enclosing an interior of the base member, and
+	an actuator connected at a top end thereof with the base member and movable therethrough to move the base member and the plurality of longitudinal members relative to each other; wherein an outer side of the plurality of longitudinal members and an inner side of the cover plate are connected with each other, said plurality of longitudinal members and said base member being arranged and configured to receive a wound dressing, said wound dressing having a plurality of wound dressing holes arranged around a central region of a circumference thereof, said plurality of longitudinal members each having a longitudinal groove formed therein, said longitudinal grooves being adapted to engage wound dressing holes, said plurality of longitudinal members each being formed with at least one longitudinal recess formed therein and being adapted to be received in a respective one of said longitudinal grooves of a first one of said longitudinal members and adapted to be connected with a second one of said longitudinal members and to form a single unit therewith.
+
+(3) Generated Patent Claim (p, [1])
+
+An apparatus for providing buffered data transfer on a data network, the apparatus comprising:
+	a master device comprising a service provider computer to control the buffered data transfer;
+	a plurality of slave devices, each slave device linked to the master device via a private network and comprising a client application, the client application to monitor the data network and to request a buffered data transfer; and
+	wherein each slave device is assigned an address in a memory of the slave device, the address in the memory of the slave device being independent of the address of the master device.
+
+[ Batch 3 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A system comprising:
+	a first mobile device including:
+	an input device to receive inputs from a user of the first mobile device;
+	a wireless transceiver; and
+	a display device,
+	wherein the input device includes a first area to receive selections from the user and a second area to display information to the user;
+	wherein the input device is configured to receive, via a first user input, selection input from the user to change a setting for a first setting of the first mobile device,
+	wherein the first mobile device is configured to receive, via a second user input, a selection input from the user to change a setting for a second setting of the first mobile device, and
+	wherein the first and second mobile devices are configured to operate in a mode of operation in which the first setting is different than the second setting, wherein the first setting is at least one of a volume level or a camera settings setting,
+	wherein the input device is configured to receive a first location identifier and a second location identifier, wherein the first and second location identifiers are stored in a database, wherein the first location identifier corresponds to the first location of the first mobile device and the second location identifier corresponds to the second location of the first mobile device,
+	wherein the input device is configured to receive a third location identifier, wherein the third location identifier corresponds to a location of the second mobile device, and
+	wherein the first and second mobile devices are further configured to operate in a mode of operation in which the first setting is different than the third setting, wherein the first and second settings are different than each other.
+
+(2) Generated Patent Claim (k, [1])
+
+A method for processing an audio or visual signal to improve the quality of the audio or visual signal, the method comprising:
+	processing an audio signal in accordance with a first bandwidth and/or a first type of signal, the first bandwidth and/or first type of signal comprising a first bandwidth of at least 100 kHz and a second bandwidth of at least 100 kHz, wherein the second bandwidth is different from the first bandwidth;
+	processing a visual signal in accordance with a second bandwidth and/or a second type of signal, the second bandwidth and/or second type of signal being different than the first bandwidth and/or of the first type;
+	generating an output signal based on the processed signal, the output signal comprising a combination of the processed audio signal and the processed visual signal.
+
+(3) Generated Patent Claim (p, [1])
+
+A dehumidification system for an aircraft cabin, comprising:
+	a panel having a surface on one side for forming a planar flow path and an opposite surface for increasing the surface area of the panel and form the surface homogeneous to the flow path; and
+	at least one integral hydrophilic seal associated with the panel for increasing the surface area of the panel and form the surface homogeneous to the flow path;
+	wherein the panel includes a first sheet and a second sheet adjacent the first sheet, the first and second sheets each having an interlayer seal coating on their surfaces, each interlayer seal coating having an adhesive surface opposite the surface on which the seal forms on the surfaces of the first and second sheets;
+	wherein the panel includes a seal formed of an interlayer seal material, the seal having a hydrophilic seal surface and having hydrophobic seal surfaces, with the hydrophilic seal surfaces homogeneous to the hydrophilic seal surface and the hydrophobic seal surfaces homogeneous to the flow path; and
+	wherein the surface on one side of the panel for forming the flow path is essentially applied to the surface on the opposite surface for increasing the surface area of the panel.
+
+[ Batch 4 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method comprising:
+	receiving a packet at a network interface device, the packet having a plurality of data packets, each of the plurality of data packets having a plurality of data segments;
+	dividing each of the plurality of data segments into a plurality of segments;
+	forming a plurality of payloads from each of the plurality of data segments, each of the plurality of payloads having one of the plurality of segments; and
+	transmitting the plurality of payloads to a destination device, each of the plurality of payloads including at least one payload segment having one of the plurality of segments.
+
+(2) Generated Patent Claim (k, [3])
+
+A semiconductor device, comprising:
+	a first semiconductor layer having a first conductivity type;
+	a first layer having a second conductivity type;
+	a second layer having a third conductivity type, wherein the second layer is disposed between the first semiconductor layer and the first layer;
+	first and second electrodes formed over the first and second layers at a first surface of the first semiconductor layer, respectively; and
+	first and second semiconductor regions disposed over the first and second electrodes, respectively;
+	wherein the first and the second electrodes have a first conductivity type, a second conductivity type, and
+	a third conductivity type, respectively;
+	wherein the first and the second electrodes and the first and the second semiconductor region are in contact; and
+	wherein the first and the second semiconductor region are in contact with the first and the second electrodes, respectively, at different levels.
+
+(3) Generated Patent Claim (p, [1])
+
+A process for the preparation of (R,
+	S)-lactide by means of tartaric acid esterification using MOPS, wherein the process comprises(a) treating lactide solution or a lactide-containing solution with aqueous acetic acid or a saturated saturated aqueous solution of hydroxy-α
+	-olefinic acid and sulfate to form a primary lactide solution, wherein the ratio of said lactide to acetic acid is from 5:
+	1 to 1:
+	10, and
+	a ratio of said saturated aqueous solution of hydroxy-α
+	-olefinic acid to sulfate is from 2:
+	1 to 5:
+	1;
+	(b) treating said primary lactide solution or said lactide-containing solution with aqueous acetic acid and sulfuric acid;
+	(c) treating said primary lactide solution or said lactide-containing solution treated with acetic acid with steam treatment in an enclosed volume at a temperature of from 20° C. to 120° C.; and
+	(d) controlling the pH of said primary lactide solution or said lactide-containing solution treated with sulfuric acid, in order to obtain a lactide-3 solution, which is obtained by adding acetic acid at a pH of from 4.0 to 6.0 to the lactide-3 solution.
+
+[ Batch 5 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method of driving a light source, the method comprising:
+	generating a pulse train comprising a plurality of pulses;
+	applying the pulse train to the light source so as to emit light of a first wavelength band;
+	applying a first reference voltage to a first power supply line and a second power supply line connected to a plurality of LEDs, so as to supply the LEDs with first reference voltage values;
+	applying a second reference voltage to a second power supply line and a third power supply line connected to a plurality of LEDs, so as to supply the LEDs with second reference voltage values;
+	applying a third reference voltage to a first LED connected to a first LED line connected to the LEDs and a second LED connected to a second LED line connected to the LEDs, so as to supply the LEDs with third reference voltage values, wherein the first reference voltage values and the second reference voltage values are different from each other;
+	adjusting the LEDs based on a difference between the first reference voltage values and the second reference voltage values; and
+	driving the light source based on a difference between the third reference voltage values and the second reference voltage values.
+
+(2) Generated Patent Claim (k, [1])
+
+A compound of formula (I-A):
+	wherein R1 is hydrogen, C1-C6 alkyl, C3-C6 monocyclic cycloalkyl, C1-C8 alkyl substituted with up to three halogens, C1-C8 monocyclic cycloalkyl, or C1-C8 polycyclic cycloalkyl;
+	R2, R3 independently from each other and when available, are hydrogen, C1-C6 alkyl, C3-C6 monocyclic cycloalkyl, C1-C8 alkyl substituted with up to three halogens, C1-C8 monocyclic cycloalkyl, or C1-C8 polycyclic cycloalkyl;
+	R6 is hydrogen, C1-C6 alkyl substituted with up to three halogens, C1-C8 monocyclic cycloalkyl, or C1-C8 polycyclic cycloalkyl;
+	R7 is hydrogen, C1-C8 alkyl, C1-C8 monocyclic cycloalkyl, C1-C8 alkyl substituted with up to three halogens, C1-C8 monocyclic cycloalkyl, or C1-C8 polycyclic cycloalkyl;
+	m and n independently from each other are 0, 1, 2, 3, or 4;
+	p is 0, 1, 2, or 3;
+	wherein the compound of formula (I-A) is in the form of a free compound, a racemate, or in the form of a mixture of at least two free compounds of formula (I-A).
+
+(3) Generated Patent Claim (p, [1])
+
+A stereoscopic image display device for displaying a stereoscopic image by combining a plurality of image signals having different types of image colors, comprising:
+	a three-dimensional display panel which allows viewing the stereoscopic image and generates the plurality of image signals, said three-dimensional display panel having a first image signal output and second image signal output; and
+	a polarization beam splitting element on which image signals corresponding to the plurality of image signals having different types of image colors generated by the three-dimensional display panel are input, the polarization beam splitting element splitting the input image signals into two-dimensional polarization beam signals and reflecting two-dimensional polarization beam signals output from the three-dimensional display panel,
+	wherein the two-dimensional polarization beam signals reflect the plurality of image signals having different types of image colors by the polarization beam splitting element to the first image signal output,
+	wherein the polarization beam splitting element reflects a color image signal having the same color as a color image signal reflected from the polarization beam splitting element to the second image signal output, and
+	wherein, when said polarization beam splitting element is arranged in front of said three-dimensional display panel, the polarization beam splitting element transmits a plurality of image signals having different types of image colors and the two-dimensional polarization beam signals to the first image signal output of said three-dimensional display panel and the second image signal output of said three-dimensional display panel.
+
+[ Batch 6 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A system comprising:
+	a computer;
+	a first memory;
+	a first computer-readable medium;
+	a first program stored on the first memory, wherein the first program, when executed on the first computer, causes the first computer to perform operations comprising:
+	storing a first identifier in association with a first document identifier;
+	receiving an indication of a first data request for the first document identifier, wherein the first data request is from the first computer to a second computer;
+	accessing a second memory associated with the second computer, wherein the second memory includes a plurality of records;
+	comparing the first identifier with the plurality of records of the second memory to determine whether the first data request is eligible for processing; and
+	processing the first data request for the first document identifier if the first identifier is eligible for processing;
+	wherein the first program, when executed on the first computer, causes the first computer to perform operations comprising:
+	storing a first modification in association with the first identifier;
+	receiving an indication of a second data request for the first document identifier, wherein the second data request is from the first computer to the second computer;
+	accessing the second memory associated with the second computer, wherein the second memory includes a plurality of records;
+	comparing the first modification with the plurality of records of the second memory to determine whether the first data request is eligible for processing; and
+	processing the first data request for the first document identifier if the first modification is eligible for processing.
+
+(2) Generated Patent Claim (k, [1])
+
+An apparatus to control a display on an electronic device, the apparatus comprising:
+	a control device configured to receive input from an input unit;
+	an image generating unit configured to generate an original image;
+	a storage unit configured to store an original image, a plurality of sets of image data of the original image, and
+	a plurality of control signal sets of the plurality of sets of the image data of the original image; and
+	an image control unit configuredto acquire a reference image and control the control signal sets corresponding to the original image from the storage unit,
+	to obtain a target pixel of the original image corresponding to the plurality of sets of the image data, the plurality of sets of the image data, and
+	the control signal sets corresponding to the original image corresponding to the storage unit,
+	to generate a control signal for the plurality of sets of the image data,
+	to generate a plurality of image data of the reference image using the original image, the plurality of sets of the image data, and
+	the control signal sets, and
+	to store the plurality of image data generated using the original image, the plurality of sets of the image data, and
+	the control signal sets in the storage unit, and
+	to generate a new control signal for the plurality of sets of the image data, based on the reference image, the plurality of image data of the reference image, the control signal sets, and
+	the plurality of control signal sets,
+	wherein each of the plurality of sets of the image data is used to generate a plurality of different color display images,
+	wherein the plurality of control signal sets are used to control the control signal sets corresponding to the each of the plurality of sets of the image data to perform a plurality of image display,
+	wherein one or more of the control signal sets are used to generate a plurality of image display,
+	wherein one or more of the control signal sets are used to generate a plurality of new image display,
+	wherein the control signal set corresponding to the each of the plurality of sets of the image data are used to control the control signal sets corresponding to the original image, and
+	wherein the control signal sets corresponding to the each of the plurality of sets of the image data are used to control the control signal sets corresponding to the original image.
+
+(3) Generated Patent Claim (p, [1])
+
+A method for imaging a thyroid, comprising the steps of:
+	(a) performing an imaging procedure on an anterior surface of a brain of a subject having a thyroid by radiating energy from an ion source toward the anterior surface of the brain, the imaging procedure comprising the steps of:
+	(i) attaching a specimen to a thyroid surface of the brain; and
+	(ii) after step (i), radiating energy toward the thyroid surface to generate a plurality of radiation doses, each radiation dose identifying a different imaging region of the thyroid surface;
+	(b) collecting a plurality of radiation measurements from a plurality of the imaging regions, the radiation measurements corresponding to the thyroid; and
+	(c) reconstructing an image of the thyroid by analyzing the collected radiation measurements,
+	wherein the step of performing the imaging procedure includes the step of moving the specimen attached to the thyroid surface toward the thyroid surface, such that the thyroid surface remains attached to the specimen as the specimen moves through the imaging regions.
+
+[ Batch 7 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method of fabricating a light emitting diode (LED) comprising:
+	providing a semiconductor substrate having a p-type layer located in a bottom of the semiconductor substrate and an n-type layer located in an upper portion of the semiconductor substrate;
+	forming a p-n junction in the p-type layer;
+	forming a trench in the semiconductor substrate and extending to the n-type layer;
+	filling a conductive material into the trench to form a semiconductor structure;
+	performing an N-movments to the semiconductor structure;
+	performing an M-movments to the semiconductor structure;
+	forming a p-type semiconductor layer on the semiconductor structure; and
+	forming an n-n junction in the p-type semiconductor layer.
+
+(2) Generated Patent Claim (k, [1])
+
+A method for controlling the output of a laser beam by an array of discrete laser elements, each laser element having a first, primary output node, the method comprising, for each of a series of N laser beamlets that are each output from a corresponding discrete laser element:
+	determining a series of N×
+	M control signals,
+	determining an N×
+	M×
+	M control matrix for controlling the output N×
+	M laser elements such that M>
+	N,
+	determining a series of M<
+	M−
+	M control signals,
+	determining an M<
+	M−
+	M control matrix such that M=N, and
+	wherein each of the M<
+	M−
+	M control matrixes is defined by a matrix that is substantially the reverse of the respective matrix of the previous N<
+	M−
+	M control matrix, and
+	controlling each discrete laser element by a respective one of the corresponding control matrixes.
+
+(3) Generated Patent Claim (p, [1])
+
+A method, in a data processing system, for deploying and using distributed snapshots, the method comprising:
+	performing, by a processor, the following:
+	receiving, by a transaction reporter in the data processing system, a snapshot of a database, wherein the snapshot includes a set of one or more modifications to the database, and
+	wherein the snapshot was created by:
+	making a first modification to the database,
+	determining, by using the snapshot, that there is not yet a transaction reporter for the first modification,
+	transmitting, by the transaction reporter in the data processing system, a signal including a status of the first modification, and
+	receiving, by the transaction reporter in the data processing system, a subsequent transaction reporter for the first modification; and
+	in response to the signal, initiating, by the transaction reporter, a transaction using the snapshot of the database,
+	wherein the transaction reporter comprises a processor and a data storage device, wherein the data storage device stores the snapshot of the database, and
+	wherein the data storage device includes the source of the snapshot of the database.
+
+[ Batch 8 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method for monitoring a patient, comprising:
+	receiving a signal from a sensor, the signal indicative of at least one physiological parameter of the patient;
+	identifying a condition of the patient based on the signal;
+	receiving a signal from a sensor, the signal indicative of at least one physiological parameter of the patient;
+	identifying a condition of the patient based on the signal from the sensor;
+	determining whether the signal indicative of the at least one physiological parameter of the patient from the sensor was generated within a predetermined time frame prior to the signal indicative of the at least one physiological parameter of the patient from the sensor being generated within the predetermined time frame;
+	generating a first alert signal in response to the signal indicative of the at least one physiological parameter of the patient being generated within the predetermined time frame, wherein the signal indicative of the at least one physiological parameter of the patient from the sensor was generated within the predetermined time frame prior to the signal indicative of the at least one physiological parameter of the patient from the sensor being generated within the predetermined time frame; and
+	generating a second alert signal in response to the signal indicative of the at least one physiological parameter of the patient being generated within the predetermined time frame, wherein the signal indicative of the at least one physiological parameter of the patient from the sensor was generated within the predetermined time frame prior to the signal indicative of the at least one physiological parameter of the patient from the sensor being generated within the predetermined time frame.
+
+(2) Generated Patent Claim (k, [2])
+
+A process for preparing a product of a reaction mixture comprising at least one alkyl ketone and optionally at least one organic peroxide in a suitable organic solvent, the product being a hydrocarbon compound, comprising the steps of:
+	(1) reacting the alkyl ketone with water and optionally at least one solvent to obtain a product of a reaction mixture, the product comprising the alkyl ketone;
+	(2) distilling off the organic solvent from the product, obtaining a product comprising the at least one organic peroxide; and
+	(3) reacting the product of the reaction mixture obtained in step (1) and the product of the reaction mixture obtained in step (2) in a suitable organic solvent to obtain a product of a product reaction mixture which is suitable for use as a hydrocarbon product, wherein the product of the product reaction mixture obtained in step (3) has a concentration of at least about 100 ppm alkyl ketone,
+	wherein the organic solvent is at least one organic solvent selected from the group consisting of ethylene diamine, 1,
+	4-diazabicyclo[2.2.2]octane, 1,
+	2-dimethylurea, and
+	3,
+	4,
+	4,
+	7-tetramethylhexahydropyrimidine, and
+	mixtures thereof.
+
+(3) Generated Patent Claim (p, [1])
+
+An active matrix substrate comprising:
+	a data signal line;
+	a scanning signal line;
+	a first storage capacitor line;
+	a first transistor having a gate, a source and a drain;
+	a first wiring line connecting the scanning signal line and the data signal line to each other;
+	a first power source line; and
+	a second wiring line connecting the first power source line to the first wiring line,
+	wherein the data signal line is electrically connected to a pixel electrode of a pixel unit, and
+	wherein the scanning signal line and the first wiring line are electrically connected to the gate of the first transistor, and
+	the gate and a source of the first transistor are electrically connected to the data signal line through the first wiring line.
+
+[ Batch 9 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A computer-implemented method comprising:
+	receiving an electronic message from a first user device of a first user;
+	determining a location of a second user of a second user device;
+	determining whether the second user device is within a predetermined proximity to the first user device;
+	in response to determining that the second user device is within the predetermined proximity to the first user device and the first user device is not located in an electronic messaging context, retrieving a message from the first user device, the message comprising information that identifies the first user device, and
+	in response to determining that the second user device is not within the predetermined proximity to the first user device and the first user device is located in the electronic messaging context, sending the message from the first user device to the second user device;
+	in response to sending the message, receiving an electronic response message from the second user device;
+	in response to receiving the electronic response message, determining whether the second user device is within a predetermined proximity to the first user device;
+	in response to determining that the second user device is within the predetermined proximity to the first user device and the first user device is not located in an electronic messaging context, sending an electronic response to the first user device from the second user device; and
+	in response to sending the electronic response, receiving an electronic response message from the second user device.
+
+(2) Generated Patent Claim (k, [1])
+
+A non-transitory machine readable information recording medium for access by an information reproducing apparatus, the non-transitory machine readable information recording medium comprising:
+	a first area in which a video file is recorded,
+	the video file including a video object;
+	a second area including control information,
+	the control information including cell time information,
+	the cell time information describing information relating to the video object,
+	the cell time information including information relating to time of recording,
+	the control information specifying a first program chain, a second program chain and cells,
+	the first program chain designating first reproduction order of one part of the cells,
+	a first cell of the one part of cells referring first region of the video object,
+	the second program chain information designating second reproduction order of other part of the cells,
+	a second cell of the other part of cells referring second region of the video object,
+	the first region being able to overlap with the second region,
+	the control information including first program chain information representing the first program chain,
+	the first program chain information including first information relating the first cell,
+	the control information including second program chain information representing the second program chain,
+	the second program chain information including second information relating the second cell,
+	the first information and the second information containing information referring to the cell time information,
+	the control information further including address information which indicates a start address of the video object,
+	the video object including a video object unit, and
+	the first and the second program chain information including information related to the video object and including information on a position of the video object in the video file; and
+	a file area in which a video object file is recorded,
+	an extent defined by the video file,
+	the video object including a first object part and a second object part,
+	the cell time information further including information related to the first object part,
+	and the control information including a first start time when the control information is read to support a first program chain and a second start time when the control information is read to support a second program chain,
+	wherein the control information is read and provided to play back to the information reproducing apparatus, and
+	the video file is accessed according to the read control information.
+
+(3) Generated Patent Claim (p, [1])
+
+A method of repairing a pipe wall comprising:
+	forming a compound surface with a compound;
+	sealing the compound surface with a sealant;
+	applying a layer of silicone-based lubricant onto the compound surface; and
+	permeating the layer of silicone-based lubricant into the pipe wall,
+	wherein the sealant adheres to an outer surface of the sealant and has a porosity, and
+	wherein the compound surface has the porosity.
+
+[ Batch 10 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method of making a polymer membrane, comprising:
+	forming a monolayer of an initiator composition on a support surface;
+	forming an organic film on the monolayer; and
+	forming an electrospun polymer film on the organic film;
+	wherein the initiator composition comprises an initiator and a catalyst, and
+	wherein the catalyst comprises a transition metal selected from the group consisting of chromium, molybdenum, tungsten, nickel, iron, cobalt, manganese, and
+	combinations thereof and a structural unit of Formula (I)wherein each R is independently selected from the group consisting of hydrogen and a C1-4 alkyl group.
+
+(2) Generated Patent Claim (k, [1])
+
+An air filter system, comprising:
+	a first filter housing having a first filter media and an inlet end and an outlet end, the inlet end configured to be attached to a first filter cartridge including a first filter membrane; the outlet end configured to be positioned outside of the first filter housing when the first filter cartridge is attached to the first filter housing;
+	a second filter housing having a second filter media and an inlet end and an outlet end, the inlet end configured to be attached to a second filter cartridge, the first filter cartridge and the second filter cartridge configured to be connected to form a manifold to which the inlet end of the first filter cartridge is connected and connected to form an exhaust, the second filter cartridge including a second filter membrane, the first filter cartridge and the second filter cartridge having the same inlet end, the second filter cartridge including an exhaust outlet; and
+	a filter cartridge support member having a plurality of openings to support the second filter cartridge, at least one of the openings configured to allow air to flow there-through;
+	wherein the filter cartridge is positionable in the manifold to be connected to the manifold.
+
+(3) Generated Patent Claim (p, [1])
+
+A computer-implemented method comprising:
+	parsing web content for at least one link in the web content, the at least one link including an anchor tag identifying a path relative to which the at least one link goes in the web content, the anchor tag specifying at least one attribute associated with the at least one link;
+	identifying a portion of a webpage that comprises the web content based at least in part on a reference to the anchor tag in the web content;
+	calculating an action associated with parsing the web content at the identified portion of the webpage;
+	adjusting a layout of a portion of the web content associated with the portion of the webpage; and
+	determining a next portion of the web content for a page header to go through, wherein the calculation of the action and the calculation of the next portion comprises taking a page description attribute included in the page header into account.
+
+[ Batch 11 ]
+
+(1) Generated Patent Claim (kp, [2])
+
+A method for controlling the delivery of a fluid from an accumulator to a pump for pumping a fluid, the accumulator being connected to the pump via a fluid connection, the accumulator comprising a first part and a second part, the method comprising:
+	determining a first pressure value and a second pressure value at a first location of the fluid connection;
+	determining a third pressure value at a second location of the fluid connection, wherein the third pressure value is a difference between the first and second pressure values; and
+	controlling the pump to deliver the fluid at the third pressure value in order to control the delivery of the fluid.
+
+(2) Generated Patent Claim (k, [1])
+
+A method for processing data comprising:
+	dividing at least a portion of a set of data into a plurality of portions;
+	dividing the plurality of portions into a plurality of groups;
+	generating a plurality of data sets by:
+	generating first data sets each associated with a corresponding group within one of the plurality of groups,
+	generating second data sets each associated with a corresponding group within the one of the plurality of groups, and
+	generating a data set by combining a third data set associated with the corresponding group within one of the first and the second data sets;
+	determining a set of data processing rules, the set of data processing rules including rules based on the data sets; and
+	processing the plurality of data sets according to the set of data processing rules.
+
+(3) Generated Patent Claim (p, [1])
+
+A computer-implemented method for providing security to information distributed from a server computer to one or more remote client computers via a network, the method comprising:
+	intercepting, at the server computer, a message transmitted by a first client computer to the server computer, the message comprising a header and the information distributed from the server computer to the one or more remote client computers via the network;
+	applying, by the server computer, a one way function to the intercepted message;
+	identifying, by the server computer, an addressable client computer from information stored at the server computer that is associated with the intercepted message using the applied one way function;
+	determining, by the server computer, that the intercepted message is unstructured based on the identified addressable client computer not being included in a security group that is authorized to store unstructured messages at the server computer;
+	retrieving, by the server computer, the information from the intercepted message, wherein the information stored at the server computer is retrieved using the applied one way function and the information comprises at least one of: a unique identification code that identifies a particular type of client computer, or the message being unprotected; and
+	delivering, by the server computer, the retrieved information to the identified client computer.
+
+[ Batch 12 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method of making a micro-scale, integrated solar receiver lens, comprising:
+	growing an optically transparent substrate;
+	growing an optical material layer on a surface of the optically transparent substrate;
+	forming a first substantially flat, substantially uniform dielectric layer on the optical material layer;
+	patterning the dielectric layer to form a plurality of substantially flat, dielectric elements;
+	removing the first substantially flat, substantially uniform dielectric layer;
+	forming a second substantially flat dielectric layer on the dielectric elements, wherein the second substantially flat dielectric layer is substantially planar;
+	forming a plurality of substantially flat, substantially transparent electrodes on the second dielectric layer, wherein the plurality of substantially transparent electrodes is substantially planar;
+	removing the second substantially flat dielectric layer to expose the dielectric elements; and
+	forming a third substantially flat dielectric layer on the dielectric elements, wherein the third substantially flat dielectric layer is substantially planar; and
+	forming a micro-scale, integrated photovoltaic device, wherein the device has a thickness of less than one nanometer, and
+	wherein the device includes a plurality of substantially planar electrodes, a substantially planar optical layer, and
+	a micro-scale, integrated photovoltaic layer, wherein the micro-scale, integrated photovoltaic layer has a thickness of less than one nanometer, and
+	wherein the electrodes and the optical layer are positioned between the optical layer and the optical material layer, and
+	wherein the electrodes and the optical layer are positioned on the first dielectric layer and the second dielectric layer.
+
+(2) Generated Patent Claim (k, [1])
+
+A method, comprising:
+	identifying information associated with a mobile device;
+	identifying, using a processor, a plurality of wireless coverage areas in proximity to the mobile device, wherein at least one of the wireless coverage areas is associated with a mobile service that requires a wireless connection that occurs during a first time interval;
+	identifying, using the processor, based at least partly upon the information associated with the mobile device, at least one coverage area in proximity to the mobile device that requires a wireless connection that occurs during a second time interval;
+	selecting, using the processor, a wireless coverage area from among the at least one identified wireless coverage areas;
+	initiating, using the processor, a mobile-originated communication session with the mobile device;
+	receiving, during the mobile-originated communication session, wireless communication connection information from the mobile device; and
+	initiating, using the processor, a wireless communication session with the mobile device, the wireless communication session initiated via a wireless communication network associated with the selected wireless coverage area and using the wireless connection information received during the mobile-originated communication session,
+	wherein the identified information associated with the mobile device comprises an identifier of the mobile device or a unique identifier for the mobile device,
+	the identifying information further comprises identifying an address of the mobile device or associating the identifier of the mobile device with the address of the mobile device, ora location of the mobile device, or a communication network associated therewith,
+	the identified information further comprises an identifier of a service provider that provides the wireless service associated with the selected wireless coverage area,
+	the wireless communication service comprises voice communication, and
+	the identified coverage area comprises an area serviced by the service provider, and
+	the selected wireless coverage area comprises a wireless coverage zone of the service provider,
+	the wireless coverage zone further comprises a geographic coverage area, and
+	the selected wireless coverage area further comprises an area serviced by the service provider; and
+	initiating the mobile-originated communication session from the wireless coverage area associated with the service provider.
+
+(3) Generated Patent Claim (p, [1])
+
+A modular air heat control device for installation in a high humidity environment, comprising:
+	a housing;
+	a first heat transfer section having a first plurality of inlet heat transfer tubes located within said housing;
+	a second heat transfer section having a second plurality of inlet heat transfer tubes located within said housing;
+	a first venturi tube and a second venturi tube, each of said first venturi tube and said second venturi tube having an inlet end connected to an inlet end of said first heat transfer section, an outlet end connected to an outlet end of said second heat transfer section, a longitudinally displaceable access channel in said housing, and
+	a rotatably positioned valve; and
+	wherein a longitudinally displaceable access passage is formed between said inlet ends of said first and second heat transfer sections, said access passage directing flow of water to and from said first venturi tube and said second venturi tube;
+	wherein said first venturi tube and said second venturi tube each have an inlet end connected to an outlet end of an adjacent first venturi tube and an outlet end connected to an outlet end of an adjacent second venturi tube;
+	wherein said first venturi tube and said second venturi tube each have a length such that an outlet end of said first venturi tube is located on the exterior of said housing and an inlet end of said second venturi tube is located in said housing;
+	wherein said first venturi tube is tiltable with respect to said housing;
+	wherein said second venturi tube is tiltable with respect to said housing;
+	wherein said second venturi tube is tilted such that its outlet end is placed in the exterior of said housing when in said interior section.
+
+[ Batch 13 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method comprising:
+	receiving, at a first wireless access point, a plurality of data packets associated with a packet flow, the plurality of data packets associated with the packet flow being sent from a second wireless access point;
+	receiving, at the first wireless access point, a data packet;
+	determining that the data packet is a duplicate of a previously received data packet;
+	in response to determining that the data packet is a duplicate of the previously received data packet, sending a message to the second wireless access point that the duplicate data packet is to be discarded;
+	receiving, at the first wireless access point, a second data packet, the second data packet sent from the second wireless access point;
+	determining that the second data packet is associated with the packet flow;
+	in response to determining that the second data packet is associated with the packet flow, sending a message to the second wireless access point that the second data packet is associated with the packet flow; and
+	receiving, at the first wireless access point, a third data packet from the second wireless access point, the third data packet sent from the second wireless access point.
+
+(2) Generated Patent Claim (k, [1])
+
+A method, comprising:
+	providing data representative of a computer-aided detection and identification (CAD) system comprising a plurality of data acquisition systems, wherein:
+	one or more of the data acquisition systems comprise at least one sensor for detecting one or more physical characteristics of objects to be detected and an electronic display screen to provide a visual display of data representative of detection and identification of objects to be identified by the at least one sensor;
+	one or more of the data acquisition systems are configured to automatically acquire information regarding a position of the at least one sensor;
+	at least one of the data acquisition systems includes a plurality of sensors for detecting one or more physical characteristics of objects, and
+	a plurality of electronic displays, wherein an electronic display of at least one of the plurality of sensors comprises:
+	an infrared (IR) emitting diode; and
+	a light emitting diode (LED) configured to emit light to a region of the data acquisition system;
+	automatically acquiring, by at least one of the plurality of data acquisition systems, data representative of a position of the at least one sensor;
+	automatically comparing, by at least one of the plurality of data acquisition systems, the data representative of the position of the at least one sensor to data representative of one or more physical characteristics of objects to be detected and the data representative of the position of the at least one sensor, wherein data representative of one or more physical characteristics of objects to be identified is based on at least one data acquisition system and includes at least one of IR radiation or visible light; and
+	automatically classifying, by at least one of the plurality of data acquisition systems, at least one of the objects as potentially hazardous.
+
+(3) Generated Patent Claim (p, [1])
+
+An image capture apparatus that has a reset member and an image sensor, the image capture apparatus comprising:
+	a light emitting section that emits light;
+	a laser light emission section that emits laser light;
+	a reflecting member that makes the light from the light emitting section reflect;
+	a detecting section that has an image capturing surface on which is formed a capturing area for receiving a reflected image of the reflecting member reflected by the light from the laser light emission section, and
+	that detects a change in a positional relation between the capturing area and the reflecting member;
+	a barrier section that partitions the capturing area and the reflecting member, and
+	makes a partial path that traverses the reflecting member, the barrier section changing a light transmission path between the capturing area and the reflecting member as the positional relation changes, the partial path comprising a peripheral portion that is not traversed by the reflecting member, and
+	the barrier section comprising a first gap; and
+	a blocking member that contacts with the reflecting member and blocks the light transmitted between the detecting section and the light emitting section; and
+	wherein the detecting section detects a spatial range of a captured image based on light intensity of the reflected light after blocking by the blocking member.
+
+[ Batch 14 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method for reducing the power consumption of a portable electronic device, the method comprising:
+	determining, by a processor, whether an incoming call message is to be transmitted;
+	determining, by the processor, whether a current time is within a first time slot;
+	determining, by the processor, whether the incoming call message is to be transmitted before or after the current time is within a second time slot;
+	determining, by the processor, whether the current time is within a third time slot; and
+	transmitting, by the processor, the incoming call message after the current time is within the third time slot.
+
+(2) Generated Patent Claim (k, [1])
+
+A method for generating a first image of a first scene and second images of a second scene, the method comprising:
+	generating first and second depth maps for the first and second image, respectively, based at least on an estimate of motion blur between the first and second images;
+	generating a first and second depth map for a first and second view perspective projections based on the second and first images, respectively;
+	generating a first and second depth maps for an image from a third perspective projection and a fourth perspective projection, respectively, the third perspective projection based at least on the third depth map and the fourth perspective projection based at least on the second depth map;
+	generating a first and second depth map for an image from the third perspective projection and a fifth perspective projection, respectively;
+	determining a first and second disparity maps for the first and second image, respectively; and
+	generating a disparity map for each of the first, second, third, and
+	fourth perspectives.
+
+(3) Generated Patent Claim (p, [1])
+
+A drug delivery device, comprising:
+	a core, comprising:
+	a) a core chamber in which an active component is formed, wherein the core chamber includes a threaded inner surface, wherein the inner surface is adapted to be disposed within an active component housing of a drug delivery device, and
+	wherein the threaded inner surface is to receive an active component shaft having a central axis,
+	b) a drive shaft coupled to the core chamber and rotatable relative to the core chamber, and
+	c) a motor coupled to the drive shaft to operate the active component when the drive shaft rotates,
+	wherein the drive shaft includes a thread peripheral, wherein the thread peripheral is non-adhesively coupled to the thread inner surface, and
+	wherein the drive shaft includes a threaded portion to engage the threaded inner surface of the core chamber to drive the active component in a process direction from the core chamber into a patient to deliver the active component into a body of the patient; and
+	a gas chamber, comprising:
+	a gas chamber housing formed from an elastomeric material,
+	a gas port in the gas chamber to allow active component gas to be discharged from the gas chamber and wherein the drive shaft extends through the gas port, wherein the drive shaft includes a plurality of radial gas ports extending radially from the central axis of the active component shaft, and
+	wherein the gas port of the drive shaft includes a threaded aperture within an internal wall of the gas port, wherein the threaded aperture is configured to engage a threaded nipple in the core chamber, and
+	wherein the threaded nipple extends in the process direction from the drive shaft to drive the active component,
+	a spacer between the core chamber and the gas chamber housing, wherein the threaded aperture of the drive shaft is located within the spacer,
+	a smoke detector located between the core chamber and the gas chamber housing, wherein the smoke detector is non-adhesively coupled to the drive shaft, and
+	a first end coupled to a device housing,
+	wherein the threaded aperture is proximate the first end of the drive shaft, and
+	wherein the gas port is configured to receive an active component shaft of a device through the threaded aperture of the drive shaft, and
+	wherein the threaded nipple is directly coupled to the threaded aperture of the drive shaft and the smoke detector is coupled to the threaded end of the drive shaft.
+
+[ Batch 15 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A computer-implemented method comprising:
+	receiving, by an electronic device from a remote agent, a message that includes information identifying a remote agent for a first client and information identifying a remote agent for a second client;
+	determining, by the electronic device, that the remote agent identified by the information included in the message is the remote agent for the first client and the remote agent identified by the information included in the message is the remote agent for the second client;
+	determining, by the electronic device, whether the remote agent is to be treated as a client of the first client and the remote agent is to be treated as a client of the second client, based, at least in part, on the information identifying the remote agent for the first client and the information identifying the remote agent for the second client;
+	selecting, by the electronic device, one of the remote agents for the first client based, at least in part, on the determining that the remote agent identified by the information included in the message is the remote agent for the first client and the remote agent identified by the information included in the message is the remote agent for the second client; and
+	transmitting, from the electronic device to the remote agent selected by the electronic device, the message that includes the information identifying the remote agent for the first client, and
+	the selected remote agent for the first client.
+
+(2) Generated Patent Claim (k, [1])
+
+A compound having the structure of Formula (V):
+	or a pharmaceutically acceptable salt thereof, wherein each of R1 and R2 is independently hydrogen or C1-C4 alkyl; and
+	X is —
+	O—
+	, —
+	S—
+	, —
+	O(CR8R8)v—
+	, or (CR8R8)n-R8; R8 is C1-C4-alkyl, alkylaryl, alkylheteroaryl, C1-C4 alkyl(hetero)aryl-, or C3-C8 cycloalkyl-; each R4 is independently hydrogen or OH; n is 1 to 3; V is a covalent bond; p is 0-2; Q is independently C1-C4 alkyl; E is N(R5)R7, NR5C(O)—
+	; R5 is a C1-C6 alkyl optionally substituted with OH or CO2H; or R4 and R4′ are combined to form a fused benzene; and
+	R7 is H, OH, C1-C6 alkyl, or C3-C6 cycloalkyl optionally substituted with OH or CO2H.
+
+(3) Generated Patent Claim (p, [1])
+
+An article of furniture comprising:
+	a frame having a plurality of fixed, spaced-apart recesses disposed along a top face of said frame;
+	a plurality of movable, removable drawer set connectors to be mounted in said recesses, each said connector including a threaded shaft having a first threaded end portion and a second threaded end portion, the first threaded end portion of said shaft selectively threadedly attached to the second threaded end portion of a corresponding one of the plurality of movable drawer set connectors,
+	said threaded shafts selectively engaged to removably connect and disconnect the movable drawer set connectors to and from said plurality of fixed recesses,
+	said frame including one or more firestopping mechanism slots open along a length of said frame for receiving the threaded shafts selectively engaged thereto, the firestopping mechanism slots being disposed adjacent to the one or more drawer set connectors to prevent movement of the one or more drawer set connectors relative to the frame from a closed position to an open position, the open position permitting continuous movement of the one or more drawer set connectors relative to the frame from a closed position to an open position.
+
+[ Batch 16 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+An organic light emitting device, comprising:
+	a substrate;
+	a first electrode formed on the substrate;
+	an organic light emitting unit including an emissive layer formed on the first electrode, and
+	a second electrode formed on the emissive layer;
+	a sealing material formed on the first electrode, the organic light emitting unit, and
+	the substrate; and
+	a light-permeable layer formed on the second electrode,
+	wherein the sealing material has a light permeability lower than that of the substrate.
+
+(2) Generated Patent Claim (k, [1])
+
+An apparatus for use in an imaging apparatus, the apparatus comprising:
+	a housing;
+	at least one lens assembly disposed within the housing;
+	at least two conductive contacts disposed at an upper side of the housing, the upper side being opposite of a lower side of the housing;
+	an electrically conductive connection portion comprising at least a first conductive contact and a second conductive contact, the electrically conductive connection portion disposed in the housing and being configured to electrically connect the first conductive contact and the second conductive contact; and
+	a housing cover comprising a housing base defining a cavity, the first conductive contact being connected to the housing base and the second conductive contact being connected to the housing base, the housing cover being configured to enclose the housing to which the electrically conductive connection portion is attached and the at least two conductive contacts being connected to the housing base by the housing base and the housing cover, and
+	wherein the electrically conductive connection portion extends from the housing base and the at least two conductive contacts are electrically connected to the housing by the electrically conductive connection portion.
+
+(3) Generated Patent Claim (p, [1])
+
+A method comprising:
+	receiving, by a client device, a data message, wherein the data message comprises a message body and a payload, wherein the payload comprises an Audio Video Interchange (AVI) interface command and a sequence number value, wherein the AVI interface command comprises a decode command for decrypting the payload, and
+	wherein the sequence number value comprises a sequence number for a last sequence number encoded number of the sequence number value;
+	parsing, by the client device, the data message to extract the AVI interface command;
+	decoding, by the client device, the AVI interface command to obtain the sequence number value, wherein the sequence number value uniquely identifies a data message within the data message;
+	inserting, by the client device, the sequence number value into an application endian compatible number, the application endian compatible number including non-numeric characters, wherein the sequence number value is one of the non-numeric characters;
+	querying, by the client device, a host using the sequence number value, wherein the querying the host comprises querying the AVI interface command based on the sequence number value;
+	receiving, by the client device, the AVI interface command from the AVI interface command.
+
+[ Batch 17 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+An apparatus for forming a semiconductor device, comprising:
+	a substrate;
+	a plurality of wirings provided on the substrate; and
+	a plurality of metal wirings provided on the substrate and connected electrically to the wirings, wherein:
+	each of the metal wirings includes a first section extending in a first direction, a second section extending in the first direction and a third section connecting the first section and the second section to each other,
+	the first section includes a first surface and a second surface opposite to the first surface,
+	the second section includes a third surface and a fourth surface opposite to the third surface, the first surface of the first section and the third surface of the second section face to each other,
+	the third surface of the second section and the fourth surface of the first section face to each other,
+	the second section includes a fifth surface and a sixth surface opposite to the fifth surface, the fifth surface of the second section and the sixth surface of the first section face to each other,
+	the third section includes a seventh surface and an eighth surface opposite to the seventh surface, the seventh surface of the second section and the eighth surface of the first section face to each other,
+	the first surface of the first section and the third surface of the second section face to each other, and
+	the fourth surface of the second section and the seventh surface of the third section face to each other.
+
+(2) Generated Patent Claim (k, [2])
+
+A method comprising:
+	obtaining, by an electronic device, a location of an image capturing device; and
+	determining, by the electronic device, that the location indicates a future capture area and that the image capturing device is located within the future capture area;
+	in response to a determination that the location indicates the future capture area and that the image capturing device is located within the future capture area, performing, by the electronic device, a first action, wherein the first action comprises:
+	capturing a first digital image of content captured from the image capturing device;
+	determining whether the captured image is of the first digital image;
+	if the captured image is of the first digital image, capturing an event log of the image capturing device, wherein the event log details actions that occurred with respect to the captured image; and
+	performing, by the electronic device, one or more second actions in response to the determination.
+
+(3) Generated Patent Claim (p, [1])
+
+A method of protecting circuitry, comprising:
+	providing a protection circuit;
+	providing an opening;
+	attaching the protection circuit to the opening; and
+	depositing a low resistance material on the protection circuit, wherein the low resistance material has a resistance lower than a resistance of a semiconductor die.
+
+[ Batch 18 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+An apparatus for measuring the height of a surface, the apparatus comprising:
+	a light source configured to illuminate the surface;
+	an optical fiber configured to guide the light from the light source to a point on the surface;
+	a detector configured to measure a first signal at the point;
+	a first component configured to modulate the light source, the first component including:
+	a first optical filter configured to reflect or transmit light of a first spectral band; and
+	a first light source configured to illuminate a second spectral band of the first spectral band, the first light source configured to transmit light of the second spectral band in a third spectral band, and
+	to reflect or transmit light of a second spectral band; and
+	a second component configured to modulate the first signal, the second component including:
+	a second optical filter configured to reflect or transmit light of the first spectral band; and
+	a second light source configured to illuminate a fourth spectral band of the first spectral band, the second light source configured to transmit light of the fourth spectral band in a fifth spectral band,
+	wherein the first optical filter, the first light source, and
+	the second light source are configured to transmit the light of the third spectral band, and
+	the light of the fourth spectral band.
+
+(2) Generated Patent Claim (k, [1])
+
+An apparatus for producing a film, the apparatus including:
+	a reaction vessel having a predetermined depth within the reaction vessel that defines a film-formation region, the film-formation region being configured to receive and hold an aqueous solution;
+	a heating source for providing heat to heat the film-formation region and for providing a predetermined amount of energy to the film-formation region in order to form a film;
+	an agitating plate in the vicinity of the heating source and located within the reaction vessel and having one or more openings, at least one of the one or more openings being a film opening, the one or more openings of the agitating plate comprising an agitating plate opening surface that faces in a direction of film flow; and
+	a substrate supporting surface for supporting a substrate to be placed in the reaction vessel, wherein the agitating plate opening surface has a length that exceeds at least a predetermined amount of the depth of the film-formation region, and
+	is configured to contact the substrate at the substrate supporting surface to provide support for the substrate during a deposition and a cooling of the film-formation region.
+
+(3) Generated Patent Claim (p, [1])
+
+A method comprising:
+	a) providing a cellular telephone system with at least one cellular telephone configured to use network protocol; and
+	b) receiving a sequence of commands at the cellular telephone system from the at least one cellular telephone, wherein the sequence of commands includes a set of instructions provided by a second cellular telephone, wherein the set of instructions is preconfigured by the second cellular telephone, wherein the sequence of commands includes a set of values to be used by the cellular telephone system to store at least the set of values provided by the second cellular telephone.
+
+[ Batch 19 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method for creating a reference for a reference scanner, comprising:
+	providing a plurality of reference images;
+	selecting one or more reference scanner images from the plurality of reference images based upon a position of a user-defined cursor within the selected reference scanner images;
+	dividing the plurality of reference images into a plurality of blocks based upon the positions of the user-defined cursor within the reference images, wherein a first block of the plurality of blocks is defined as a reference image for a first user-defined cursor and a second block of the plurality of blocks is defined as a reference image for a second user-defined cursor, the first and second blocks having a resolution different from a resolution of the first block;
+	associating each of the plurality of blocks with a block id, wherein the block id identifies a location of the block within the plurality of blocks;
+	receiving a request to scan a reference image;
+	determining a resolution of the reference image;
+	determining an estimated block id of the reference image;
+	identifying the reference image based upon the block id and the estimated block id;
+	calculating a position of the user-defined cursor within the reference image;
+	adjusting the estimated block id based upon the determined position of the user-defined cursor within the reference image;
+	determining an adjusted block id of the reference image based upon the block id, the determined position of the user-defined cursor within the reference image and an estimated block id of the reference image; and
+	identifying the reference image based upon the adjusted block id and the estimated block id.
+
+(2) Generated Patent Claim (k, [1])
+
+A computer-implemented method for determining at least one of a location and an area, the method comprising:
+	receiving, on a computer, data representative of a plurality of images, including data representative of image data, data representative of object data corresponding to the plurality of image, and
+	data representative of location data corresponding to the plurality of images, wherein the plurality of images comprises at least a first image and a second image, the at least first image and the second image corresponding to substantially the same location, and
+	wherein the first image and the second image depict at least one object;
+	analyzing, by operation of a computer, the at least one object depicted in the plurality of images to obtain at least one data representative of an orientation of at least one of the at least one object depicted in the plurality of images relative to a first point of reference on a surface of the first image or the second image on which the object is located, wherein the at least one object depicted in the plurality of images is positioned at a first location on the surface of the first image or the second image; and
+	determining, by operation of the computer, at least one of a location and an area, wherein the location and the area is at least partially based on the analyzed at least one object depicted in the plurality of images.
+
+(3) Generated Patent Claim (p, [1])
+
+A method of measuring an organization of an optical compass, comprising the steps of:
+	(a) providing a compass having a plurality of conductive elements;
+	(b) connecting a digital compass sensor to each of the conductive elements of the compass;
+	(c) changing the position of each conductive element of the compass;
+	(d) connecting a transmitter to the compass to measure each conductive element's position;
+	(e) measuring a deviation of the measured position of each conductive element;
+	(f) measuring a deviation of the measured position of each conductive element; and
+	(g) dividing the conductive element and the transmitter's position into a plurality of smaller deviations,
+	wherein each of the smaller deviations is less than a precision of the digital compass, thereby enabling the digital compass to determine the organization of the optical compass according to the smaller deviations.
+
+[ Batch 20 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A system, comprising:
+	a plurality of processors, each of the processors comprising a plurality of processing modules, wherein the plurality of processing modules is configured to execute a respective plurality of different jobs and to access one or more shared caches, wherein the plurality of different jobs include one or more parallel jobs, and
+	wherein at least one of the plurality of processing modules includes a first plurality of jobs to execute within a second plurality of processing modules;
+	a plurality of execution control units configured to coordinate execution of the plurality of different jobs, wherein each of the first plurality of jobs includes a respective plurality of instructions to be executed within the first plurality of processing modules; and
+	a central processing unit (CPU) configured to provide a plurality of input ports and a plurality of output ports, the plurality of input ports being configured to receive requests from the plurality of processing modules to access the one or more shared caches, the plurality of output ports being configured to provide output data from execution of the one or more parallel jobs, wherein the plurality of input ports and the plurality of output ports comprise an interface to the second plurality of processing modules, wherein each of the plurality of processing modules is configured to execute a respective plurality of different jobs and to access the one or more shared caches to execute the respective plurality of different jobs, wherein a first processor of the second plurality of processing modules is configured to receive requests from the plurality of processing modules and the one or more shared caches to execute the respective plurality of different jobs, and
+	wherein a second processor of the second plurality of processing modules is configured to provide a request from the second plurality of processing modules to the CPU to execute the respective plurality of instructions of the one or more parallel jobs.
+
+(2) Generated Patent Claim (k, [1])
+
+A device to generate a test signal in a test system, the device comprising:
+	a plurality of first switches that are connected between first power lines and first ground planes, a first one of the switches being connected between a first node and an input node and another one of the switches being connected between a second node and the input node, each of the first switches comprising a first diode; and
+	a second switch that is connected in parallel with the first switch and that is connected to a second one of the first switches, the second switch comprising a second diode, each of the first diode and the second diode being configured to turn-on to the test system when a voltage differential between the first power lines and the first ground planes exceeds a threshold voltage.
+
+(3) Generated Patent Claim (p, [1])
+
+A solar photovoltaic (PV) panel assembly comprising:
+	a frame;
+	a plurality of PV modules arranged in an array on the frame;
+	a plurality of positioning assemblies for positioning the frame and the plurality of PV modules in a mounted configuration wherein each PV module is fixed to the frame;
+	a frame orientation sensor for determining a rotated position of the frame relative to the PV modules and a vertical position of each PV module relative to the frame; and
+	a light source for delivering light to the array of PV modules.
+
+[ Batch 21 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method for generating a sequence of data packets from a sequence of data packets, each data packet containing data and a payload, the method comprising the steps of:
+	a) storing the sequence of data packets in a buffer;
+	b) determining a time for each data packet to be transmitted;
+	c) storing the time for each data packet in the buffer;
+	d) selecting one of the stored time for each data packet;
+	e) generating the sequence of data packets from the sequence of data packets based on the selected time for each data packet; and
+	f) transmitting the sequence of data packets, the sequence of data packets having a time and the stored time.
+
+(2) Generated Patent Claim (k, [2])
+
+A method for controlling an electronic device, the method comprising:
+	detecting a signal from one of a plurality of sensors in the electronic device;
+	determining a current location of the electronic device based on the signal;
+	determining if the current location is within range of one of the plurality of sensors in the electronic device; and
+	if the current location is within range of one of the plurality of sensors in the electronic device, determining the signal from the sensor associated with the current location.
+
+(3) Generated Patent Claim (p, [1])
+
+A mounting apparatus for mounting an electrical device to an electrical housing of a cabinet, the mounting apparatus comprising:
+	an inner shaft of a first diameter rotatably coupled to the electrical housing, wherein the inner shaft is configured to extend through a through bore of the electrical housing;
+	a plurality of apertures disposed around the inner shaft, wherein each aperture is configured to accommodate insertion of a corresponding electrical component;
+	a lock nut mechanically coupled to the electrical housing and configured to selectively lock the electrical housing to the inner shaft; and
+	an outer barrel of a second diameter smaller than the first diameter, wherein the outer barrel is rotatable coupled to the electrical housing; and
+	wherein the inner shaft is configured to:
+	rotate relative to the barrel, and
+	axially translate along a second axis relative to the barrel, wherein the second axis is at least substantially orthogonal to the first axis;
+	rotate relative to the outer barrel, and
+	axially translate along the second axis relative to the outer barrel;
+	move axially away from the barrel when the inner shaft rotates relative to the barrel; and
+	axially translate along the second axis relative to the outer barrel when the lock nut is moved axially away from the electrical housing.
+
+[ Batch 22 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method of fabricating a semiconductor device comprising:
+	providing a substrate;
+	forming a plurality of trenches in the substrate;
+	forming a liner on sidewalls of the trenches;
+	forming a liner layer in the trenches;
+	removing the liner;
+	forming an insulating material within the trenches;
+	removing the insulating material from a portion of the trench, a width of the portion being wider than a width of the liner;
+	forming a conductive material over a portion of the insulating material, a width of the portion of the insulating material being wider than a width of the conductive material; and
+	forming a plurality of spaced trenches in the substrate, each of the spaced trenches extending from a portion of the insulating material to a portion of the conductive material, wherein the spaced trenches are arranged in a pattern, the pattern of the spaced trenches forming a plurality of first contact pads in the plurality of spaced trenches and a plurality of second contact pads, each of the spaced trenches being defined by a first contact pad and a second contact pad, each of the spaced trenches being separated from each of the other spaced trenches by a space.
+
+(2) Generated Patent Claim (k, [1])
+
+Method for the production of a metal nanowire, comprising:
+	applying, onto a substrate, a coating comprising a polymer that is a polymerizable monomer in the presence of a metal and an activating material having a functional group that is reactive with the functional group of the polymer,
+	the polymer being selected from the group consisting of polyvinyl acetate, polyvinyl alcohol, polystyrene, polyacrylate, poly(acrylic acid), polyacrylonitrile, polyacrylamide, polyurethane, polycarbonate, polyacrylonitrile-urethane copolymers, polymethacrylate polymers, and
+	polystyrene-vinyl acetate copolymers, and
+	the activating material being selected from the group consisting of:
+	a first activating material and a second activating material having a functional group reactive with the functional group of the polymer,
+	wherein the coating is applied in the absence of a catalyst system,
+	wherein the first and second activating materials are different from each other, and
+	wherein the coating is non-reducing.
+
+(3) Generated Patent Claim (p, [1])
+
+A process of manufacturing fullerenes comprising the steps of:
+	(a) subjecting a raw material comprising glycerides to hydrogenation in a reaction zone under pressure; and
+	(b) heating the reaction zone to a temperature within the range of 160 to 260° C. and maintaining such temperature for a time period of between 10 to 60 minutes.
+
+[ Batch 23 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method of manufacturing a semiconductor device, the method comprising:
+	forming a first conductivity type layer having a first conductivity type;
+	forming a second conductivity type layer having a second conductivity type on the first conductivity type layer;
+	forming a trench in the second conductivity type layer;
+	forming a first insulating layer on a portion of a surface of the second conductivity type layer exposed to the trench;
+	forming a first oxide semiconductor layer on the first insulating layer and a second oxide semiconductor layer on the first oxide semiconductor layer;
+	forming a gate electrode on the first oxide semiconductor layer; and
+	forming a second insulating layer on the gate electrode,
+	wherein the first conductivity type layer is formed to have an insulating property different from that of the second conductivity type layer,
+	wherein the first insulating layer is formed on the second conductivity type layer, and
+	wherein a width of the first conductivity type layer is larger than a width of the second conductivity type layer.
+
+(2) Generated Patent Claim (k, [1])
+
+A method for determining an average value of a temperature in a process chamber, comprising:
+	measuring a first and a second temperature in a chamber with heat source, the first and second temperatures being measured using a first and a second temperature sensor;
+	calculating, using a controller, a difference between the first temperature and a first reference temperature, the difference being proportional to the first temperature difference, the first reference temperature being a measurement temperature of the first temperature sensor; and
+	calculating, using the controller, an average value of the temperature in the process chamber by averaging the difference and the first temperature difference to provide an average value of the temperature in the process chamber, the average value being an average of the first and second temperatures.
+
+(3) Generated Patent Claim (p, [1])
+
+A method of assessing the viability of ovarian and uterine cancers, the method comprising:
+	obtaining a cell concentration profile derived from ovarian and uterine samples obtained from a patient, wherein the cell concentration profile is obtained from adding to serum or plasma a first amount of cells grown in a culture medium supplemented with human serum or plasma derived from at least one cancer;
+	adding to the culture medium a second amount of cells that is equivalent to the at least one cancer;
+	obtaining a transfection density from the cultures using a gel perme assay; and
+	assigning a number to the uterine samples based on the transfection density, wherein the number is one of five or more, and
+	wherein the number is zero if no uterine sample is obtained from the patient.
+
+[ Batch 24 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A system for controlling a speed of a vehicle, the system comprising:
+	a speed control module that selectively activates a throttle during a first portion of a vehicle drive cycle and deactivates the throttle during a second portion of the vehicle drive cycle; and
+	a speed estimation module that determines an actual throttle opening based on a throttle position and an actual throttle position deviation associated with the first portion of the vehicle drive cycle, and
+	based on a throttle position deviation associated with the second portion of the vehicle drive cycle.
+
+(2) Generated Patent Claim (k, [1])
+
+An optical transmission circuit comprising:
+	an optical transmission waveguide that transmits a transmission wave;
+	an optical transmission circuit body; and
+	a first connector to connect a first end of the optical transmission waveguide to the optical transmission circuit body, a second end of the optical transmission waveguide being connected to an input port of the optical transmission circuit body, wherein the optical transmission circuit body comprises:
+	an optical transmission circuit body main body including:
+	an optical transmission waveguide that transmits the transmission wave;
+	a first connection terminal that receives the transmission signal; and
+	a second connection terminal that receives the power signal, the first connection terminal and the second connection terminal being provided on a surface of the main body; and
+	an optical transmission circuit module that includes:
+	an optical transmission waveguide that receives the transmission wave;
+	a third connection terminal that receives the power signal;
+	a fourth connection terminal that receives the power signal;
+	an optical transducer that transmits the reception signal to a remote end of an optical transmission circuit;
+	an optical amplifier that amplifies and outputs the reception signal;
+	a first cable that connects the optical transducer and the fourth connection terminal to the output port of the optical transmission circuit module; and
+	a second cable that connects the optical transducer and the third connection terminal to the second end of the optical transmission waveguide,
+	wherein the first connector is provided on a first surface of the optical transmission circuit main body, and
+	the third connector is provided on a second surface of the optical transmission circuit body main body which is different from the first surface.
+
+(3) Generated Patent Claim (p, [1])
+
+A method of making an injection molded skin, the method comprising:
+	making a molded body in a mold having a plurality of recesses forming a continuous recess in a lateral surface of the mold, the molded body having a plurality of bonded segments connected by outer faces that are spaced apart and generally mirror image of one another, each bonded segment of the skin including a first interlocking portion extending in a first direction, and
+	a second interlocking portion extending in a second direction opposite the first direction;
+	inserting the molded body into the mold;
+	allowing the molded body to harden in the mold from a polymer mixture;
+	removing the molded body from the mold;
+	pulling the molded body away from the mold and in an opposing direction; and
+	turning the molded body with respect to the mold, thereby breaking the interlocking portions of the skin to allow the skin to separate from the mold and form a skin separate from the injection molded skin, wherein each of the first and second interlocking portions extend outwardly from the outer faces, into a respective one of the recesses.
+
+[ Batch 25 ]
+
+(1) Generated Patent Claim (kp, [3])
+
+A method for fabricating a semiconductor device, comprising:
+	forming a plurality of pads over a first substrate;
+	forming a plurality of pads over a second substrate, wherein the pads are electrically connected to the pads on the first substrate;
+	bonding the first substrate to the second substrate to form a device area, wherein the pads are electrically connected to the device area through pads on the second substrate;
+	forming a plurality of first spacers on a first side of the first substrate and a plurality of second spacers on a second side of the first substrate, wherein the pads on the first side of the first substrate are adjacent to the pads on the second side of the first substrate, and
+	wherein the pads on the second side of the first substrate are adjacent to the pads on the first side of the second substrate;
+	forming a plurality of first spacers on the first side of the second substrate and a plurality of second spacers on the second side of the second substrate, wherein the pads on the first side of the second substrate are adjacent to the pads on the second side of the second substrate; and
+	forming a plurality of first bumps on the pads on the second side of the first substrate and a plurality of second bumps on the pads on the second side of the second substrate, wherein the pads on the first side of the first substrate are adjacent to the pads on the second side of the first substrate.
+
+(2) Generated Patent Claim (k, [1])
+
+A method for operating a power supply, the power supply including a power factor correction circuit, the method comprising:
+	generating a control signal using a controller;
+	adjusting a voltage of the power supply using the control signal, the voltage having a plurality of phases;
+	applying the power supply to one or more loads; and
+	applying a voltage to at least one of a plurality of phase lines coupled to the plurality of phases of the power supply, the at least one of the plurality of phase lines coupling the one or more loads, the at least one of the plurality of phase lines having a voltage that varies based upon the power factor correction circuit and the power supply.
+
+(3) Generated Patent Claim (p, [1])
+
+A method for monitoring the emission of carbon dioxide from a flue gas desuperagent system, the method comprising:
+	a. determining a flux information profile for carbon dioxide relative to carbon dioxide and the other emissions based on measurement of the flux information profile of carbon dioxide in a fuel combustion system;
+	b. comparing the flux information profile to a model, the model including input variables and output variables, wherein the input variables include (i) a temperature of the flue gas and (ii) carbon dioxide and the other emissions;
+	c. determining a variation value between (i) the temperature of the flue gas and (ii) the carbon dioxide; and
+	d. determining the flux distribution of carbon dioxide by calculating a discrepancy between the input variables and the output variables for the calculated discrepancy,
+	wherein the output variable is an oxidant gas concentration.
+
+[ Batch 26 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+An apparatus for performing a procedure in a medical diagnostic imaging apparatus, the apparatus comprising:
+	a plurality of radiation detectors which are arranged in a matrix and each of which radiates a dose of radiation to generate a plurality of radiation signals;
+	a plurality of radiation detectors which are arranged in a matrix and each of which generates a signal containing information regarding a number of radiation dosings emitted from the radiation detector;
+	an analysis processing portion configured to generate a plurality of analysis results by processing the plurality of radiation signals and the signal;
+	an image reconstruction portion configured to generate a three-dimensional image by performing a tomographic projection of a region of interest onto a three-dimensional coordinate system by projecting the region of interest onto each detector of the plurality of radiation detectors and each detector of the plurality of radiation detectors with the radiation signals being generated by the radiation detectors of the plurality of radiation detectors, the region of interest containing a region in which the radiation dosings are absorbed by an object and a region out of which the radiation dosings are not absorbed; and
+	a display portion which displays the three-dimensional image and the information regarding the number of radiation dosings.
+
+(2) Generated Patent Claim (k, [2])
+
+An image forming apparatus, comprising;
+	a main body having a body port through which an image can be transferred;
+	an apparatus main frame that is fixed to the main body and supports an electrophotographic system;
+	a cartridge mounted in a mounting position adjacent to the body port, the cartridge including a cartridge body containing a developing cartridge detachably inserted therein and a developing cartridge holder detachably holding the developing cartridge, the cartridge holder being capable of being moved to a first position to detachably receive the developing cartridge in a horizontal registration manner and a second position to accommodate the developing cartridge in a vertical registration manner; and
+	an image forming unit configured to form the toner image on the image transferred on the body port by the apparatus main frame and the developing cartridge supported in the cartridge holder when the cartridge is moved to the first position.
+
+(3) Generated Patent Claim (p, [1])
+
+A method for a customer service center to provide a facility call, the method comprising:
+	receiving at a call center from a customer, by a terminal, information identifying at least one of a first facility service provider and a second facility service provider;
+	generating a first facility call address with the call center in response to the receiving; and
+	initiating a telecommunications session between the terminal and the first facility service provider with the call center, using the first facility call address,
+	wherein the first facility service provider is one of the at least one first facility service provider and a second facility service provider is one of the at least one second facility service provider, wherein the telecommunications session initiates a telecommunications connection between the terminal and the first facility service provider, and
+	wherein the initiating includes sending a connection setup request message from the call center to the first facility service provider.
+
+[ Batch 27 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method for providing a wireless communication service, the method comprising:
+	determining a quality of a received signal based on a quality of a first signal received by a first radio frequency (RF) receiver and a quality of a second signal received by a second RF receiver; and
+	determining a priority of a wireless communication session based on the quality of the first signal and the quality of the second signal;
+	wherein the quality of the first signal is determined based on a difference between a first signal-to-noise ratio (SNR) of the first signal and a second SNR of the second signal.
+
+(2) Generated Patent Claim (k, [1])
+
+A method, comprising:
+	receiving, by a computer, a plurality of images captured by a camera;
+	selecting, by the computer based on the plurality of images, an image from the plurality of images in which a facial expression corresponds to the camera detecting a facial expression of an individual;
+	displaying the image; and
+	displaying an indication of the facial expression of the individual.
+
+(3) Generated Patent Claim (p, [1])
+
+A refrigerant composition having a refrigerant vapor compression of from 30 lb ft to 40 lb ft at 100 degrees C. and a pressure greater than 32 psi, comprising:
+	a) a refrigerant;
+	b) from 25 vol. % to 35 vol. % of a liquid hydrocarbon solvent mixture comprising(a) a first component comprising at least 50 vol. % of a paraffin oil having a number average functionality of from >
+	5.5 to +3.5 and a kinematic viscosity of from >
+	600 cSt to >
+	20 cSt, based on the total paraffin oil present in the mixture, and
+	having a kinematic viscosity at 100 degrees C. of from >
+	15 cSt to >
+	30 cSt; and
+	(b) a second component comprising at least 80 vol. % of a hydrocarbon solvent selected from the group consisting of tertiary or higher-level hydrocarbons, esters, mono- and diglyme compounds, and
+	mixtures thereof, wherein the at least 80 vol. % comprises less than 0.1 vol. % of one or more hydrocarbon solvents having a kinematic viscosity at 100 degrees C. of from >
+	45 cSt to >
+	55 cSt;
+	c) from 10 vol. % to 30 vol. % of a vinylaromatic compound; and
+	wherein the vinylaromatic compound has a kinematic viscosity at 100 degrees C. of at least >
+	100 cSt and up to +20 cSt; and
+	d) a weight ratio of the first component:
+	the second component being from 15:
+	1 to 1:
+	15.
+
+[ Batch 28 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method for generating a dynamic display of a graphic, the method comprising:
+	generating an initial frame of the graphic based on a first frame of the graphic and a first pixel of the graphic, the initial frame having a first display mode and the initial frame having a second display mode;
+	receiving an input specifying an end of the first frame; and
+	generating, in response to the input specifying the end of the first frame, an initial frame end pixel of the graphic, the initial frame end pixel being a pixel located at or beyond the first display mode and the first pixel being located at or beyond the second display mode, the first and second display modes being different.
+
+(2) Generated Patent Claim (k, [2])
+
+A method for providing a mobile node with access to a wireless communications network, the method comprising:
+	receiving, at a home agent, a request message from the mobile node for roaming service, the request message including an identifier of the mobile node;
+	determining, at the home agent, that the home agent is not associated with a home agent associated with the mobile node;
+	in response to determining that the home agent is not associated with a home agent associated with the mobile node, determining, at the home agent, that the mobile node has access to a roaming service, the roaming service comprising accessing a telecommunications network via a first gateway associated with the home agent;
+	providing the mobile node with access to the roaming service by establishing a voice call over the wireless communications network;
+	wherein the method is performed by the mobile node.
+
+(3) Generated Patent Claim (p, [1])
+
+A laser transmission line comprising:
+	at least one section of transmission line, the transmission line having:
+	a cable, at least a portion of the cable having a first conductor and a second conductor, the first conductor and the second conductor forming a C-plane with respect to each other;
+	a gas permeable liner disposed between the first conductor and the second conductor;
+	the first conductor being electrically connected to a power source through at least one conductor in the cable, and
+	the second conductor being electrically connected to a device for powering at least one electronic component;
+	wherein the laser transmission line forms a substantially planar beam split with respect to a reference plane during operation of the laser transmission line;
+	wherein the first conductor is substantially parallel to a parallel plane parallel to the C-plane and the second conductor is substantially perpendicular to the C-plane and the parallel plane, wherein the first conductor forms a high density plasma region along a surface of the liner of the transmission line, wherein the transmission line includes a buffer gas disposed between the gas permeable liner and the first conductor along a substantially flat surface of the liner of the transmission line, wherein the buffer gas being capable of allowing plasma in the buffer gas to diffuse into the first conductor and plasma in the buffer gas to diffuse into the first conductor;
+	wherein the laser transmission line forms a second light beam diffused into the buffer gas disposed along the parallel plane and a third light beam diffused into the buffer gas along a substantially parallel plane; and
+	a component electrically connected to the laser transmission line;
+	wherein a laser frequency of the second light beam is less than a frequency of a radio frequency signal transmitted on the laser transmission line.
+
+[ Batch 29 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+A method comprising:
+	receiving an indication that a first user has been selected to receive a presentation of media content;
+	determining, by a processor, whether the first user has previously viewed the media content;
+	determining, by the processor, whether the first user has previously selected to receive the presentation of media content;
+	determining, by the processor, whether the first user has previously selected to receive the presentation of media content by comparing, by the processor, the indication that the first user has been selected to receive the presentation of media content with information identifying the media content to which the first user has previously viewed;
+	in response to the first user having previously selected to receive the presentation of media content, presenting, by the processor, the media content for presentation to the first user without displaying a portion of the media content, wherein the first user has previously viewed the media content and wherein the media content is associated with a first item;
+	determining, by the processor, whether the first user has viewed the portion of the media content presented to the first user; and
+	in response to the first user viewing the portion of the media content presented to the first user without previously selecting to receive the presentation of media content, presenting, by the processor, the media content for presentation to the first user.
+
+(2) Generated Patent Claim (k, [1])
+
+A computer system comprising:
+	one or more computing devices;
+	program instructions to receive a request from a first participant to view a presentation of a second participant;
+	program instructions to receive a request to schedule a time for the second participant to appear at the conference;
+	program instructions to receive a request from the second participant to appear at the conference with the first participant;
+	program instructions to receive a request from the second participant to view the presentation of the second participant;
+	program instructions to transmit at least one email message to a device associated with the second participant, the email message comprising information identifying a time at which the second participant is scheduled to appear at the conference and one or more invitations to view the presentation of the second participant,
+	wherein one of the at least one email message is associated with a conference link and the other of the at least one email message is associated with a mobile phone link; and
+	wherein at least one of the one or more invitations to the conference is configured for use to solicit at least one response to the received invitation from at least one of the first participant and the second participant and the other of the first participant and the second participant.
+
+(3) Generated Patent Claim (p, [1])
+
+A super-resolution sensor, comprising:
+	a first substrate, comprising:
+	a lower substrate comprising a sensing area in which a sensing element is disposed;
+	a first bus line, electrically connected to the sensing area; and
+	an upper substrate comprising a plurality of sensing locations, wherein the upper substrate is disposed over the lower substrate and surrounded by the first bus line;
+	a hydrophobic layer, which coats the lower substrate, and
+	comprises a photoresist pattern; and
+	a second bus line, disposed on the hydrophobic layer and electrically connected to the first bus line, wherein the second bus line is disposed on the hydrophobic layer and comprises a bend.
+
+[ Batch 30 ]
+
+(1) Generated Patent Claim (kp, [1])
+
+An image processing apparatus comprising:
+	a first generation unit configured to generate a plurality of pieces of image data from image data to be output;
+	a second generation unit configured to generate a plurality of pieces of output image data by using the plurality of pieces of the image data;
+	a selection unit configured to select an output image data from among the plurality of pieces of output image data generated by the second generation unit;
+	a determination unit configured to determine a plurality of pieces of output image data selected by the selection unit; and
+	a generation control unit configured to control the first generation unit such that the plurality of pieces of output image data generated by the first generation unit and the plurality of pieces of output image data generated by the second generation unit are to be combined to generate a plurality of pieces of output image data having a same resolution as resolution of the image data to be output,
+	wherein the determination unit determines that a resolution of the image data to be output is equal to or smaller than a resolution of a first output image data selected by the selection unit, and
+	determines that the resolution of the first output image data is not equal to or smaller than a resolution of a second output image data selected by the selection unit,
+	wherein the second generation unit generates the plurality of pieces of output image data such that the plurality of pieces of output image data generated by the second generation unit are to be combined to the plurality of pieces of output image data generated by the first generation unit,
+	wherein the selection unit selects the plurality of pieces of output image data generated by the second generation unit, and
+	wherein the generation control unit controls the second generation unit such that the plurality of pieces of output image data generated by the second generation unit and the plurality of pieces of output image data generated by the first generation unit are combined to generate the plurality of pieces of output image data having the same resolution as the resolution of the first output image data.
+
+(2) Generated Patent Claim (k, [1])
+
+A system comprising:
+	a computer readable storage medium;
+	a processor in operable communication with the computer readable storage medium, the processor being adapted to:
+	receive a set of input data;
+	transform the set of input data into a set of output data comprising a plurality of data segments,
+	wherein the plurality of input data includes the plurality of data segments, and
+	wherein the set of output data is associated with the set of input data; and
+	perform one or more operations on the set of input data;
+	wherein each of the one or more operations comprises:
+	selecting a first data segment from said set of input data, the first data segment having a first value;
+	identifying a second data segment from said set of input data, the second data segment having a second value;
+	calculating a first distance between said first data segment and said second data segment; and
+	modifying the first value of said first data segment if the first distance is greater than a predetermined threshold.
+
+(3) Generated Patent Claim (p, [1])
+
+An integrated sensor for evaluating nitric oxide metabolism in a biological sample comprising:
+	a probe array including a plurality of multiple energy probes arranged with their angles and spatial arrangement so as to simultaneously detect the radiation emanating from a nitric oxide site of the biological sample; and
+	a laser source configured to emit the radiation at a different spatial angle and/or with a different spatial resolution than the energy probes, the laser source emitting the radiation to illuminate the multiple energy probes for respectively detecting the radiation coming from the nitric oxide site and supplying the detected radiation as an excitation signal to the multiple energy probes;
+	wherein the plurality of energy probes are disposed within a matrix of cells defined by heterogeneous cell membranes and are arranged in rows and columns with their spatial arrangement such that, for each energy probe, the energy probe is arranged in the row or the column with the spatial arrangement opposite to the spatial arrangement of the energy probes adjacent to each other.
