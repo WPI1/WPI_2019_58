@@ -3,7 +3,7 @@
 
 Patent Claim Generation by Fine-Tuning OpenAI GPT-2. 
   
-Proof of concept: [PatentTransformer_v1.ipynb](https://github.com/WPI1/WPI_2019_58/blob/master/PatentTransformer_v1.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/WPI1/WPI_2019_58/blob/master/PatentTransformer_v1.ipynb)
+Proof of concept: [PatentTransformer_v1.ipynb](https://github.com/WPI1/WPI_2019_58/blob/master/PatentTransformer_v1.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/WPI1/WPI_2019_58/blob/master/PatentTransformer_v1.ipynb)
 
 ## License
 
